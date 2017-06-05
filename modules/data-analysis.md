@@ -1,2 +1,3 @@
 # Data analysis
-- what is data capable of, limitations of data
+## Module Objectives
+- Understand what data are capable of, and the limitations of data
