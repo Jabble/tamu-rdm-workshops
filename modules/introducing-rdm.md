@@ -20,3 +20,6 @@
 - Hands-on practice (the way to do it, is to start doing it)
 
 ## Outline
+
+## References
+- Primer on data management ([DataONE](http://escholarship.org/uc/item/7tf5q7n3#page-11))
