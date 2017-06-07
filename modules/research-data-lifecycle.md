@@ -3,6 +3,10 @@
 ## Concepts
 Research Data has a "lifetime"
 
+## DCC Lifecycle
+[website](http://www.dcc.ac.uk/resources/curation-lifecycle-model)
+
+
 ## DataOne lifecycle
 [image](dataone-data_lifecycle-image.png)
 The DataONE data life cycle has eight components:
@@ -17,5 +21,5 @@ The DataONE data life cycle has eight components:
 - Analyze: data are analyzed
 
 ## Simplified lifecycle
-This workshop series will cover the data lifecycle in a simplified manner:
+This workshop series will cover data management practices in the data lifecycle in a simplified manner:
 Plan -> Collect (incl. Discovery and Integration) -> Assure and Analyze -> Share and Preserve
