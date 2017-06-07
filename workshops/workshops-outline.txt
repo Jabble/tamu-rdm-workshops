@@ -2,7 +2,6 @@
 ## Introduction to Research Data Management
 introducing-rdm.md
 research-lifecycle.md
-making-plans.md
 legal-and-ethical.md
 
 ## Collect and manage data
@@ -22,3 +21,6 @@ visualization.md
 describing-data.md
 reusing-data.md
 sharing-and-preserving.md
+
+## Data management plans
+making-plans.md
