@@ -1,7 +1,7 @@
 # The research data lifecycle
 
 ## Concepts
-Research Data has a "lifetime"
+Research Data has a "lifetime" or "lifecycle"
 
 ## DCC Lifecycle
 [website](http://www.dcc.ac.uk/resources/curation-lifecycle-model)
