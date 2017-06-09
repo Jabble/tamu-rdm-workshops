@@ -17,26 +17,21 @@ This module will give you an overview of what can be included in a plan, some of
 ## The value of a plan
 Data Management Plans (DMPs) are tools that:
 
-- Help you think about the data for your projects in a larger context.
-	- It's hard to know what you should pay attention to and how to do so before having the experience of inefficiencies and failures in data management.
-	- Once you start dealing with your data, the effort to adjust practices rapidly increases.
-	- DMPs can help to guide you in what is relevant to consider during your project so that you can avoid failures and frustrations, and start with good practices in mind.
-- Provide a framework for documenting your practices.
-	- Initially DMPS serve to aid thinking through how you will treat the data in your project. 
-	- DMPs are living documents and change as you work with the data over time and adjust your practices. Adjusted to the realities of your project, DMPs serve as valuable documentation. You refer to them when writing your thesis, dissertation, article, and as a future reference document. 
-- Are a requirement for many grants that fund research.
-	- Once you've written a DMP and implemented it, you will often be able to answer the questions with more ease in the future and even reuse portions for other projects. 
+- Help you think about the data for your projects in a larger context;
+- provide a framework for documenting your practices;
+- are a requirement for many grants that fund research.
  
-## The Data Management Plan audience
+## The audience
 A Data Management Plan doesn't need to be long, but it needs to cover relevant data management practices. So, what is relevant?
 
 Often, Data Management Plans are written for specific grant providers. In this case, writing a Data Management Plan is a matter of answering the right questions for the grant. Particular decisions may be more or less important to a research area or project, and a given grant provider may care more or less about certain data management areas.
 
 However, developing a Data Management Plan is a useful practice for yourself. Working on a Data Management Plan forces you to think through choices that will affect you, and others, in the future. If you write a Data Management Plan with the data lifecycle and your future self in mind, you'll respond to what a funder cares about and more. 
 
-- Initially Data Management Plans serve to aid thinking through how you will treat the data in your project. 
-- Data Management Plans are also living documents that change as you work with data over time. Adjusted to the realities of your project, a Data Management Plan serves as valuable documentation. 
-	- You can refer to the plan when writing your thesis, dissertation, or a paper, and reuse parts in the future.
+At first Data Management Plans serve to aid thinking through how you will treat the data in your project. Data Management Plans are also living documents that change as you work with data over time. Adjusted to the realities of your project, a Data Management Plan is valuable documentation.
+
+- You can refer to the plan when writing your thesis, dissertation, or a paper.
+- Once you've written a DMP and implemented it, you will often be able to answer the questions with more ease in the future and even reuse portions for other projects. 
 
 ##  What's in a plan?
 It's hard to know what you should pay attention to and how to manage your data before experiencing inefficiencies and failures in data management. And, once you start dealing with your data, the effort needed to adjust practices increases. Creating a Data Management Plan in advance can help to guide your decision-making, so that you can start with good practices in mind and avoid failures and frustrations.
@@ -45,7 +40,7 @@ It's hard to know what you should pay attention to and how to manage your data b
 
 Including:
 
-- the types of data to be authored;
+- The types of data to be authored;
 - the standards that would be applied, for example format and metadata content;
 - provisions for archiving and preservation;
 - access policies and provisions; and
@@ -58,7 +53,7 @@ Identify an interesting Data Management Plan in the example plans and take a few
 
 - What strikes you about the plan you read?
 
-## Questions to anwer
+## Questions to answer
 A comprehensive Data Management Plan describes expected data management actions across the data lifecycle. A narrative description of practices can be guided by answering important questions. The answers will be based on your decision to follow good practices, meet community expectations, and anticipate potential issues.
 
 **Data Management Plan Questions**
@@ -99,6 +94,6 @@ Many resources are available to help you write a Data Management Plan. These wil
 
 *DMPTool walkthrough*
 
-## Bonus Exercise 
+## Bonus Exercise: Practice writing 
 - In your research situation, which of these questions seem relevant for you to answer (even if you aren't currently able to answer them)?
-- Think about the data you may gather for a research project. Write a short Data Management Plan by answering the Data Management Plan Questions listed above, or following one of the DMPTool templates.
+- Think about the data you may gather for a research project. Write a short Data Management Plan by answering the Data Management Plan Questions listed above, or try following one of the DMPTool templates.
