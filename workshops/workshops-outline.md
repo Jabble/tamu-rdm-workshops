@@ -22,6 +22,6 @@
 - reusing-data.md
 - sharing-and-preserving.md
 
-## Planning ahead
+## Plan ahead
 - data-management-plans.md
 - working-collaboratively.md
