@@ -22,5 +22,6 @@ describing-data.md
 reusing-data.md
 sharing-and-preserving.md
 
-## Data management plans
-making-plans.md
+## Planning ahead
+data-management-plans.md
+working-collaboratively.md
