@@ -11,7 +11,7 @@ In this workshop series we'll think about research data over time. Lifecycle dia
 
 
 ## DataOne lifecycle
-[image](dataone-data_lifecycle-image.png)
+[image](../dataone-data_lifecycle-image.png)
 The DataONE data life cycle has eight components:
 
 - Plan: description of the data that will be compiled, and how the data will be managed and made accessible throughout its lifetime
