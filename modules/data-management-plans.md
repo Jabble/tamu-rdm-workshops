@@ -3,7 +3,7 @@
 - Understand the value of Data Management Plans as working documents.
 - Identify relevant questions to ask about data in research projects.
 
-## Survey
+## A Quick survey
 - Have you heard of a Data Management Plan?
 - If your project is grant funded, you may already be required to follow a Data Management Plan. Do you know whether you advisor has a Data Management Plan?
 
@@ -56,7 +56,7 @@ Identify an interesting Data Management Plan in the example plans and take a few
 ## Questions to answer
 A comprehensive Data Management Plan describes expected data management actions across the data lifecycle. A narrative description of practices can be guided by answering important questions. The answers will be based on your decision to follow good practices, meet community expectations, and anticipate potential issues.
 
-**Data Management Plan Questions**
+**Data Management Plan questions**
 
 From: http://www.icpsr.umich.edu/icpsrweb/content/datamanagement/dmp/framework.html
 
@@ -85,12 +85,15 @@ From: http://www.icpsr.umich.edu/icpsrweb/content/datamanagement/dmp/framework.h
 - Would any omitted information be useful to know?
 - Which of these questions are you able to answer for your current research project?
 
-## Tools and Resources 
-Many resources are available to help you write a Data Management Plan. These will ask you to answer the questions that different funders care about.
+## Tools and resources 
+Many resources are available to help you write a Data Management Plan.
 
-- Data Management Planning Tool ([DMPTool](https://dmp.cdlib.org))
 - DataONE([Website](https://www.dataone.org/data-management-planning))
 - ICPSR ([Website](http://www.icpsr.umich.edu/icpsrweb/content/datamanagement/dmp/framework.html))
+
+The DMPTool is a tool that will walk you through writing a plan. When applying for a grant, it will ask you to answer the questions that different funders care about.
+
+- Data Management Planning Tool ([DMPTool](https://dmp.cdlib.org))
 
 *DMPTool walkthrough*
 
