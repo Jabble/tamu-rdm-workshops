@@ -3,7 +3,7 @@
 - Understand the value of Data Management Plans as working documents.
 - Identify relevant questions to ask about data in research projects.
 
-## A Quick survey
+## Survey
 - Have you heard of a Data Management Plan?
 - If your project is grant funded, you may already be required to follow a Data Management Plan. Do you know whether you advisor has a Data Management Plan?
 
