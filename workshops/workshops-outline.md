@@ -1,27 +1,27 @@
 # Workshop outline
 ## Introduction to Research Data Management
-introducing-rdm.md
-research-lifecycle.md
-legal-and-ethical.md
+- introducing-rdm.md
+- research-lifecycle.md
+- legal-and-ethical.md
 
 ## Collect and manage data
-data-gathering.md
-data-documentation.md
-data-storage.md
+- data-gathering.md
+- data-documentation.md
+- data-storage.md
 
 ## Assure usable data
-quality-control.md
-versioning.md
+- quality-control.md
+- versioning.md
 
 ## Analyze and present data
-data-analysis.md
-visualization.md
+- data-analysis.md
+- visualization.md
 
 ## Share and preserve data
-describing-data.md
-reusing-data.md
-sharing-and-preserving.md
+- describing-data.md
+- reusing-data.md
+- sharing-and-preserving.md
 
 ## Planning ahead
-data-management-plans.md
-working-collaboratively.md
+- data-management-plans.md
+- working-collaboratively.md
