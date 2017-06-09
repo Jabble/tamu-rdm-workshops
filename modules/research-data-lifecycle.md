@@ -1,7 +1,10 @@
 # The research data lifecycle
 
-## Concepts
-Research Data has a "lifetime" or "lifecycle"
+## Objectives
+Recognize that research data has a "lifetime" or "lifecycle."
+
+## Introduction
+In this workshop series we'll think about research data over time. Lifecycle diagrams are a good way to generally model how data is created and used over time. We'll look at two lifecycles that inform this Research Data Management workshop series.
 
 ## DCC Lifecycle
 [website](http://www.dcc.ac.uk/resources/curation-lifecycle-model)
@@ -21,5 +24,5 @@ The DataONE data life cycle has eight components:
 - Analyze: data are analyzed
 
 ## Simplified lifecycle
-This workshop series will cover data management practices in the data lifecycle in a simplified manner:
+This workshop series will cover data management practices within components of the data lifecycle.
 Plan -> Collect (incl. Discovery and Integration) -> Assure and Analyze -> Share and Preserve
