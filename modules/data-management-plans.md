@@ -5,7 +5,7 @@
 
 ## Survey
 - Have you heard of a Data Management Plan?
-- If your project is grant funded, you may already be required to follow a DMP. Do you know whether you advisor has a Data Management Plan?
+- If your project is grant funded, you may already be required to follow a Data Management Plan. Do you know whether you advisor has a Data Management Plan?
 
 ## Introduction
 In order to plan in advance of (or during) your research projects, you'll need to understand why the practices outlined in a Data Management Plan are relevant. We reviewed the data lifecycle (research-data-lifecycle.md) to give you an overview. Although you may not be responsible for the whole lifecycle, it helps to understand how your work fits into the concerns of your advisor, your collaborators, your lab or center, the university, and funding agencies.
