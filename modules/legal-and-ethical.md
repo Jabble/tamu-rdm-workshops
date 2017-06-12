@@ -3,8 +3,6 @@
 Privacy relates to the individual or subject. Confidentiality relates to the actions of the researcher.
 
 ## Ethics
-al data collection and management
-
 - IRB and Ethical review
 - Safeguarding data and data destruction
 
@@ -66,9 +64,8 @@ The Responsible Stewardship of Research Data
 
 University Rule 29.01.03.M1
 
-- Intellectual Property
-- copyright
 
 ## Copyright and Licenses
+- Intellectual Property
 
 ## Credit
