@@ -1,7 +1,7 @@
 # Workshop outline
 ## Introduction to Research Data Management
 - introducing-rdm.md
-- research-lifecycle.md
+- research-data-lifecycle.md
 - legal-and-ethical.md
 
 ## Collect and manage data

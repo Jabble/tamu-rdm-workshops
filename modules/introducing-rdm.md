@@ -1,4 +1,6 @@
 # Introducing Research Data Management
+## Objectives
+- Understand the purpose of Research Data Management training.
 
 ## Why is "data management" a thing?
 - Personal efficiency

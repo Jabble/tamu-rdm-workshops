@@ -1,4 +1,11 @@
 # Legal and ethical considerations
+## Objectives
+- Understand that legal and ethical considerations impact data management
+- Identify potential legal or ethical concerns with your research project(s)
+
+## Introduction
+
+
 ## Privacy and confidentiality
 Privacy relates to the individual or subject. Confidentiality relates to the actions of the researcher.
 
