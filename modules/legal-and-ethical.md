@@ -1,10 +1,95 @@
 # Legal and ethical considerations
 ## Objectives
-- Understand that legal and ethical considerations impact data management
-- Identify potential legal or ethical concerns with your research project(s)
+- Understand that legal and ethical considerations impact how data is managed.
+- Identify potential legal or ethical concerns with your research project(s).
 
 ## Introduction
 
+
+## Intellectual Property
+Intellectual Property (IP) refers to:
+
+- Copyright
+- Patents
+- Trademarks
+- Industrial Designs
+
+## Copyright
+Copyright is a legal protection for the creators of a work. It refers to:
+
+“[T]he body of exclusive rights granted by law to copyright owners for protection of their work.” (U.S. Copyright Office)
+
+Copyright:
+
+- Applies to a work immediately upon fixation in a tangible medium of expression.
+- Gives the creator exclusive legal right to:
+	- Reproduce
+	- Prepare derivative works 
+	- Distribute copies
+	- Perform or display publicly
+	- Grant licenses or transfer copyrights to others
+
+### The problem with data
+Copyright does not apply to facts. Nor, does it cover the **labor** of research. 
+
+Copyright it is restricted to work that includes a level of "creative expression." And this vague phrase is where legal disputes arise. 
+
+The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. 
+
+In some cases, the arrangement of data or portions of a dataset may be protected. Since definitions of data and types of data vary, it's best to play it safe. 
+
+## Licenses and credit for data
+How to play it safe? 
+
+- When reusing data, follow community norms and the instructions of other data creators.
+- When creating data, make it clear how others can use your data.
+
+
+## The difference between ownership and control
+Although you may not be able to legally claim copyright over data, you may still be the owner, or have control, over data.
+
+From DataOne "Legal and Policy Issues"
+
+A data set, produced under a federal grant, contained within an institutional data repository may be owned by that institution. The Principle Investigator of the project that generated that data, while not the owner, maybe grants the authority to restrict or release access to that data, or limit the use of the data by others.  In this circumstance, the PI can claim **control** of the data without the ability to claim **ownership**. 
+
+## Data ownership
+Rights of control over data or access to data can be given without shifting ownership.
+
+Different people or groups can claim control or ownership over research data. It may be:
+
+- You
+- Your advisor
+- Texas A&M University
+- A funder 
+
+Ownership can be determined in:
+
+- Funder agreement
+- Institutional Intellectual Property policy
+- A data use agreement
+- A license attached to the data
+
+### Texas A&M University 
+Standard Administrative Procedure 15.99.03.M1.03 
+
+The Responsible Stewardship of Research Data
+
+3. Ownership
+"Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
+
+(http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+
+University Rule 29.01.03.M1
+
+## Restricted data
+Some data may need to be kept secure due to agreements, rules, and regulations. These will dictate how you are able to interact with the data.
+
+You may encounter:
+
+- National security and classified information
+- Controlled unclassified information
+- Threatened and endangered species information
+- Human subject information
 
 ## Privacy and confidentiality
 Privacy relates to the individual or subject. Confidentiality relates to the actions of the researcher.
@@ -28,51 +113,3 @@ Avoid transmitting unencrypted personal data electronically.
 Other considerations include retention of original collection instruments, such as paper questionnaires or interview recordings. Once these are transferred into an analysis package or a transcript and quality assured or validated, there may no longer be a reason to retain them. 
 
 Questions of which data to keep and for how long need to be considered in the context of your ability to maintain the confidentiality of your subjects’ information, and should be planned in advance."
-
-
-## Restricted data
-In addition to ethical concerns, some data may need to be kept secure due to agreements, rules, and regulations. These will dictate how you are able to interact with the data.
-
-You may encounter:
-
-- National security and classified information
-- Controlled unclassified information
-- Threatened and endangered species information
-- Human subject information
-
- 
-## Data ownership
-Control over data does not mean ownership. Rights of control over data or access to data can be given without shifting ownership.
-
-Different people or groups can claim control or ownership over research data. It may be:
-
-- You
-- Your advisor
-- Texas A&M University
-- A funder 
-
-Ownership can be determined in:
-
-- Funder agreement
-- Institutional Intellectual Property policy
-- A data use agreement
-- A license attached to the data
-
-
-### Texas A&M University 
-Standard Administrative Procedure 15.99.03.M1.03 
-
-The Responsible Stewardship of Research Data
-
-3. Ownership
-"Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
-
-(http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
-
-University Rule 29.01.03.M1
-
-
-## Copyright and Licenses
-- Intellectual Property
-
-## Credit
