@@ -9,6 +9,16 @@
 
 ## Directory structure and file naming conventions
 This may belong in data gathering
+
+## Spreadsheets
+- pros/cons
+- some tools
+
+## Databases
+
+
+## Cloud servers
+
 ### References:
 - https://data-lessons.github.io/library-data-intro/03-foundations/
 - Whitmire. 2014. Lecture04_OrganizingData.pptx
