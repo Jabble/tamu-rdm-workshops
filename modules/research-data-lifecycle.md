@@ -5,6 +5,10 @@
 ## Introduction
 In this workshop series we will think about managing research data over time. Lifecycle diagrams provide an overview of how data is created and can be used over time. We'll look at two lifecycles that inform this workshop series.
 
+## Exercise: Draw the lifecycle of your data
+Let's say step one is finding or gathering your research data. Once you've gathered it, draw out the steps of what you'll do with your data over the course of your project, until you're "done." It's okay to have a few "big steps"
+Students draw the research data lifecycle as they understand it, for their existing or expected research projects*
+
 ## DataOne lifecycle
 [image](../dataone-data_lifecycle-image.png)
 The DataONE data life cycle has eight components:
