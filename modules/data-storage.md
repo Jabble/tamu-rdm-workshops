@@ -1,5 +1,7 @@
 # Data storage
-## Objective
+## Objectives
+
+## Introduction
 - avoiding data loss and security incidents
 
 ## Areas
@@ -7,14 +9,7 @@
 - backup
 - security
 
-## Directory structure and file naming conventions
-This may belong in data gathering
 
-## Spreadsheets
-- pros/cons
-- some tools
-
-## Databases
 
 
 ## Cloud servers

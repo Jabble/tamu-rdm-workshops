@@ -1,5 +1,9 @@
 # Data gathering
 ## Objectives
+- Identify types of data and appropriate formats
+- Use/Design file naming convention
+
+## Introduction
 - Keep organized 
 	- Easier to find files
 	- Focus on your working with your data
@@ -7,6 +11,17 @@
 ## Types of data
 
 ## Formats of data
+
+## Format transformation
+
+## Directory structure and file naming conventions
+This may belong in data gathering
+
+## Spreadsheets
+- pros/cons
+- some tools
+
+## Databases
 
 ## Areas
 - analog and digital data gathering
