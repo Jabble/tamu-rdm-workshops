@@ -1,6 +1,6 @@
 # Workshop outline
 ## Introduction to Research Data Management
-- introducing-rdm.md
+- [introducing-rdm.md](../modules/introducing-rdm.md)
 - research-data-lifecycle.md
 - legal-and-ethical.md
 
