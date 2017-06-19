@@ -1,5 +1,6 @@
 # Data storage
 ## Objectives
+- Use/Design a file naming convention
 
 ## Introduction
 - avoiding data loss and security incidents
@@ -10,6 +11,8 @@
 - security
 
 
+## Directory structure and file naming conventions
+This may belong in data gathering
 
 
 ## Cloud servers
