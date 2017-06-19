@@ -4,8 +4,8 @@
 
 ## Why is "data management" a thing?
 - Personal efficiency
-	- If you aren't already, you'll soon be busy. Or you'll just want to spend some of your time NOT working.
-	- Thinking and working this way will help you be more effective throughout your PhD and reduce the amount of work at the end.
+	- If you aren't already, you'll soon be busy. Or you'll just want to spend some of your time not working.
+	- Thinking about data management stategies will help you be more effective throughout your PhD and reduce the amount of work at the end.
 - Happy advisors
 	- Understanding these concepts will make your advisors happy because they'll be able to easily see what your doing and spend less time teaching you.
 - The future
