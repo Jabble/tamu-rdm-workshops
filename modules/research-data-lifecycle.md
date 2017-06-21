@@ -9,8 +9,7 @@ In this workshop series we will think about managing research data over time. Li
 Let's say step one is finding or gathering your research data. Once you've gathered it, draw out the steps of what you'll do with your data over the course of your project, until you're "done." It's okay to have a few "big steps"
 Students draw the research data lifecycle as they understand it, for their existing or expected research projects*
 
-## DataOne lifecycle
-[image](../dataone-data_lifecycle-image.png)
+## DataOne data lifecycle
 The DataONE data life cycle has eight components:
 
 - Plan: description of the data that will be compiled, and how the data will be managed and made accessible throughout its lifetime
@@ -22,10 +21,7 @@ The DataONE data life cycle has eight components:
 - Integrate: data from disparate sources are combined to form one homogeneous set of data that can be readily analyzed
 - Analyze: data are analyzed
 
-## DCC Curation Lifecycle
-[website](http://www.dcc.ac.uk/resources/curation-lifecycle-model)
-[lifecycle](http://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf)
-
+## DCC data curation lifecycle
 The lifecycle focuses specifically on curation activities. 
 
 Conceptualise 
@@ -39,12 +35,17 @@ Transform
 
 
 ## Simplified lifecycle
-This workshop series will cover data management practices within components of the data lifecycle.
+This workshop series will cover data management actions within stages of the data lifecycle.
 
-- Plan
-- Collect and manage (incl. Discovery and Integration)
-- Assure 
-- Analyze and present
-- Share and Preserve
+1. Plan management
+2. Collect and store 
+3. Assure quality
+4. Analyze and present
+5. Share and preserve
 
 *Make drawing of data lifecycle as covered in the workshop series*
+
+## References
+- DataOne. "Data Lifecycle" [image](../dataone-data_lifecycle-image.png)
+- Digital Curation Center (DCC). "Curation Lifecycle Model" [PDF](http://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf)
+- Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
