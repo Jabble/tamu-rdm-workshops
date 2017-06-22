@@ -1,11 +1,11 @@
 # Data gathering
 ## Objectives
 - Recognize the diversity of data types. 
-- Arrange data in text editing, spreadsheet, and database software. (digital data entry)
-- Choose appropriate file formats for data.
+- *Arrange data in text editing, spreadsheet, and database software. (digital data entry)*
 
 ## Introduction
 *Bring in datalifecycle stages?*
+
 In this module, we'll focus on data entry and how to use digital file formats to your advantage. The goal is to create quality data sets that are valid and organized to support ease of use and reuse, and store those data sets in accessbile formats. We'll start broadly and get more concrete and specific. 
 
 ## Types of data
@@ -37,7 +37,7 @@ What you intend to study will inform the data you gather. In order to conduct yo
 ## Gathering data
 We'll focus mainly on digital data entry and storage. This said, you may prefer to write your data and notes down by hand (analog), or may use both digital and anolog data entry. I'm assuming here that you will at some point want to enter or transfer those data and notes into a digital format for easier manipulation. We'll focus on data right now, and will come back to notes when we discuss documentation. 
 
-## data entry
+## Data entry
 Data entry can be done through a form or directly in a text editing, spreadsheet, or database software. We'll focus on these three and good practices for using them. These practices may extend to other sorts of data entry as well. 
 ### Tabular v. Relational
 
@@ -78,92 +78,6 @@ Data entry in Google form
 Validation
 
 ### Relational data in databases
-
-## Digital file formats for data
-*What?*
-Data formats are often closely tied to data types and arrangements.
-
-Example: Qualitative experimental data in a tabular arrangement can be saved many formats depending on the software you use.
-
-|Formats                             |Extensions| Library of Congress description|
-|------------------------------------|----------|--------------------------------|
-|Microsoft Excel spreadsheets        | .xslx    | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)|
-|Google Spreadsheets                 | .gsheet  |								 |
-|Comma-seperated values              | .csv     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000323.shtml)|
-
-### Preferred formats 
-Reusing data in the future depends on the ability to access data. From the data management perspective, we want to think about the data lifecycle again, specifically possible sharing and preservation. For this reason, there are preferred formats for data that is intended to be accessible in the long term. 
-
-These formats have the following features:
-
-- non-proprietary
-- open and documented standard
-- unencrypted
-- uncompressed
-- standard character encoding (ASCII, or Unicode encoding)
-- commonly used by the research community
-
-In the case of tabular data, even if you use a spreadsheet software to ... the data, the preferred format to save, export or transform to is CSV. From Excel or Google Docs this is a built-in menu option. 
-
-
-### Character encoding and internationalization
-"There ain't no such thing as plain text"
-
-"If you have a string, in memory, in a file, or in an email message, you have to know what encoding it is in or you cannot interpret it or display it to users correctly."
-
-From: Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-
-
-### Excercise:
-
-
-
-Moving Images: MOV, MP4
-Quantitative: ASCII, SAS, SPSS
-Geospatial: ESRI Shapefile (essential: .shp, .shx, .dbf; optional: *.prj, *.sbx, *.sbn), geo-referenced TIFF (.tif, .tfw), CAD data (.dwg), tabular GIS attribute data
-
-Text: PDF/A, ASCII
-
-|Textual Formats|File Extensions|
-|---|---|
-|Acrobat PDF/A|.pdf|
-|Comma-Separated Values|.csv|
-|Open Office Formats|.odt, .ods, .odp|
-|Plain Text (US-ASCII, UTF-8)|.txt|
-|XML|.xml|
-
-|Image/Graphic Formats|File Extensions|
-|---|---|
-|JPEG|.jpg|
-|JPEG2000|.jp2, .jpf|
-|PNG|.png|
-|SVG 1.1 (no Java binding)|.svg|
-|TIFF|.tif, .tiff|
-
-|Audio Formats|File Extensions|
-|---|---|
-|AIFF|.aif, .aiff|
-|Free Lossless Audio Codec|.flac|
-|WAVE|.wav|
-
-|Video Formats|File Extensions|
-|---|---|
-|AVI (uncompressed)|.avi|
-|Motion JPEG2000|.mj2, .mjp2|
-
-For the curious, the Library of Congress makes digital format descriptions available on their [website](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml).
-
-### Transformation
-*How?*
-
-You may need to transform your data as part of working with it, when sharing with collaborators, externally, or for preservation purposes.
-Analog to digital
-Proprietary to non-proprietary
-Why not move from compressed to uncompressed?
-
-### Exercise: Transform file formats
-
-
 
 
 ## References
