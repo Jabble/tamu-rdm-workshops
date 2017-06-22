@@ -1,6 +1,6 @@
 # Legal and ethical considerations
 ## Objectives
-- Understand that legal and ethical considerations impact how data is managed.
+- Understand that legal and ethical considerations impact how data are managed.
 - Identify potential legal or ethical concerns with your research project(s).
 
 ## Introduction
@@ -29,15 +29,15 @@ Copyright is a legal protection for the creators of "original works of authorshi
 
 From: "Copyright Basics," U.S. Copyright Office, [PDF](https://www.copyright.gov/circs/circ01.pdf)
 
-### The problem with data
-Copyright it is restricted to work that includes a level of "creative expression." And this vague phrase is where legal disputes arise. 
+## The problem with data
+Copyright is restricted to work that includes a level of "creative expression." This is where issues arise with data. 
 
 Copyright does not apply to: 
 
 - Facts
 - The **labor** of research
 
-The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets.  In some cases, the arrangement of data or portions of a dataset may be protected. Since definitions of data and types of data vary, it's best to play it safe. 
+The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. In some cases, the arrangement of data or portions of a dataset may be protected. Since definitions of data and types of data vary, it's best to play it safe. 
 
 ## Licenses and credit for data
 How to play it safe? 
@@ -45,9 +45,8 @@ How to play it safe?
 - When reusing data, follow community norms and the instructions of other data creators.
 - When creating data, make it clear how others can use your data.
 
-
 ## The difference between ownership and control
-Although you may not be able to legally claim copyright over data, you may still be the owner, or have control, over data.
+Although you may not be able to legally claim copyright over particular arrangements or types of data, you may still have some control over the data.
 
 From: "Legal and Policy Issues", DataOne
 
