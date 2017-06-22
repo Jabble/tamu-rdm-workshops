@@ -1,5 +1,6 @@
 # Data storage
 ## Objectives
+- Compare file naming conventions
 - Use/Design a file naming convention
 
 ## Introduction
@@ -54,16 +55,20 @@ volunteer to share your idea with the class
 ## Directory structure 
 
 
-## Storage
-## Spreadsheets
+## Storage and backup
+### Spreadsheets
 - pros/cons from the data management perspective
 - Easy to share and to lose track
 
-## Databases
+### Databases
 - Easy to share and maintain consistent
 - needs a manager
 
-## Cloud servers
+### Cloud servers
+
+###USB stick
+
+### External harddrive 
 
 ### References:
 - Library Carpentry. [lesson](https://data-lessons.github.io/library-data-intro/03-foundations/)

@@ -1,14 +1,12 @@
 # Data gathering
 ## Objectives
-- Awareness for the diversity of data types. 
-- Identify appropriate data formats.
+- Recognize the diversity of data types. 
+- Arrange data in text editing, spreadsheet, and database software. (digital data entry)
+- Choose appropriate file formats for data.
 
 ## Introduction
-What, why and how to use file formats to your advantage.
-
-Create quality data sets that are:
-Valid
-Organized to support ease of use and reuse
+*Bring in datalifecycle stages?*
+In this module, we'll focus on data entry and how to use digital file formats to your advantage. The goal is to create quality data sets that are valid and organized to support ease of use and reuse, and store those data sets in accessbile formats. We'll start broadly and get more concrete and specific. 
 
 ## Types of data
 Data are often divided into two categories, quantitive and qualitative. Quantitative data are expressed numerically, they are often (but not always) continuous and measurable. Qualitative data are categorical data expressed in natural language. 
@@ -20,7 +18,7 @@ Data are often divided into two categories, quantitive and qualitative. Quantita
 - Social security numbers.
 
 ## Categories
-What you intend to study will inform the data used.
+What you intend to study will inform the data you gather. In order to conduct your research, you may use different types of data in combination. 
 
 - **Observational data** are captured in situ. Common types: Survey results, sensor readings.
 - **Experimental data** are collected under controlled conditions. Common types: gene sequences, spectroscopy, cell counts. 
@@ -29,21 +27,22 @@ What you intend to study will inform the data used.
 - **Simulation data** are results of using a model to study a system. Common types: climate models, economic models.
 - **Reference data** are published (possibly peer-reviewed) or curated datasets informing research. Common types: gene sequence databanks, chemical structures, census data, spatial data portals. 
 
+**Example**: Studying changes over time in the bird populations at Big Thicket National Preserve, I may combine my own observational data with reference data from previous research. 
+
 ### Exercise: Identify your data
 - Do you have experience with conducting research in the past? What have you done?
 - What type(s) of data to you have past experience gathering, working with, or plan to gather in your graduate research?
 - Can that data be recreated? What are the problems or limitations with recreating it, if it is lost?
 
 ## Gathering data
-- data entry
+We'll focus mainly on digital data entry and storage. This said, you may prefer to write your data and notes down by hand (analog), or may use both digital and anolog data entry. I'm assuming here that you will at some point want to enter or transfer those data and notes into a digital format for easier manipulation. We'll focus on data right now, and will come back to notes when we discuss documentation. 
 
-### Analog v. Digital
-We'll focus mainly on digital data data entry
-
+## data entry
+Data entry can be done through a form or directly in a text editing, spreadsheet, or database software. We'll focus on these three and good practices for using them. These practices may extend to other sorts of data entry as well. 
 ### Tabular v. Relational
 
 ### Tabular data in spreadsheets
-From: Data Carpentry. "Data Organization in Spreadsheets" [lessons](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
+From: Data Carpentry. "Data Organization in Spreadsheets" [lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
 
 Spreadsheets tool for working with data that lends itself to a tabular arrangement for:
 
@@ -89,18 +88,31 @@ Example: Qualitative experimental data in a tabular arrangement can be saved man
 |Formats                             |Extensions| Library of Congress description|
 |------------------------------------|----------|--------------------------------|
 |Microsoft Excel spreadsheets        | .xslx    | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)|
-|Google Spreadsheets                 | .gsheet  | |
+|Google Spreadsheets                 | .gsheet  |								 |
 |Comma-seperated values              | .csv     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000323.shtml)|
 
-### Preferred formats
-*Why?*
+### Preferred formats 
+Reusing data in the future depends on the ability to access data. From the data management perspective, we want to think about the data lifecycle again, specifically possible sharing and preservation. For this reason, there are preferred formats for data that is intended to be accessible in the long term. 
+
+These formats have the following features:
 
 - non-proprietary
 - open and documented standard
 - unencrypted
 - uncompressed
-- standard character representation (ASCII, Unicode)
+- standard character encoding (ASCII, or Unicode encoding)
 - commonly used by the research community
+
+In the case of tabular data, even if you use a spreadsheet software to ... the data, the preferred format to save, export or transform to is CSV. From Excel or Google Docs this is a built-in menu option. 
+
+
+### Character encoding and internationalization
+"There ain't no such thing as plain text"
+
+"If you have a string, in memory, in a file, or in an email message, you have to know what encoding it is in or you cannot interpret it or display it to users correctly."
+
+From: Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+
 
 ### Excercise:
 
@@ -159,7 +171,7 @@ Why not move from compressed to uncompressed?
 - Whitmire, Amanda. 2014. "Organizing Your Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 - DataONE. "Data entry and manipulation" []()
 - Data Carpentry. "Data Organization in Spreadsheets" [lessons](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
-
+- Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 |SPSS Statistics Portable File Format| .por     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000468.shtml)|
 |Extensible markup language          | .xml     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000075.shtml)|
