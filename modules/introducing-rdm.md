@@ -17,7 +17,7 @@ Why is "data management" a thing?
 	- Thinking about data management stategies will help you be more effective throughout your PhD and reduce the amount of work at the end.
 
 - Happy advisors
-	- Understanding these concepts will make your advisors happy because they'll be able to easily see what your doing and spend less time teaching you.
+	- Understanding these concepts will make your advisors happy, they'll be able to easily see what you're doing and spend less time teaching you.
 
 - The future
 	- Good practices will benefit you and the community. 
@@ -28,7 +28,7 @@ Why is "data management" a thing?
 ## This workshop series
 This workshop series is an introduction to research data management topics. The series is broad rather than deep. Some topics may be more relevant to your subject area than others. 
 
-We will spend [#] hours each week discussing definitions, recommended practices, tools to act on the recommendations. *emphasize participation and exercises* 
+We will spend [#] hours each week on defining concepts, reviewing the effects of different practices, understanding recommended practices, and using some tools to act on recommendations. *emphasize participation and exercises* 
 
 ### Code of conduct 
 We have a group with different experience and dealing with different material
