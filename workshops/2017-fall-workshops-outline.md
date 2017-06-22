@@ -4,14 +4,15 @@
 - [research-data-lifecycle.md](../modules/research-data-lifecycle.md)
 - [legal-and-ethical.md](../modules/legal-and-ethical.md)
 
-## Collect and store data
+## Collect and organize data
 - [data-gathering.md](../modules/data-gathering.md)
 - [data-documentation.md](../modules/data-documentation.md)
-- [data-storage.md](../modules/data-storage.md)
+- [file-formats-and-organization.md](../modules/file-formats-and-organization.md)
 
 ## Assure data usability
+- [storage-backup-and-security.md](../modules/storage-backup-and-security.md)
+- [version-control.md](../modules/version-control.md)
 - [quality-control.md](../modules/quality-control.md)
-- [versioning.md](../modules/versioning.md)
 
 ## Analyze and present data
 - [data-analysis.md](../modules/data-analysis.md)
