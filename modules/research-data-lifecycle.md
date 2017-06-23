@@ -45,6 +45,8 @@ This workshop series will cover data management actions within stages of the dat
 
 *Make drawing of data lifecycle as covered in the workshop series*
 
+Since we're taking a lifecycle approach, we'll look at how practices at each stage impact later stages in the lifecycle. 
+
 ## References
 - DataOne. "Data Lifecycle" [image](../dataone-data_lifecycle-image.png)
 - Digital Curation Center (DCC). "Curation Lifecycle Model" [PDF](http://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf)
