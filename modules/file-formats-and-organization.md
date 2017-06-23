@@ -5,6 +5,7 @@
 - Use/Design a file naming convention.
 
 ## Introduction
+-  store those data sets in accessbile formats
 - avoiding data loss and security incidents
 - Keep organized 
 	- Easier to find files
@@ -146,6 +147,11 @@ volunteer to share your idea with the class
 ### References:
 - Library Carpentry. [lesson](https://data-lessons.github.io/library-data-intro/03-foundations/)
 - Whitmire. 2014. Lecture04_OrganizingData.pptx
+- Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 Plain text formats are your friend
 Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. **Examples**
+
+
+|SPSS Statistics Portable File Format| .por     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000468.shtml)|
+|Extensible markup language          | .xml     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000075.shtml)|
