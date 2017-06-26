@@ -28,14 +28,32 @@ What you intend to study will inform how you gather data and the types of data y
 ## Data entry
 We're discussing data stored in digital media. In some cases you may prefer to write your data down by hand in a notebook or elsewhere, I'll call this analog data storage. 
 
-Analog data entry could be easier for observational data in the field or experiemental data in a messy lab. However, I'm assuming that you will at some point want to enter, or transfer, data into a digital format for easier manipulation. 
+Analog data entry can be easier for observational data in the field or experiemental data in a messy lab. However, I assume that you will want to enter, or transfer, data into a digital format for easier manipulation. 
 
-We'll focus on arranging digital data, and formats and tools for digital data entry. Some of this may be also be useful to have in mind during analog data entry too.
+We'll focus on arranging data, and then discuss formats and tools for data entry. Some of this may be also be useful to have in mind during analog data entry too.
 
 ## Tabular data arrangements
-*Tabular data* refers to data arranged into columns and rows. This is a popular arrangement and helpful for later data analysis. Also, many software tools are excellent at working with tabuar data. They'll allow you to easily clean, rearrange, analyze, and graph your data.
+*Tabular data* refers to data arranged into columns and rows. This is a popular arrangement and helpful for later data analysis. Also, many software tools are excellent at working with tabuar data. These tools will allow you to easily clean, rearrange, analyze, and graph your data.
 
-### Practices to avoid
+### Good practices with spreadsheets
+Columns = variables, rows = observations, cells = data (values).
+
+[image](../images/spreadsheet_observation_variable-image.png)
+
+The following practices should help you avoid most common issues that arise when working with data.
+
+1. Include column names (a.k.a. the header) in the first row(s).
+2. Use descriptive column names without spaces or special characters.
+3. Add one observation per row, and one variable per column.
+4. Ensure that data in each column are of a single type, e.g. date, text, number.
+5. Use a standard format for values in each column, e.g. names, codes, dates.
+6. Once gathered, leave the raw data raw. Make a copy for cleaning and analysis.
+
+
+### Common errors in spreadsheets
+columns = variables, rows = observations, cells = data (values).
+
+
 *Show tabular arrangement using spreadsheet software*
 
 - Multiple tables in one sheet
@@ -46,6 +64,21 @@ We'll focus on arranging digital data, and formats and tools for digital data en
 	 - Difficult to filter and sort and run many other operations on the data en masse.
 - Mixed types in columns, multiple pieces of information in one cell.
 	- Mixing text and numbers makes it difficult to do an operation on the column.
+
+From: Behlai, Christie and Pawlik, Aleksandra. "Formatting problems" Data Organization in Spreadsheets. [lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
+
+Using multiple tables
+Using multiple tabs
+Not filling in zeros
+Using problematic null values
+Using formatting to convey information
+Using formatting to make the data sheet look pretty
+Placing comments or units in cells
+Entering more than one piece of information in a cell
+Using problematic field names
+Using special characters in data
+Inclusion of metadata in data table
+Date formatting
 
 ### Exercise: Identify the problems
 What issues do you see with this arrangement of data? And what change should be made?
@@ -60,7 +93,7 @@ These practices should help you avoid most common issues that arise when working
 3. Enter one observation per row, and one variable per column.
 4. Ensure that data in each column are strictly of one type, e.g. date, text, number.
 5. Use a standard format for values in each column, e.g. names, codes, dates.
-6. Leave the raw data raw. Cleaning and analysis come later.
+6. Once gathered, leave the raw data raw. Make a copy for cleaning and analysis.
 
 #### Dealing with missing data
 Preferably leave field empty and use a separate column to qualify missing value. Optionally:
@@ -132,5 +165,5 @@ You may also prefer to use a form for data entry
 - Data Carpentry. "Data Organization in Spreadsheets" [lessons](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
 
 ## Material
-- Microsoft Excel spreadshet with poorly formatted data for rearrangement
+- Microsoft Excel spreadsheet with poorly formatted data for rearrangement (all students can look and work with it)
 - Example data to enter in plain text editor, Excel, and Google Form.
