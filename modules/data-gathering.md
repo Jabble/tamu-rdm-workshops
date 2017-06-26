@@ -26,76 +26,63 @@ What you intend to study will inform how you gather data and the types of data y
 - Can those data be recreated? What are potential problems or limitations with recreating the type of data you listed?
 
 ## Data entry
-We're discussing data stored in digital media. In some cases you may prefer to write your data down by hand in a notebook or elsewhere, I'll call this analog data storage. 
+We're discussing data stored in digital media. In some cases you may prefer to gather handwritten data. Handwritten (Analog) data entry can be easier in particular situations, for example when working in the field to gather observational data or while running experiements in a messy lab situation. 
 
-Analog data entry can be easier for observational data in the field or experiemental data in a messy lab. However, I assume that you will want to enter, or transfer, data into a digital format for easier manipulation. 
+However, I assume that you will at some point want to enter–-or transfer--data into a digital format for easier manipulation. 	
 
-We'll focus on arranging data, and then discuss formats and tools for data entry. Some of this may be also be useful to have in mind during analog data entry too.
+We'll focus on arranging data, and then discuss formats and tools for data entry. Some of this may be also be useful to have in mind while writting data by hand.
 
 ## Tabular data arrangements
-*Tabular data* refers to data arranged into columns and rows. This is a popular arrangement and helpful for later data analysis. Also, many software tools are excellent at working with tabuar data. These tools will allow you to easily clean, rearrange, analyze, and graph your data.
+*Tabular data* refers to data arranged into columns and rows. This is a popular arrangement of data and often helpful for later data analysis. Many software tools are excellent at working with tabuar data, and these tools will allow you to easily clean, rearrange, analyze, and graph your data when you're ready to do so.
 
 ### Good practices with spreadsheets
-Columns = variables, rows = observations, cells = data (values).
+Let's take a closer look at good practices for a tabular data arrangement.
 
 [image](../images/spreadsheet_observation_variable-image.png)
 
-The following practices should help you avoid most common issues that arise when working with data.
+- Rows represent observations.
+- Columns represent variables.
+- Cells contain data (values) for each variable in a given observation.
+
+Again, the goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. Following these 6 practices for tabular data arrangement will help you avoid most problems that commonly arise when working with data.
 
 1. Include column names (a.k.a. the header) in the first row(s).
 2. Use descriptive column names without spaces or special characters.
 3. Add one observation per row, and one variable per column.
 4. Ensure that data in each column are of a single type, e.g. date, text, number.
 5. Use a standard format for values in each column, e.g. names, codes, dates.
-6. Once gathered, leave the raw data raw. Make a copy for cleaning and analysis.
+6. Once gathered, leave the raw data raw. Use a copy for cleaning and analysis.
 
+### Exercise: Common errors in spreadsheets
+*Show tabular arrangement with errors using spreadsheet software*
 
-### Common errors in spreadsheets
-columns = variables, rows = observations, cells = data (values).
-
-
-*Show tabular arrangement using spreadsheet software*
-
-- Multiple tables in one sheet
-	- Multiple small tables require human intervention
-- Inconsistent and unclear column names with special characters 
-	- Some software may interpret special characters as operators
-- Inconsistent formatting for values, dates, site spellings, capitalizations, spaces
-	 - Difficult to filter and sort and run many other operations on the data en masse.
-- Mixed types in columns, multiple pieces of information in one cell.
-	- Mixing text and numbers makes it difficult to do an operation on the column.
-
-From: Behlai, Christie and Pawlik, Aleksandra. "Formatting problems" Data Organization in Spreadsheets. [lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
-
-Using multiple tables
-Using multiple tabs
-Not filling in zeros
-Using problematic null values
-Using formatting to convey information
-Using formatting to make the data sheet look pretty
-Placing comments or units in cells
-Entering more than one piece of information in a cell
-Using problematic field names
-Using special characters in data
-Inclusion of metadata in data table
-Date formatting
-
-### Exercise: Identify the problems
-What issues do you see with this arrangement of data? And what change should be made?
+Let's identify the problems with this dataset and try to correct them. What errors do you see with this arrangement of data? Why are they problematic? And what change should be made?
 
 *Walk through making the proposed changes*
 
-### Good practices
-These practices should help you avoid most common issues that arise when working with data.
+Here are all the problems with the spreadsheet:
 
-1. Include column names (aka the header) on the first row(s).
-2. Use descriptive column names without spaces or special characters.
-3. Enter one observation per row, and one variable per column.
-4. Ensure that data in each column are strictly of one type, e.g. date, text, number.
-5. Use a standard format for values in each column, e.g. names, codes, dates.
-6. Once gathered, leave the raw data raw. Make a copy for cleaning and analysis.
+- Using multiple tables
+	- Multiple small tables require human intervention
+- Using multiple tabs
+- Not filling in zeros
+- Using problematic null values
+- Using formatting to convey information
+- Using formatting to make the data sheet look pretty
+- Placing comments or units in cells
+	- Mixing text and numbers makes it difficult to do an operation on the column.
+- Entering more than one piece of information in a cell
+	- Makes it difficult to do an operation on the column.
+- Using problematic field (column) names
+	- Some software may interpret special characters as operators
+- Using special characters in data
+- Inclusion of metadata in data table
+- Inconsistent formatting for values, dates, site spellings, capitalizations, spaces
+	 - Difficult to filter and sort and run many other operations on the data en masse.
 
-#### Dealing with missing data
+From: Behlai, Christie and Pawlik, Aleksandra. "Formatting problems" Data Organization in Spreadsheets. [lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
+
+### Dealing with missing data
 Preferably leave field empty and use a separate column to qualify missing value. Optionally:
 
 - in numeric fields, use a distinct value such as 9999 to indicate a missing value;
@@ -103,22 +90,15 @@ Preferably leave field empty and use a separate column to qualify missing value.
 
 Use "NULL" for no value. 
 
-#### Using codes
+### Using codes
 This should be documented seperately, in a *Codebook*. We'll cover Codebooks when we discuss data documentation.
 
 Now, why are these the good practices? Briefly now and you will see more in the analysis workshop. As we mentioned at the beginning, the aim of data entry is to prepare you for later stages of the lifecycle.
 
-### Exercise: Finish arranging data
-Are there additional changes we should make to the data we've been looking at?
-
-*Finish rearranging problematic data*
-
-## 5-minute Break
-
 ## Formats and tools
-We just looked at good practices for tabular data arrangement using a spreadsheet in Microsoft Excel. We did this because spreadsheets are easy to look at and manipulate, and Microsoft Excel is a popular tool for working with data manually—one you're already likely familiar with. 
+We just looked at good practices for tabular data arrangement using a spreadsheet in Microsoft Excel. We did this because spreadsheets are easy to look at and manipulate, and Microsoft Excel is a popular tool for working with data. 
 
-But, you can use several different formats for your tabular data. We'll now take a closer look at using plain text, spreadsheet, and relational database formats to create and work with tabular data arrangements. Each of these formats has strengths and limitations. 
+But, you can use several different formats for your tabular data. We'll take a closer look at using plain text, spreadsheet, and relational database formats to create and work with tabular data arrangements. Each of these formats has strengths and limitations. 
 
 ### Plain text
 - Works best for a single tabular dataset, especially when it is simple and large.
@@ -153,16 +133,16 @@ A database consists of a set of tables, defined relationships between them, and 
 	- Oracle Database
 
 ## Adding validation
-In Databases, strict typing helps to prevent errors. This is similar to using validation in a spreadsheet.
+In Databases, strict typing helps to prevent errors. This is similar to validation in a spreadsheet.
 You may also prefer to use a form for data entry
 
 *Google forms walkthrough*
 
 ## References
-- Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
-- Whitmire, Amanda. 2014. "Organizing Your Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
-- DataONE. "Data entry and manipulation" []()
 - Data Carpentry. "Data Organization in Spreadsheets" [lessons](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
+- DataONE. "Data entry and manipulation" [modules](https://www.dataone.org/education-modules)
+- Whitmire, Amanda. 2014. "Organizing Your Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
+- Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 
 ## Material
 - Microsoft Excel spreadsheet with poorly formatted data for rearrangement (all students can look and work with it)
