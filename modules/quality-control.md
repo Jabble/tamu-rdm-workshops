@@ -13,12 +13,19 @@
 
 
 ## Data cleaning
-## Tools
+## Tools for data manipulation
 Tabular data
 
 - Excel
 - GoogleDocs
 - OpenRefine
+- NVIVO
+- SAS
+- SPSS
+- STATA
+- Matlab
+- R
+- Python (NumPy, SciPy, Pandas, IPython)
 
 Quality control (DataONE)
 Preparation for analysis (DataONE)
