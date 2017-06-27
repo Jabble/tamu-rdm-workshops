@@ -57,13 +57,13 @@ Again, the goal is to create quality data sets that are valid, and organized to 
 6. Once gathered, leave the raw data raw. Use a copy for cleaning and analysis.
 
 ### Exercise: Common errors in spreadsheets
-*Show tabular arrangement with errors using spreadsheet software*
+*Show tabular arrangement with errors using Excel spreadsheet software*
 
 Let's identify the problems with this dataset and try to correct them. Although we only mention a few good practices, many errors arise due to ignoring them. 
 
 What errors do you see with this arrangement of data? Why are they problematic, and what changes should be made?
 
-*Walk through making the proposed changes*
+*Live walk through making proposed changes and discussing problems*
 
 Here are all the problems with the spreadsheet:
 
@@ -89,7 +89,7 @@ Here are all the problems with the spreadsheet:
 - Values include comments and units,
 	- the values in a column should be of the same unit, or another column with the unit should be added. 
 	- mixing types (e.g. text and numbers) makes it difficult to perform operations on the column.
-- Null values are problematic
+- Multiple "Null" values are problematic
 	- Preferably leave the cell empty and use a separate column to qualify missing value.
 - Using formatting to convey information, or make the sheet look pretty,
 	- raw data should be organized for ease of quality assurance and analysis,
@@ -100,7 +100,7 @@ Here are all the problems with the spreadsheet:
 From: Behlai, Christie and Pawlik, Aleksandra. "Formatting problems" Data Organization in Spreadsheets. [lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
 
 ### Dealing with missing data
-Preferably leave field empty and use a separate column to qualify missing value. Optionally:
+Preferably leave the cell empty and use a separate column to qualify missing value. Optionally,
 
 - in numeric fields, use a distinct value such as 9999 to indicate a missing value;
 - in text fields, use NA (“Not Applicable” or “Not Available”). 
@@ -112,7 +112,7 @@ This should be documented seperately, in a *Codebook*. We'll cover Codebooks whe
 ## Formats and tools
 We just looked at good practices for tabular data arrangement using a spreadsheet in Microsoft Excel. We did this because spreadsheets are easy to look at and manipulate, and Microsoft Excel is a popular tool for working with data. 
 
-But, you can use several different formats for your tabular data. We'll take a closer look at using plain text, spreadsheet, and relational database formats to create and work with tabular data structures. Each of these formats has strengths and limitations. 
+But, you can use several different formats for your tabular data. We'll look more closely at using plain text, spreadsheet, and relational database formats to create and work with tabular data structures. Each of these formats has strengths and limitations. 
 
 ### "Plain text" formats
 - Work best for a single tabular dataset, especially when it is simple and large.
@@ -120,7 +120,7 @@ But, you can use several different formats for your tabular data. We'll take a c
 - Software-agnostic file formats:
 	- Accessible to text editing software, spreadsheet software, and statistical programming environments.
 
-*Show data entry into TextMate text editing software and saving to a CSV file format*
+*Live walk through of data entry into TextMate text editing software and saving to a CSV file format*
 
 ### Spreadsheet formats
 - Work best for single or multiple tabular datasets, harder to use and maintain as complexity and size of datasets increase.
@@ -132,7 +132,7 @@ But, you can use several different formats for your tabular data. We'll take a c
 	- Numbers (Mac)
 	- OpenDocument Spreadsheets
 
-*Show data entry into Excel or Google Sheets and export to different file formats*
+*Live walk through of data entry into Excel or Google Sheets spreadsheet software and exporting to different file formats*
 
 ### Database formats
 A database consists of 
@@ -159,13 +159,13 @@ They're often used for storing data like financial records, medical records, man
 *Show image of tabular data structures in a database model*
 
 ## Adding validation
-In Databases, strict typing helps to prevent errors. This is similar to validation in a spreadsheet.
+In Databases, forced typing helps to prevent errors. This is similar to validation in a spreadsheet.
 
-*Show Excel validation functionality*
+*Live walk through of Excel validation functionality*
 
 You may also prefer to use a form for data entry into a spreadsheet. Google forms are a simple tool for this.
 
-*Show Google forms pushing to CSV or Google Sheet*
+*Live walk through of Google forms pushing to CSV or a Google Sheet*
 
 ## References
 - Data Carpentry. "Data Organization in Spreadsheets" [lessons](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
