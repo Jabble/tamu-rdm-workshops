@@ -171,7 +171,6 @@ You may also prefer to use a form for data entry into a spreadsheet. Google form
 - Data Carpentry. "Data Organization in Spreadsheets" [lessons](http://www.datacarpentry.org/spreadsheet-ecology-lesson/)
 - DataONE. "Data entry and manipulation" [modules](https://www.dataone.org/education-modules)
 - Wickham, Hadley. 2014. Tidy Data. Journal of Statistical Software, 59:10 [pre-print](/papers/tidy-data.pdf) | [publisher](http://www.jstatsoft.org/v59/i10/)
-- Whitmire, Amanda. 2014. "Organizing Your Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 - Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 
 ## Material
