@@ -104,7 +104,7 @@ Open this file in excel. what are the issues you encounter?
 
 
 ## File organization
-Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. There's one rule for organizing files from which all organization schemes can develop. 
+Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. There's one rule from which all organization schemes can develop. 
 
 Be consistent. 
 
@@ -136,7 +136,7 @@ When constructing files, the following components are often relevant. Use them a
 |----------|----------|----------|
 |Name | project name or research data||
 |Sequential numbering | Run of experiment Include leading zeros| 001.txt |
-|Dates | Use (ISO 8601)[https://en.wikipedia.org/wiki/ISO_8601] format for dates to retain the order| |
+|Dates | Use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format for dates to retain the order| |
 |Unique identifier | A subject id for files, grant number in the folder name| |
 |Experimental Condition | such as lab instrument, solvent, temperature, etc.| |
 
