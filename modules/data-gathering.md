@@ -20,7 +20,7 @@ What you intend to study will inform how you gather data and the types of data y
 - **Simulation data** are results of using a model to study a system. Common types: climate models, economic models.
 - **Reference data** are published (possibly peer-reviewed) or curated datasets informing research. Common types: gene sequence databanks, chemical structures, census data, spatial data portals. 
 
-**Example**: In order to study changes in bird populations at Big Thicket National Preserve over time, I combine my own observational data with reference data from previous research. 
+**Example**: In order to study changes in bird populations at Big Thicket National Preserve over time, I combine my own observational data with reference data from previous research projects. 
 
 ### Exercise: Identify your data
 - Which type(s) of data do you have past experience using, or which type(s) do you plan to use in your graduate research?
@@ -39,7 +39,7 @@ The term *tabular data* refers to data arranged into columns and rows. This is a
 ### Good practices with spreadsheets
 Let's take a closer look at good practices for entering tabular data into spreadsheets.
 
-[image](../images/spreadsheet_observation_variable-image.png)
+[image](../images/tabular_data_entry-image.png)
 
 - Rows represent observations.
 - Columns represent variables.
@@ -163,7 +163,7 @@ In Databases, forced typing helps to prevent errors. This is similar to validati
 
 *Live walk through of Excel validation functionality*
 
-You may also prefer to use a form for data entry into a spreadsheet. Google forms are a simple tool for this.
+You may also prefer to use a form for data entry into a spreadsheet. This can also add a validation layer. Google forms are a simple tool for this.
 
 *Live walk through of Google forms pushing to CSV or a Google Sheet*
 
@@ -173,6 +173,6 @@ You may also prefer to use a form for data entry into a spreadsheet. Google form
 - Wickham, Hadley. 2014. Tidy Data. Journal of Statistical Software, 59:10 [pre-print](/papers/tidy-data.pdf) | [publisher](http://www.jstatsoft.org/v59/i10/)
 - Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 
-## Material
+## Materials
 - Microsoft Excel spreadsheet with poorly formatted data for rearrangement (all students can look and work with it)
-- Example data to enter in plain text editor, Excel, and Google Form. Should also be the same as in Database formats.
+- Example data to enter in plain text editor, Excel, and Google Form. Should also be the same as in Database format.
