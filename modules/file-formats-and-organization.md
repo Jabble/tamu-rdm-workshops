@@ -2,50 +2,53 @@
 ## Objectives
 - Choose appropriate file formats for data.
 - Compare file naming conventions.
-- Use/Design a file naming convention.
+- Design a file naming convention.
 
 ## Introduction
--  store those data sets in accessbile formats
-- avoiding data loss and security incidents
-- Keep organized 
-	- Easier to find files
-	- Focus on your working with your data
+Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> **Share and preserve**
 
-## Areas
-- Digital file formats
-- File storage: directory structure and file naming conventions
+In this module, we'll look at saving data and transforming data into different file formats, as well as organizing data with future accessibility in mind. The goal is to stay organized in order to focus on working with your data and ensure your data is stored in a way that you can easily share it with others. 
 
 ## Digital file formats for data
-*What?*
-Data formats are often closely tied to data types and arrangements.
+Data formats are often closely tied to data types and arrangements. Earlier we discussed using spreadsheets for data, and we'll continue with this example.
 
-Example: Qualitative experimental data in a tabular arrangement can be saved many formats depending on the software you use.
+Qualitative experimental data in a tabular arrangement can be saved in many formats depending on the software you chose to use. A few are:
 
-|Formats                             |Extensions| Library of Congress description|
-|------------------------------------|----------|--------------------------------|
-|Microsoft Excel spreadsheets        | .xslx    | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000398.shtml)|
-|Google Spreadsheets                 | .gsheet  |								 |
-|Comma-seperated values              | .csv     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000323.shtml)|
+|Formats                             |Extensions|
+|------------------------------------|----------|
+|Microsoft Excel spreadsheets        | .xslx    |
+|Google Spreadsheets                 | .gsheet  |
+|Comma-seperated values              | .csv     | 
 
 ### Preferred formats 
-Reusing data in the future depends on the ability to access data. From the data management perspective, we want to think about the data lifecycle again, specifically possible sharing and preservation. For this reason, there are preferred formats for data that is intended to be accessible in the long term. 
+Reusing data in the future depends on the ability to open those files and access data. From the data lifecycle perspective, we're thinking about making sure that we can later share data with people who use different software, and preserve data files for 10 year or more, when some software may be obsolete use different file formats.
+
+For this reason, recommended file formats for data have a few features that make them likely to be accessible in different computing environments and for the long term. 
 
 These formats have the following features:
 
 - non-proprietary
 - open and documented standard
-- unencrypted
+- unencrypted (when shared)
 - uncompressed
 - standard character encoding (ASCII, or Unicode encoding)
 - commonly used by the research community
 
-In the case of tabular data, even if you use a spreadsheet software to ... the data, the preferred format to save, export or transform to is CSV. From Excel or Google Docs this is a built-in menu option. 
+In the case of tabular data, even if you use a spreadsheet software like Excel to work with data, the preferred format to save, export or later transform your data into is CSV. From both Excel or Google Docs this is a built-in menu option. 
 
+Note that the CSV file is a much simpler plain text format. Without special encoding that these softwares add and are able to read. If you use something like highlighting, or freezing headers, or formulas within your Excel spreadsheets, this will be lost in the CSV.
 
-### Character encoding and internationalization
-"There ain't no such thing as plain text"
+For the curious, the Library of Congress makes digital format descriptions available on their [website](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml).
 
-"If you have a string, in memory, in a file, or in an email message, you have to know what encoding it is in or you cannot interpret it or display it to users correctly."
+### Fun fact: Character encoding and internationalization
+Have you ever seen funny characters unexpectedly pop up in emails you've received, or perhaps in documents you've opened and tried to read on your computer?
+
+*Examples of character encoding fails*
+That's because "There ain't no such thing as plain text." 
+
+Software needs to know the character encoding in order to know how to interpret and diplay text characters. Sometimes a particular software expects one encoding, but a file is saved in another. When the file is opened by that software things can look a little wonky. Remember this if you're working with international collaborators who natively use a different language, they're more likely to use different encodings to display characters. Special characters usually cause the biggest problems.
+
+Play it safe by making sue you're using ASCII or Unicode.
 
 From: Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
@@ -87,61 +90,72 @@ Text: PDF/A, ASCII
 |AVI (uncompressed)|.avi|
 |Motion JPEG2000|.mj2, .mjp2|
 
-For the curious, the Library of Congress makes digital format descriptions available on their [website](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml).
+
 
 ### Transformation
-*How?*
-
 You may need to transform your data as part of working with it, when sharing with collaborators, externally, or for preservation purposes.
-Analog to digital
+Change text encoding
 Proprietary to non-proprietary
-Why not move from compressed to uncompressed?
+Why not move from compressed to uncompressed? You cannot go back to a higher quality, e.g. a higher resolution image from a lower one. Saving a rich file like .. as ... to save space. In doing so, you may lose important information... this is worth remembering if you work with image or graphic, video, and audio files.
+*Walk through image compression*
 
 ### Exercise: Transform file formats
+Open this file in excel. what are the issues you encounter?
 
 
+## File organization
+Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. There's one rule for organizing files from which all organization schemes can develop. 
+
+Be consistent. 
+
+Have conventions for your:
+
+1. Directory structure
+2. Folder names
+3. File names
+
+### Directory structure
+
+### Folder and file naming conventions
+The file and folder names are primarily for easy identification and sorting. Remember, you can use other means to save more information about your files and the data within them. We discussed this in more depth in the "Data Documentation" portion. This can be done inside the file itself or in a seperate README file that describes your file naming convention.
+
+**Tips for constucting names**
+
+- Be descriptive
+- Include relevant information for identification
+- Always include the same informational components
+- Retain the order of components
+- Keep names under 32 characters
+- Avoid special characters
+- Use '-' or '_' instead of ' '
+- limit '.' to one before the file extension 
+
+When constructing files, the following components are often relevant. Use them alone or in a combination that suits your needs.
+
+|informational component | recommendation | example |
+|----------|----------|----------|
+|Name | project name or research data||
+|Sequential numbering | Run of experiment Include leading zeros| 001.txt |
+|Dates | Use (ISO 8601)[https://en.wikipedia.org/wiki/ISO_8601] format for dates to retain the order| |
+|Unique identifier | A subject id for files, grant number in the folder name| |
+|Experimental Condition | such as lab instrument, solvent, temperature, etc.| |
 
 
-## File naming conventions
-### Useful information
-BE CONSISTENT
-Have conventions for naming:
-(1) Directory structure
-(2) Folder names
-(3) File names
-Always include the same information 
-(e.g. date and time)
-Retain the order of information
-(e.g. YYYYMMDD, not MMDDYYY )
+### Strategies and trade-offs
+Order the components of a name to organize your file by:
 
-BE DESCRIPTIVE
-Try to keep file and folder names under 32 characters
-Within reason, Include relevant information such as:
-
-Unique identifier (ie. Project Name or Grant # in folder name)
-Project or research data name
-Conditions (Lab instrument, Solvent, Temperature, etc.)
-Run of experiment (sequential)
-Date (in file properties too)
-When using sequential numbering, make sure to use leading zeros to allow for multi-digit versions. For example, a sequence of 1-10 should be numbered 01-10; a sequence of 1-100 should be numbered 001-010-100.
-No special characters: & , * % # ; * ( ) ! @$ ^ ~ ' { } [ ] ? < > - + /
-Use only one period and before the file extension 
-(e.g. name_paper.doc NOT name.paper.doc OR name_paper..doc)
-
-### Strategies
-Order by date
-Order by type
-Order by subject
-Forced order by number
+Date
+Type
+Subject
+Sequential number (forced order)
 
 ## Exercise
+I'll share my directory structure and file naming scheme with you:
+
+
 generate potential file names for your data & document your strategy 
 share your strategy with a partner & hear what they came up with
 volunteer to share your idea with the class
-
-## Directory structure 
-
-
 
 
 ### References:
@@ -150,7 +164,7 @@ volunteer to share your idea with the class
 - Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 Plain text formats are your friend
-Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. **Examples**
+ **Examples**
 
 
 |SPSS Statistics Portable File Format| .por     | [link](https://www.loc.gov/preservation/digital/formats/fdd/fdd000468.shtml)|
