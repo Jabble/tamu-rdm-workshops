@@ -10,7 +10,7 @@ Plan management -> **Collect and store**  -> Assure quality -> Analyze and prese
 In this module, we'll look at saving data and transforming data into different file formats, as well as organizing data with future accessibility in mind. The goal is to stay organized in order to focus on working with your data and ensure your data is stored in a way that you can easily share it with others. 
 
 ## Digital file formats for data
-Data formats are often closely tied to data types and arrangements. Earlier we discussed using spreadsheets for data, and we'll continue with this example.
+Data formats are often closely tied to data types and arrangements. Earlier we discussed using spreadsheets for data entry, and we'll continue with this example.
 
 Qualitative experimental data in a tabular arrangement can be saved in many formats depending on the software you chose to use. A few are:
 
@@ -20,9 +20,24 @@ Qualitative experimental data in a tabular arrangement can be saved in many form
 |Google Spreadsheets                 | .gsheet  |
 |Comma-seperated values              | .csv     | 
 
-### Preferred formats 
-Reusing data in the future depends on the ability to open those files and access data. From the data lifecycle perspective, we're thinking about making sure that we can later share data with people who use different software, and preserve data files for 10 year or more, when some software may be obsolete use different file formats.
+### Question:
+- Have you worked with spreadsheets?
+- Which software do you prefer?
+- Have you had to use a software you're uncomfortable with?
+- Do you use multiple tools?
 
+## Preferred formats
+You might have preferences that suit your workflow or are required by your research group, and it's likely that any of those formats will do while you're working with the data. From the data lifecycle perspective, we're thinking about:
+
+- Interoperability: making sure that we can later share data with people who use different software. 
+- Preservation: making sure the data files can be accessed 10 or more years down the line. 
+
+### Exercise: Opening an old file
+Here is a data file from ...., try to open it.
+
+When some software may be obsolete use different file formats, and be difficult to convert.
+
+## Recommended file formats for sharing data
 For this reason, recommended file formats for data have a few features that make them likely to be accessible in different computing environments and for the long term. 
 
 These formats have the following features:
@@ -52,55 +67,15 @@ Play it safe by making sue you're using ASCII or Unicode.
 
 From: Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-
-### Excercise:
-
-
-
-Moving Images: MOV, MP4
-Quantitative: ASCII, SAS, SPSS
-Geospatial: ESRI Shapefile (essential: .shp, .shx, .dbf; optional: *.prj, *.sbx, *.sbn), geo-referenced TIFF (.tif, .tfw), CAD data (.dwg), tabular GIS attribute data
-
-Text: PDF/A, ASCII
-
-|Textual Formats|File Extensions|
-|---|---|
-|Acrobat PDF/A|.pdf|
-|Comma-Separated Values|.csv|
-|Open Office Formats|.odt, .ods, .odp|
-|Plain Text (US-ASCII, UTF-8)|.txt|
-|XML|.xml|
-
-|Image/Graphic Formats|File Extensions|
-|---|---|
-|JPEG|.jpg|
-|JPEG2000|.jp2, .jpf|
-|PNG|.png|
-|SVG 1.1 (no Java binding)|.svg|
-|TIFF|.tif, .tiff|
-
-|Audio Formats|File Extensions|
-|---|---|
-|AIFF|.aif, .aiff|
-|Free Lossless Audio Codec|.flac|
-|WAVE|.wav|
-
-|Video Formats|File Extensions|
-|---|---|
-|AVI (uncompressed)|.avi|
-|Motion JPEG2000|.mj2, .mjp2|
-
-
-
-### Transformation
+### Converting formats
 You may need to transform your data as part of working with it, when sharing with collaborators, externally, or for preservation purposes.
 Change text encoding
 Proprietary to non-proprietary
 Why not move from compressed to uncompressed? You cannot go back to a higher quality, e.g. a higher resolution image from a lower one. Saving a rich file like .. as ... to save space. In doing so, you may lose important information... this is worth remembering if you work with image or graphic, video, and audio files.
 *Walk through image compression*
 
-### Exercise: Transform file formats
-Open this file in excel. what are the issues you encounter?
+### Walkthrough: Convert file formats
+Open this file in excel.
 
 
 ## File organization
@@ -119,7 +94,7 @@ Have conventions for your:
 ### Folder and file naming conventions
 The file and folder names are primarily for easy identification and sorting. Remember, you can use other means to save more information about your files and the data within them. We discussed this in more depth in the "Data Documentation" portion. This can be done inside the file itself or in a seperate README file that describes your file naming convention.
 
-**Tips for constucting names**
+**Tips for constructing names**
 
 - Be descriptive
 - Include relevant information for identification
@@ -150,8 +125,9 @@ Subject
 Sequential number (forced order)
 
 ## Exercise
-I'll share my directory structure and file naming scheme with you:
-
+I'll share my directory structure and file naming schemes I use with you:
+[screenshot](../images/20170726-124454-screenshot.png)
+[screenshot](../images/20170726-125025-screenshot.png)
 
 generate potential file names for your data & document your strategy 
 share your strategy with a partner & hear what they came up with
