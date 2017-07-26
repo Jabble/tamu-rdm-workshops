@@ -5,7 +5,7 @@
 - tech is changing quickly, e.g. DNA sequencing, and new analyses coming quickly, good documentation is important
 
 ## Introduction
-Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> **Share and preserve**
+Plan management -> **Collect and store**  -> Assure quality -> **Analyze and present** -> **Share and preserve**
 
 ##
 Maintain dataset provenance
@@ -91,6 +91,8 @@ scanning and OCR
 - Evernote
 - NVAlt
 
+## README files
+## Codebooks
 
 ## References
 - DataONE. "Data entry and manipulation" [modules](https://www.dataone.org/education-modules)
