@@ -7,7 +7,7 @@
 ## Collect and organize data
 - [data-gathering.md](../modules/data-gathering.md)
 - [data-documentation.md](../modules/data-documentation.md)
-- [file-formats-and-organization.md](../modules/file-formats-and-organization.md)
+- [file-organization.md](../modules/file-organization.md)
 
 ## Assure data usability
 - [storage-backup-and-security.md](../modules/storage-backup-and-security.md)
@@ -19,9 +19,9 @@
 - [visualization.md](../modules/visualization.md)
 
 ## Share and preserve data
-- [describing-data.md](../modules/describing-data.md)
-- [reusing-data.md](../modules/reusing-data.md)
+- [file-formats-and-metadata.md](../modules/file-formats-and-metadata.md)
 - [sharing-and-preserving.md](../modules/sharing-and-preserving.md)
+- [reusing-data.md](../modules/reusing-data.md)
 
 ## Plan ahead
 - [data-management-plans.md](../modules/data-management-plans.mdd)
