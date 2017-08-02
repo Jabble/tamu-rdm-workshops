@@ -10,7 +10,68 @@ Plan management -> **Collect and store**  -> **Assure quality** -> Analyze and p
 
 In this module, we'll focus on data entry and how to arrange data to your advantage. The goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. We'll start broadly and then get more concrete and specific. 
 
-## Ways to gather your data
+## Ways to gather data
+Types of Data
+Research projects generate and collect countelss varieties of data. To forumulate a data management plan, it's useful to categorize your data in four ways: by source, format, stability, and volume.
+
+What's the source of the data?
+
+Although data comes from many different sources, but they can be grouped into four main categories. The category(ies) your data comes from will affect the choices that you make throughout your data management plan.
+
+Observational
+
+Captured in real-time, typically outside the lab
+Usually irreplaceable and therefore the most important to safeguard
+Examples: Sensor readings, telemetry, survey results, images
+Experimental
+
+Typically generated in the lab or under controlled conditions
+Often reproducible, but can be expensive or time-consuming
+Examples: gene sequences, chromatograms, magnetic field readings
+Simulation
+
+Machine generated from test models
+Likely to be reproducible if the model and inputs are preserved
+Examples: climate models, economic models
+Derived / Compiled
+
+Generated from existing datasets
+Reproducible, but can be very expensive and time-consuming
+Examples: text and data mining, compiled database, 3D models
+What's the form of the data?
+
+Data can come in many forms, including
+
+Text: field or laboratory notes, survey responses
+Numeric: tables, counts, measurements
+Audiovisual: images, sound recordings, video
+Models, computer code
+Discipline-specific: FITS in astronomy, CIF in chemistry
+Instrument-specific: equipment outputs
+How stable is the data?
+
+Data can also be fixed or changing over the course of the project (and perhaps beyond the project's end). Do the data ever change? Do they grow? Is previously recorded data subject to correction? Will you need to keep track of data versions? With respect to time, the common categories of dataset are
+
+Fixed datasets: never change after being collected or generated
+Growing datasets: new data may be added, but the old data is never changed or deleted
+Revisable datasets: new data may be added, and old data may be changed or deleted
+The answer to this question affects how you organize the data as well as the level of versioning you will need to undertake. Keeping track of rapidly changing datasets can be a challenge, so it is imperative that you begin with a plan to carry you through the entire data management process.
+
+How much data will the project produce?
+
+For instance, image data typically requires a lot of storage space, so you'll want to decide whether to retain all your images (and, if not, how you will decide which to discard) and where such large data can be housed. Be sure to know your archiving organization's capacity for storage and backups.
+
+To avoid being under-prepared, estimate the growth rate of your data. Some questions to consider are
+
+Are you manually collecting and recording data?
+Are you using observational instruments and computers to collect data?
+Is your data collection highly iterative?
+How much data will you accumluate every month or every 90 days?
+How much data do you anticipate collecting and generating by the end of your project?
+
+From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+
 What you intend to study will inform how you gather data and the types of data you gather. In order to conduct your research, you may use and combine different types of data. 
 
 - **Observational data** are captured in situ. Common types: Survey results, sensor readings.
@@ -44,17 +105,6 @@ Let's take a closer look at good practices for entering tabular data into spread
 - Rows represent observations.
 - Columns represent variables.
 - Cells contain data (values) for each variable in a given observation.
-
-Again, the goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. Following good practices for tabular data arrangement will help you avoid most problems that commonly arise when working with data.
-
-1. Add column names in the first row(s). 
-	- May also be called "field names", "fields", "variable names", "variables", or "headers". 
-2. Use descriptive column names without spaces or special characters.
-	- Often, these can be the names of variables, such as "age, "gender", "frequency", "date".
-3. Include one observation per row, and one variable per column.
-4. Ensure that data in each column are of a single type, e.g. date, text, number.
-5. Use a standard format for values in each column, e.g. names, codes, dates.
-6. Once gathered, leave the raw data raw. Use a copy for cleaning and analysis.
 
 ### Exercise: Common errors in spreadsheets
 *Show tabular arrangement with errors using Excel spreadsheet software*
@@ -98,6 +148,19 @@ Here are all the problems with the spreadsheet:
 	- descriptions of the data or dataset(s) belong outside of the data structure.
 
 From: Behlai, Christie and Pawlik, Aleksandra. "Formatting problems" Data Organization in Spreadsheets. [lesson](http://www.datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/)
+
+### Tips to avoid problems
+The goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. Following good practices for tabular data arrangement will help you avoid most problems that commonly arise when working with data.
+
+1. Add column names in the first row(s). 
+	- May also be called "field names", "fields", "variable names", "variables", or "headers". 
+2. Use descriptive column names without spaces or special characters.
+	- Often, these can be the names of variables, such as "age, "gender", "frequency", "date".
+3. Include one observation per row, and one variable per column.
+4. Ensure that data in each column are of a single type, e.g. date, text, number.
+5. Use a standard format for values in each column, e.g. names, codes, dates.
+6. Once gathered, leave the raw data raw. Use a copy for cleaning and analysis.
+
 
 ### Dealing with missing data
 Preferably leave the cell empty and use a separate column to qualify missing value. Optionally,
