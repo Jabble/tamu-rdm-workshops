@@ -3,12 +3,12 @@
 - Recognize that research data has a "lifetime" or "lifecycle."
 
 ## Introduction
-In this workshop series we will think about managing research data over time. Lifecycle diagrams provide an overview of how data are created and can be used over time. We'll look at two lifecycles that inform this workshop series.
+In this workshop series we will think about managing research data over time. Lifecycle diagrams provide an overview of how data are created and used over time. We'll look at two lifecycles that inform this workshop series.
 
 ## Exercise: Draw the lifecycle of your data
-Let's say step one is finding or gathering your research data. Once you've gathered it, draw out the steps of what you'll do with your data over the course of your project, until you're "done." It's okay to have a few "big steps"
+Draw out steps in the life of your research data for a past, existing, or anticipated research project.
 
-*Students draw the research data lifecycle as they understand it, for their existing or expected research projects*
+Let's say step one is gathering your research data. Write out the steps of what you'll do with your data over the course of your project once you've gathered them, until you're "done" with the data. It's okay to have a few big steps.
 
 ## DataOne data lifecycle
 The DataONE data life cycle has eight components:
@@ -25,26 +25,23 @@ The DataONE data life cycle has eight components:
 ## DCC data curation lifecycle
 The lifecycle focuses specifically on curation activities. 
 
-Conceptualise 
-Create or Receive
-Appraise and Select 
-Ingest
-Preservation Action
-Store 
-Access, Use and Reuse 
-Transform
-
+- Conceptualise 
+- Create or Receive
+- Appraise and Select 
+- Ingest
+- Preservation Action
+- Store 
+- Access, Use and Reuse 
+- Transform
 
 ## Simplified lifecycle
 This workshop series will cover data management activities within stages of the data lifecycle.
 
-1. Plan management
-2. Collect and store 
-3. Assure quality
-4. Analyze and present
-5. Share and preserve
-
-*Make drawing of data lifecycle as covered in the workshop series*
+1. Plan management [image](../images/20170801-data_lifecycle-plan_management-text.png)
+2. Collect and store [image](../images/20170801-data_lifecycle-collect_store-text.png) 
+3. Assure quality [image](../images/20170801-data_lifecycle-assure_quality-text.png)
+4. Analyze and present [image](../images/20170801-data_lifecycle-analyze_present-text.png)
+5. Share and preserve [image](../images/20170801-data_lifecycle-share_preserve-text.png)
 
 Since we're taking a lifecycle approach, we'll look at how practices at each stage impact later stages in the lifecycle. 
 

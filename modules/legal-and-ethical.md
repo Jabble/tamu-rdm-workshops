@@ -4,7 +4,7 @@
 - Identify potential legal or ethical concerns with your research project(s).
 
 ## Introduction
-
+In this module, we'll discuss legal and ethical issues that need to be tackled when working with data. The goal is to help you identify and understand your obligations.  
 
 ## Intellectual Property
 Intellectual Property (IP) refers to:
@@ -32,18 +32,26 @@ From: "Copyright Basics," U.S. Copyright Office, [PDF](https://www.copyright.gov
 ## The problem with data
 Copyright is restricted to work that includes a level of "creative expression." This is where issues arise with data. 
 
-Copyright does not apply to: 
+Copyright does **not** apply to: 
 
 - Facts
-- The **labor** of research
+- The labor of research
 
-The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. In some cases, the arrangement of data or portions of a dataset may be protected. Since definitions of data and types of data vary, it's best to play it safe. 
+The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. 
+
+In some cases, the arrangement of data or portions of a dataset may be protected. Since definitions of data and types of data vary, it's best to play it safe. 
 
 ## Licenses and credit for data
 How to play it safe? 
 
-- When reusing data, follow community norms and the instructions of other data creators.
-- When creating data, make it clear how others can use your data.
+When reusing data:
+
+- follow the instructions of other data creators
+- follow community norms and cite the original
+
+When creating data:
+
+- Make it clear to others how they can use your data and how to cite you.
 
 ## The difference between ownership and control
 Although you may not be able to legally claim copyright over particular arrangements or types of data, you may still have some control over the data.
@@ -64,20 +72,18 @@ Different people or groups can claim control or ownership over research data. It
 
 Ownership can be determined in:
 
-- Funder agreement
+- Funder agreements
 - Institutional Intellectual Property policy
 - A data use agreement
 - A license attached to the data
 
 ### Texas A&M University 
-Standard Administrative Procedure 15.99.03.M1.03 
-
-The Responsible Stewardship of Research Data
+From: Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
 
 3. Ownership
 "Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
 
-(http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+
 
 University Rule 29.01.03.M1
 
