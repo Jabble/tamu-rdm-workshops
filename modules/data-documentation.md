@@ -1,190 +1,202 @@
 # Data documentation
 ## Objectives
-- Notes
+- Understand relevant information to document
 - Differentiate lab notebooks, codebooks, and readme files
-- tech is changing quickly, e.g. DNA sequencing, and new analyses coming quickly, good documentation is important
 
 ## Introduction
 Plan management -> **Collect and store**  -> Assure quality -> **Analyze and present** -> **Share and preserve**
 
-In this module, we'll focus on documenting important parts of your workflow to help you later write your thesis or dissertation, and to also make sure you can share your data later.
+In this module, we'll focus on documenting important parts of your workflow to help you later write your thesis or dissertation, and to make sure you can share your data.
 
-## What to document
-Data Documentation
-Why document data?
-
-Clear and detailed documentation is essential for data to be understood, interpreted, and used. Data documentation describes the content, formats, and internal relationships of your data in detail and will enable other researchers to find, use and properly cite your data.
-
-Begin to document your data at the very beginning of your research project and continue throughout the project. Doing so will make the process much easier. If you have to construct the documentation at the end of the project, the process will be painful and important details will have been lost or forgotten. Don't wait to document your data!
-
-Professor John MacInnes, University of Edinburgh, speaks to documenting data when analyzing it [youtube](https://www.youtube.com/watch?v=EIZsxT-fIiQ)
-
-What to document?
-
-Research Project Documentation
-
-Rationale and context for data collection
-Data collection methods
-Structure and organization of data files
-Data sources used (see citing data)
-Data validation and quality assurance
-Transformations of data from the raw data through analysis
-Information on confidentiality, access & use conditions
-Dataset documentation
-
-Variable names and descriptions
-Explanation of codes and classification schemes used
-Algorithms used to transform data (may include computer code)
-File format and software (including version) used
-
-From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
-
-
-
+## Why document 
 "You may be on intimate terms with your dataset while you are collecting and analysing it, but remembering that the variable "sglmemgp" means single member of group, or the exact procedure you used to transform or derive particular variables, could potentially become difficult months or years later." 
 
-Project level: what the study set out to do, how it contributes new knowledge to the field, what the research questions/hypotheses were, what methodologies were used, what sampling frames were used, what instruments and measures were used, etc. A complete academic thesis normally contains this information in detail, but a published article may not. If a dataset is shared, a detailed technical report will need to be included for the user to understand how the data were collected and processed. You should also provide a sample bibliographic citation to indicate how you would like secondary users of your data to cite it in any publications, etc.
+Clear and detailed documentation is essential for data to be understood, interpreted, and used. Documenting your data from the beginning of research projects, will make your research career easier.
 
-File or database level: how all the files (or tables in a database) that make up the dataset relate to each other; what format they are in; whether they supercede or are superceded by previous files. A readme.txt file is the classic way of accounting for all the files and folders in a project.
+It will enable:
 
-Variable or item level: the key to understanding research results is knowing exactly how an object of analysis came about. Not just, for example, a variable name at the top of a spreadsheet file, but the full label explaining the meaning of that variable in terms of how it was operationalised.
+- You to get a mess of details out of your head, so that you can focus on doing your work and avoid forgetting important considerations.
+- You can reproduce and improve workflows in the future.
+- Other researchers, including your collaborators, to find the right data and use them properly.
 
-From: MANTRA "Documentation, metadata, citation" [module](http://mantra.edina.ac.uk/documentation_metadata_citation/)
+## What to document
+Documentation can be used to describe your research projects at different levels. High-level documentation explains your research goals and the progress of your project. At a low-level, documentation explains the details of the data, how it has been collected and changed over time.
 
+Project documentation explains:
 
+- Rationale and context for data collection
+- Research questions/hypotheses
+- Data sources, collection methodology, protocols
+- Data validation and quality assurance actions
+- Transformation of raw or derived data for integration or analysis
+- Data confidentiality, access, and use conditions
 
+Dataset documentation explains:
 
+- Variable names and descriptions
+- Codes and classification schemes
+- Algorithms used to transform data 
+- Structure and organization of files
+- Relationship among data files or tables in a database schema
+	- Version information
+- File formats and software used
 
+## Video: documenting data during secondary analysis
+Professor John MacInnes, University of Edinburgh, speaks to the value of documention during data analysis [youtube](https://www.youtube.com/watch?v=EIZsxT-fIiQ)
 
-Maintining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. Key elements to keep track of include:
+## How to document
+- Laboratory notebooks
+- Codebooks and data dictionaries
+- README and log files
 
-Maintain dataset provenance
-- Where did the data come from? Did you collect it, or did you get your data form another source?
-- 
+### Exercise
+- Have you used one of these forms or documentation?
+	- If so, can you describe it, what did it contain?
+	- If not, choose one of the above. What information do you think it should include?
 
+### Notebooks and note files
+For projects including observational and experimental data sources, lab and field notebooks are crucial components of data management. However, notebooks are also helpful to save project-level documentation when working with data from other sources.
 
+- Provide a central and physical location for protocols, results, and happenings. You have one place to go.
+- Encourage a thoughtful process. The act of writing forces you to explore and clarify ideas.
+- Enable continuity in the face of unexpected events or time passing. Yes, you will forget if you don’t write it down.
+- Provide a record of how your data were collected, organized, and processed. Establishing a legal and scientific provenance (historical record) of your work.
 
-Document transformations
-Beware of accidental duplication
+Physical notebook (analog)
+**Bring a good example**
 
-Review metadata for compatibility of context, methods, and meaning
-For what purpose was the data collected?
-How was the data collected?
-Is it sensible to combine these datasets?
+- stitched binding that lays flat when open
+- larger size is generally better
+- better quality paper and pre-numbered pages are worth it
 
-
-Ensure compatibility
-Convert to common units
-Choose appropriate numeric precision
-Evaluate and standardize missing value codes
-
-Document all assumptions
-What assumptions underlie the original datasets?
-What assumptions did you make in combining the datasets?
-
-
-Recognize that you are creating a new dataset
-Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
-
-Use reproducible workflows
-Enable transparency and reproducibility in the integration process
-Ensure others understand and can evaluate your decision making process.
-Automate the integration as much as possible
-Especially when integrating many datasets or large datasets
-
-
-## Tools for documentation
-
-laboratory notebooks & experimental protocols
-
-questionnaires, codebooks, data dictionaries
-
-software syntax and output files
-
-information about equipment settings & instrument calibration
-
-database schema
-
-methodology reports
-
-provenance information about sources of derived or digitised data
-
-From: MANTRA "Documentation, metadata, citation" [module](http://mantra.edina.ac.uk/documentation_metadata_citation/)
-
-## Lab notebooks
-Why?
-For laboratory researchers, laboratory notebooks are crucial components of data management. 
-
-They can play an important role in supporting claims relating to intellectual property developed by University researchers, and even defending claims of scientific fraud. 
-
-In less extreme circumstances, they demonstrate adherence to standards of good practice, academic and ethical integrity, and compliance with contractual provisions permitting sponsors to audit work carried out in pursuit of sponsored-research. 
-
-Therefore, thorough and effective management of laboratory data and the routine documentation of all lab procedures is a highly important responsibility for all laboratory researchers.
-From: MANTRA "Documentation, metadata, citation" [module](http://mantra.edina.ac.uk/documentation_metadata_citation/)
-
-- To provide yourself with a record of how your data were collected, organized and processed. Yes, you will forget if you don’t write it down.
-- To provide yourself with a central & physical location for protocols, results, and general happenings.
-- To encourage a thoughtful process. The act of writing things out forces you to explore and clarify ideas.
-- To enable continuity in the face of unexpected events.
-- To establish a legal and scientific provenance (historical record) of your work
-
-How? 
-Analog
-
-- A notebook
-	 - stitched binding that lays flat when open
-	 - larger size is generally better
-	 - better quality paper is worth it
-	 - pre-numbered pages are also worth it. 
-
--  are hugely variable and often discipline-specific. Do your homework if you want to go that route.
-
-Digital
+Digital notes
 
 - Electronic notebooks (ELNs)
 - Computer and Mobile Software
 	- Evernote
-- Computer files in a directory
+- Text files saved in a directory
 
-What?
+Good practices: 
 
 - Date each entry
 	- Include the year
-- Include the full names and contact information for all collaborators
-	- Identify who did what in your notes
-- Take notes on meetings and discussions about the experimental or research goals
-	- Write the names of people who assisted you, for future acknowledgement.
-- Provide justifications for method, source of data (how did they generate the data?).
-- Protocols for experiments or for acquiring data (if using 2ndary data). 
-	- Tape in printed versions.
-- Capture field, laboratory, or interview conditions.
-	- Use military time, or AM/PM
-	- Provide full details on experimental/research organisms/subjects.
-	- If performing lab experiments w/reagents, list details like manufacturer, batch, etc.
-	- Record equipment details. 
-- Images can help with documentation: 
-	- Take photos or make quick drawings set-ups, locations, etc.
-- Annotate all calculations
+- List the full names and contact information for all collaborators
+	- Identify who did what
+- Take notes on meetings and discussions about the research
+	- Write the names of people who assisted you for future acknowledgement
+- Provide justifications for the method and data source(s)
+	- Details about where and who derived or digitized data come from
+- Include protocols for experiments or data acquisition
+- Capture conditions in the field, laboratory, or interview 
+	- Include the time, using military time or include AM/PM
+	- Note details on experimental/research organisms/subjects
+	- List details like manufacturer, batch, etc. for purchased material
+	- Record equipment details such as settings and instrument calibration
+- Note mistakes in detail and what needed to be fixed
+- Use images to simplify documentation
+	- Take photos or make quick drawings of set-ups, locations, etc.
+- Annotate all calculations and include units
 - If data are logged or added on a computer, record file names of data
 	- Include where they are stored and backed up
-- Describe the locations of all physical materials: data binders, seeds, samples, etc..
-- If helpful to see them on paper, print and attached graphs, data sheets, photographs, etc.
-	- Use glue to cleanly and permanently attach all edges
-- Detail your mistakes.
-- At the conclusion of your experiment, write or print out a full directory of all electronic files that relate to your experiment.
-- Typically, a phycial laboratory notebook stays in the laboratory where the experiments were conducted.
+- Describe the locations of physical materials: data binders, seeds, samples, etc.
 
-### Analog to digital transfer
-scanning and OCR
+### Tools for analog to digital transfer
+- ScannerPro: scanning and OCR
+- Evernote: Photos and notes
 
-- ScannerPro
-- Evernote
-- NVAlt
+### README and log files
 
-## README files
-## Codebooks
+Coopted for data management from software code.
+
+Readme files can serve a similar purpose as notebooks, but are primarily aimed at an external audience and may be less concerned with project-lvel documentation and more with the documenting the dataset level. 
+
+A readme.txt file is the classic way of accounting for all the files and folders in a project. Common in software. Logs can be used to automatically report actions taken by a software.
+
+Recommended content
+Recommended minimum content for data re-use is in bold.
+
+General information
+
+Provide a title for the dataset
+Name/institution/address/email information for
+Principal investigator (or person responsible for collecting the data)
+Associate or co-investigators
+Contact person for questions
+Date of data collection (can be a single date, or a range)
+Information about geographic location of data collection
+Keywords used to describe the data topic
+Language information
+Information about funding sources that supported the collection of the data
+Data and file overview
+
+For each filename, a short description of what data it contains
+Format of the file if not obvious from the file name
+If the data set includes multiple files that relate to one another, the relationship between the files or a description of the file structure that holds them (possible terminology might include "dataset" or "study" or "data package")
+Date that the file was created
+Date(s) that the file(s) was updated (versioned) and the nature of the update(s), if applicable
+Information about related data collected but that is not in the described dataset
+Sharing and access information
+
+Licenses or restrictions placed on the data
+Links to publications that cite or use the data
+Links to other publicly accessible locations of the data
+Recommended citation for the data
+Methodological information
+
+Description of methods for data collection or generation (include links or references to publications or other documentation containing experimental design or protocols used)
+Description of methods used for data processing (describe how the data were generated from the raw or collected data)
+Any instrument-specific information needed to understand or interpret the data
+Standards and calibration information, if appropriate
+Describe any quality-assurance procedures performed on the data
+Definitions of codes or symbols used to note or characterize low quality/questionable/outliers that people should be aware of
+People involved with sample collection, processing, analysis and/or submission
+Data-specific information
+
+*Repeat this section as needed for each dataset (or file, as appropriate)*
+
+Count of number of variables, and number of cases or rows
+Variable list, including full names and definitions (spell out abbreviated words) of column headings for tabular data
+Units of measurement
+Definitions for codes or symbols used to record missing data
+Specialized formats or other abbreviations used
+
+- Cornell University, Research Data Management Services Group. "Guide to writing "readme" style metadata" [webpage](https://data.research.cornell.edu/content/readme)
+
+I strongly recommend that you use a README.txt file at the top level of your project folder to explain the purpose of the project, the relevant summary and contact details, and general organization of your files. This is equivalent to using the first page of your laboratory notebook to give a general description of your project.
+
+Top-level and low level readmes
+
+- Data Ab Initio. [blog](http://dataabinitio.com/?p=378)
+
+
+### Codebooks
+
+So what is a data dictionary? A data dictionary is something that describes the data in a dataset. Generally, a data dictionary includes an overall description of the data along with more detailed descriptions of each variable, such as:
+
+Variable name
+Variable meaning
+Variable units
+Variable format
+Variable coding values and meanings
+Known issues with the data (systematic errors, missing values, etc.)
+Relationship to other variables
+Null value indicator
+Anything else someone needs to know to better understand the data
+This list represents the types of things you would want to know when faced with an unknown dataset. Not only is such information incredibly useful if you’re sharing a dataset, but it’s also useful if you plan to reuse a dataset in the future or you are working with a very large dataset. Basically, if there’s a chance you won’t remember the details or never knew them in the first place, a data dictionary is needed.
+
+
+Can be contained in a readme doc, or seperate thing.
+Use example from blog
+- Data Ab Initio. [blog](http://dataabinitio.com/?p=454)
+
+
+A codebook is similar to a readme file, and describes the contents, structure, and layout of a data collection. A well-documented codebook "contains information intended to be complete and self-explanatory for each variable in a data file.
+Creating a codebook [PDF](http://ccjr.csusb.edu/docs/researchmanualdocs/creatingacodebook.pdf)
+From: [website](http://www.icpsr.umich.edu/icpsrweb/NAHDAP/support/faqs/2006/01/what-is-codebook)
 
 ## References
 - DataONE. "Data entry and manipulation" [modules](https://www.dataone.org/education-modules)
+- DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+- MANTRA. "Documentation, metadata, citation" [module](http://mantra.edina.ac.uk/documentation_metadata_citation/)
 - Whitmire, Amanda. 2014. "Organizing Your Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 - Purrington, C.B. Maintaining a laboratory notebook http://colinpurrington.com/tips/academic/labnotebooks.

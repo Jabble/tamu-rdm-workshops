@@ -4,89 +4,25 @@
 - Design a file naming convention.
 
 ## Introduction
-Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> **Share and preserve**
+Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> Share and preserve
 
 In this module, we'll look at organizing data with accessibility in mind. The goal is for you to be aware of organizational strategies that can help you focus on working with your data, rather than trying to find files. 
 
 Professor Jeff Haywood at the University of Edinburgh on the importance of good file management [youtube](https://www.youtube.com/watch?v=i2jcOJOFUZg)
 
+### Exercise: Current practices?
+*Pair and share activity*
+Do you already have your own way of naming files?
+Does your research lab or group already have a file naming convention?
+Does it have an organizational strucutre for folders?
+What's in a name?
+Describe?
 
-"Naming records consistently, logically and in a predictable way will distinguish similar records from one another at a glance, and by doing so will facilitate the storage and retrieval of records, which will enable users to browse file names more effectively and efficiently. Naming records according to agreed conventions should also make file naming easier for colleagues because they will not have to ‘re-think’ the process each time." - University of Edinburgh Records Management Section
-
-At the start of a research project it is easy to believe that you'll remember what name you gave to a file and where you put it. 
-
-However once your research gets underway there may be multiple files in various formats, multiple versions, websites, citations, blogs, articles, methodologies, notes, spreadsheets, etc. all relating to your research. 
-
-Trying to find a data file that you need which has been stored or named incorrectly or inaccurately can be both frustrating and a waste of valuable time. 
-
-Thus good file management practises are required to enable you to identify, locate and use your research data files efficiently and effectively. 
-
-Good file management practises such as following group filenaming protocols are also required should you wish to share your files with others in a shared filespace.
-
-- MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
-
-
-
-## Basic Directory and File Naming Conventions
-
-Research data files and folders need to be labelled and organised in a systematic way so that they are both identifiable and accessible for current and future users. The benefits of consistent data file labelling are:
-
-- Data files are distinguishable from each other within their containing folder
-
-- Data file naming prevents confusion when multiple people are working on shared files
-
-- Data files are easier to locate and browse
-
-- Data files can be retrieved not only by the creator but by other users
-
-- Data files can be sorted in logical sequence
-
-- Data files are not accidentally overwritten or deleted
-
-- Different versions of data files can be identified
-
-- If data files are moved to another storage platform their names will retain useful context 
-
-
-There are three main criteria to consider regarding the naming and labelling of research data files, namely:
-Organisation - important for future access and retrieval, and needs to take into account the file naming constraints of the system where the file is located
-
-Context - this could include content specific or descriptive information, independent of where the data are stored
-
-Consistency - choose a naming convention and ensure that the rules are followed systematically by always including the same information (such as date and time) in the same order (e.g. YYYYMMDD)
-
-- MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
-
-These are rough guidelines to follow to help manage your data files in case you don't already have your own internal conventions. When organizing files, the top-level directory/folder should include:
-
-Project title
-Unique identifier (Guidance on persistent external identifiers is available)
-Date (yyyy or yyyy.mm.dd)
-The sub-directory structure should have clear, documented naming conventions. Separate files or directories could apply, for example, to each run of an experiment, each version of a dataset, and/or each person in the group.
-
-Reserve the 3-letter file extension for the file format, such as .txt, .pdf, or .csv.
-Identify the activity or project in the file name.
-Identify separate versions of files and datasets using file or directory naming conventions. It can quickly become difficult to identify the 'correct' version of a file.
-Record all changes to a file no matter how small. Discard obsolete versions after making backups.
-File Renaming
-
-Tools to help you:
-
-Bulk Rename Utility (Windows; free)
-Renamer (Mac; free trial)
-PSRenamer (Linux, Mac, Windows; free)
-File Naming Conventions for Specific Disciplines
-
-Many disciplines have recommendations, for example:
-
-DOE's Atmospheric Radiation Measurement (ARM) program
-
-From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
-
-
-Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. There's one necessary condition from which an organization schemes can develop. 
+## Naming conventions
+Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. There's one necessary condition from which an organized scheme can develop. 
 
 **Be consistent.** 
+Choose a naming convention and ensure that the rules are followed systematically by always including the **same information** in the **same order**.
 
 Have conventions for your:
 
@@ -94,12 +30,69 @@ Have conventions for your:
 2. Folder names
 3. File names
 
-## Directory structure
+## What's in a file name?
+What information ought to go into a file name? This will depend on your project and expected use. 
+
+When constructing files, the following components are often relevant. Use them alone or in a combination that suits your needs.
+
+|informational component | example | tip |
+|----------|----------|----------|
+|Name | project name, name of research team, or research data| Keep it simple|
+|Sequential numbering | Run of experiment |Include leading zeros|
+|Dates | Use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format for dates to retain the order| |
+|Unique identifier | A subject id for files, project number, grant number in the folder name| |
+|Experimental Condition | such as lab instrument, solvent, temperature, etc.| |
+|Version number
+|Name of creator
+
+### Tips for choosing and ordering components into names
+What order should this information take? 
+
+The order of elements is mainly useful for for browsing and sorting files on your computer. Expecially is you want to have an overview of the files you have present.
+
+Do not use generic file names that may conflict when moved from one location to another. Ensure filenames are independent of location and if you work on more than one computer ensure that your files are synchronised. 
+Transportable rather than too context specific
+
+
+### file order and sorting
+
+order of elements for sorting files
+
+Order the components of a name to organize your file by:
+
+Date
+Type
+Subject
+Sequential number (forced order)
+
+### Directory structure
+Consider the organisation that will result from naming your files and folders a particular way and the scalability
+e.g. project with names of regions like ILSSI for directories
+
 I'll share my directory structure and file naming schemes I use with you.
 
 [screenshot](../images/20170726-124454-screenshot.png)
 
 [screenshot](../images/20170726-125025-screenshot.png)
+
+### Tips when writing names
+The way you put the components together is particularly useful for search. and cross-platform integration.
+
+- Be descriptive
+- Include relevant information for identification
+- Always include the same informational components
+- Retain the order of components
+- Keep names under 32 characters
+- Avoid special characters
+- Use '-' or '_' instead of ' '
+- limit '.' to one before the file extension 
+
+
+Organising data with Professor Richard Rodger from University of Edinburgh [youtube](https://www.youtube.com/watch?v=RhxVmYtKqIY)
+
+### Exercise 
+let's practice. Good practices for naming files, especially files associated with a research project are below.
+
 
 ### Folder and file naming conventions
 There are also a number of common elements that should be considered when developing a file naming strategy, including:
@@ -118,7 +111,7 @@ There are also a number of common elements that should be considered when develo
 
 - Project number
 
-Do not use generic file names that may conflict when moved from one location to another. Ensure filenames are independent of location and if you work on more than one computer ensure that your files are synchronised.
+
 
 File names should outlast the file creator who originally named the file.
 
@@ -161,37 +154,13 @@ The goal of having folder and file naming conventions is primarily for easy iden
 
 Remember, you can use other means to save more information about your files and the data within them. We discussed this in more depth in the "Data Documentation" portion. This can be done inside the file itself or in a seperate README file that describes your file naming convention.
 
-**Tips for constructing names**
 
-- Be descriptive
-- Include relevant information for identification
-- Always include the same informational components
-- Retain the order of components
-- Keep names under 32 characters
-- Avoid special characters
-- Use '-' or '_' instead of ' '
-- limit '.' to one before the file extension 
 
-When constructing files, the following components are often relevant. Use them alone or in a combination that suits your needs.
 
-|informational component | example | tip |
-|----------|----------|----------|
-|Name | project name or research data| Keep it simple|
-|Sequential numbering | Run of experiment |Include leading zeros|
-|Dates | Use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format for dates to retain the order| |
-|Unique identifier | A subject id for files, grant number in the folder name| |
-|Experimental Condition | such as lab instrument, solvent, temperature, etc.| |
 
 
 ### Strategies and trade-offs
-Organising data with Professor Richard Rodger from University of Edinburgh [youtube](https://www.youtube.com/watch?v=RhxVmYtKqIY 
 
-Order the components of a name to organize your file by:
-
-Date
-Type
-Subject
-Sequential number (forced order)
 
 ## Exercise
 
@@ -237,6 +206,69 @@ The use of the grep command to search for regular expressions
 
 - MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
 
+File Renaming
+
+Tools to help you:
+
+Bulk Rename Utility (Windows; free)
+Renamer (Mac; free trial)
+PSRenamer (Linux, Mac, Windows; free)
+File Naming Conventions for Specific Disciplines
+
+Many disciplines have recommendations, for example:
+
+DOE's Atmospheric Radiation Measurement (ARM) program
+
+From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+
+
+
+Basic Directory and File Naming Conventions
+
+Research data files and folders need to be labelled and organised in a systematic way so that they are both identifiable and accessible for current and future users. The benefits of consistent data file labelling are:
+
+- Data files are distinguishable from each other within their containing folder
+
+- Data file naming prevents confusion when multiple people are working on shared files
+
+- Data files are easier to locate and browse
+
+- Data files can be retrieved not only by the creator but by other users
+
+- Data files can be sorted in logical sequence
+
+- Data files are not accidentally overwritten or deleted
+
+- Different versions of data files can be identified
+
+- If data files are moved to another storage platform their names will retain useful context 
+
+
+There are three main criteria to consider regarding the naming and labelling of research data files, namely:
+
+Organisation - important for future access and retrieval, and needs to take into account the file naming constraints of the system where the file is located
+
+Context - this could include content specific or descriptive information, independent of where the data are stored
+
+Consistency - choose a naming convention and ensure that the rules are followed systematically by always including the same information (such as date and time) in the same order (e.g. YYYYMMDD)
+
+- MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
+
+These are rough guidelines to follow to help manage your data files in case you don't already have your own internal conventions. When organizing files, the top-level directory/folder should include:
+
+Project title
+Unique identifier (Guidance on persistent external identifiers is available)
+Date (yyyy or yyyy.mm.dd)
+The sub-directory structure should have clear, documented naming conventions. Separate files or directories could apply, for example, to each run of an experiment, each version of a dataset, and/or each person in the group.
+
+Reserve the 3-letter file extension for the file format, such as .txt, .pdf, or .csv.
+Identify the activity or project in the file name.
+Identify separate versions of files and datasets using file or directory naming conventions. It can quickly become difficult to identify the 'correct' version of a file.
+Record all changes to a file no matter how small. Discard obsolete versions after making backups.
+
+From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
 ## References
 - Library Carpentry. [lesson](https://data-lessons.github.io/library-data-intro/03-foundations/)
 - MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
@@ -244,5 +276,7 @@ The use of the grep command to search for regular expressions
 - Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 - MIT Libraries [website](http://libraries.mit.edu/data-management/store/organize/)
 - Meghan Frazer 2013 "An eleveator pitch for file naming conventions" [article](http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions)
+
+File management. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/file-management
 
 ## Materials

@@ -13,6 +13,23 @@ A way to:
 - Improve reproducibility
 - Reduce work later to reconstruct how and why changes are made.
 
+## Data stability
+How stable is the data?
+
+Data can also be fixed or changing over the course of the project (and perhaps beyond the project's end). Do the data ever change? Do they grow? Is previously recorded data subject to correction? Will you need to keep track of data versions? With respect to time, the common categories of dataset are
+
+Fixed datasets: never change after being collected or generated
+Growing datasets: new data may be added, but the old data is never changed or deleted
+Revisable datasets: new data may be added, and old data may be changed or deleted
+The answer to this question affects how you organize the data as well as the level of versioning you will need to undertake. Keeping track of rapidly changing datasets can be a challenge, so it is imperative that you begin with a plan to carry you through the entire data management process.
+
+From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+
+
+
+
+
 It is important to identify and distinguish versions of research data files consistently. This ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed. Thus you will need to establish a method that makes sense to you that will indicate the version of your data files.
 
 A common form for expressing data file versions is to use ordinal numbers (1,2,3 etc.) for major version changes and decimals for minor changes e.g v1, v1.1, v2.6
@@ -27,7 +44,7 @@ Use an auto-backup facility (if available) rather than saving or archiving multi
 
 Turn on versioning or tracking in collaborative documents or storage utilities such as Wikis, GoogleDocs etc
 
-Consider using version control software e.g. Subversion, TortoiseSVN
+Consider using version control software e.g. Subversion, TortoiseSVN, Git
 
 
 Some structured examples of maintaining version control [document name] [version number] [status: draft/final]:

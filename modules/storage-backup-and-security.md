@@ -1,123 +1,96 @@
-## Storage, backup, and security
-
+# Storage, backup, and security
 ##Objectives
-- Understand where your data are stored and risks
+- Understand risks associated with storage lications where data files are stored and risks
+- Design a storage strategy
 
 ## Introduction
-Plan management -> **Collect and store**  -> **Assure quality** -> Analyze and present -> Share and preserve
+Plan management -> **Collect and store** -> **Assure quality** -> Analyze and present -> Share and preserve
 
-In this module, we'll focus on storage loactions and methods to back up data entry and how to arrange data to your advantage. The goal is to consider safety first, and reduce the risk of data loss and security incidents.
+In this module, we'll focus on digital data storage, including locations and methods to back up data. The goal is safety first, to reduce the risk of data loss and security incidents.
 
-## Storage locations
-Best-practices for storing your file calls for redundancy. Files back up are to have 3 regular back ups of your files. One local ..., one ... and one remote.
+## Storage space
+Space is important to keep in mind when thinking about your storage and back up strategy. To avoid being under-prepared, estimate the growth rate of your data: 
 
-ncryption and Compression
+- Are you manually collecting and recording data?
+- Are you using observational instruments and computers to collect data?
+- Is your data collection highly iterative?
+- How much data will you accumluate every day, week, or month?
+- How much data do you anticipate collecting and generating by the end of your project?
 
-Unencrypted data will be more easily read by you and others in the future, but you may need to encrypt sensitive data.
+For instance, image data typically requires a lot of storage space. You may need to decide whether to retain all your images over the course of your research, and after your project is complete. 
 
-Use mainstream encryption tools (e.g., PGP)
-Don't rely on 3rd party encryption alone
-Keep passwords and keys on paper (2 copies)
-Uncompressed data will be also be easier to read in the future, but you may need to compress files to conserve disk space.
+## Data storage
+Good practice:
 
-Use a mainstream compression tool (e.g., ZIP, GZIP, TAR)
-Limit compression to the 3rd backup copy
-Backups and storage
+Keep at least 3 copies of data in at least 2 geographically distributed locations. Geographically distributed copies reduce risk posed by a calamity at one location power outage, flood, fire, etc.)
+Original + external backup located locally + external backup at a remote location
 
-Making regular backups is an integral part of data management. You can backup data to your personal computer, external hard drives, or departmental or university servers. Software that makes backups for you automatically can simplify this process considerably. CDs or DVDs are not recommended because they are easily lost, decay rapidly, and fail frequently. The UK Data Archive provides additional guidelines on data storage, backup and security.
-
-Backup Your Data
-
-Good practice is to have three copies in at least two locations (e.g. original + external/local backup + external/remote backup)
-Geographically distribute your local and remote copies to reduce risk of calamity at the same location (power outage, flood, fire, etc.)
-Data Backup Options
-
-Hard drive using software like:
-Windows 8 File History
-OS X Time Machine
-Linux/UNIX rsync)
-Tape backup system
-Many institutions provide a service similar to UCBackup at UC Berkeley. Check with your campus IT support to see if backup service is available. Alternately, your academic department may provide storage space and backup services.
-Cloud storage - some examples of private sector storage resources include:
-Amazon S3 and Glacier—Requires client software, no encryption support
-S3-based Remote Hard Drive Services such as Elephant Drive and Jungle Disk.
-Mozy (from EMC) Free client software, 448-bit Blowfish encryption or AES key
-Carbonite Free
-Test your backup system
-
-To be sure that your backup system is working, periodically retrieve your data files and confirm that you can read them. You should do this when you initially set up the system and on a regular schedule thereafter.
-
-Other data preservation considerations
-
-Who is responsible for managing and controlling the data?
-
-Who controls the data (e.g., the PI, a student, your lab, your university, your funder)? Before you spend a lot of time figuring out how to store the data, to share it, to name it, etc. you should make sure you have the authority to do so.
-
-For what or whom are the data intended?
-
-Who is your intended audience for the data? How do you expect they will use the data? The answer to these questions will help inform structuring and distributing the data.
-
-How long should the data be retained?
-
-Is there any requirement that the data be retained? If so, for how long? 3-5 years, 10-20 years, permanently? Not all data need to be retained, and some data required to be retained need not be retained indefinitely. Have a good understanding of your obligation for the data's retention.
-
-Beyond any externally imposed requirments, think about the long-term usefulness of the data. If the data is from an experiment that you anticipate will be repeatable more quickly, inexpensively, and accurately as technology progresses, you may want to store it for a relatively brief period. If the data consists of observations made outside the laborartory that can never be repeated, you may wish to store it indefinitely.
-
-- From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+## Storage locations and maintenance
+Storage locations will likely depend on how much freedom you have in the management of your data. Your data may need to be stored in a particular location due to legal and ethical considerations, or simply due to your lab or research group's practices. This section will point out features of different storage locations that may be useful to consider when using particular storage locations.
 
 
-Your data are the life blood of your research. If you lose your data, recovery could be slow, costly or worse, it could be impossible. 
 
-Therefore, through the course of your research you must ensure that all your research data, regardless of format, are stored securely, backed up and maintained regularly.
 
-You should estimate the volume of data required for your project at an early stage, probably while drawing up your data management plan. It is also a good idea to consider including costs for data storage in funding proposals.
 
-These may all sound like common sense to you now but the time will come when you will be glad that you have considered these issues right at the beginning of your research and taken the necessary precautions.
+Space
+Security
+Accessibility
+Integrity of back ups and storage media
+Maintenance and update strategy
 
-You can store your research data on networked drives, personal computers/laptops, and external storage devices. Click on the heading to view detailed information on each option.
-Networked drives
-Networked drives are managed by staff centrally or within your School or College. It is highly recommended that you store your research data on regularly backed up networked drives such as:
-	•	
-	•	DataStore, which is storage for active data for all reseach staff and students. It is fully backed-up, secure, resilient, and has multi-site storage. Every researcher is automatically allocated 500 GB storage space for free. Up to 250 GB of each allocation can be shared to create group space. Additional space can be purchased for £200 per TB per year. It is accessible via VPN (Virtual Private Network) from outside the University.
-	•	
-	•	Fileservers managed by your research group or school.
-	•	
+### Personal computer hard drive
+#### Accessibility
+- Convenient for storing your data while in use. Not recommended for storing master copies of data.
 
-This way you will ensure that your data will be:
-	•	
-	•	Stored in a single place and backed up regularly.
-	•	
-	•	Available to you as and when required.
-	•	
-	•	Stored securely minimising the risk of loss, theft or unauthorised use.
-Personal computers and laptops
-Personal computers (PCs) and laptops are convenient for storing your data while in use. However, they should not be used for storing master copies of your data. Local drives may fail or PCs and laptops may be lost or stolen leading to an inevitable loss of your data.
-External storage devices
-External storage devices such as hard drives, USB flash drives (also known as memory sticks, USB keyrings or pen drives), Compact Discs (CDs) and Digital Video Discs (DVDs), can be an attractive option for storing your data due to their low cost and portability. However, they are not recommended for the long term storage of your data, particularly your master copies, as:
-	•	
-	•	Their longevity is not guaranteed, especially if they are not stored correctly, for example CDs, DVDs and magnetic tapes degrade over the long term. They can be easily damaged, misplaced or lost.
-	•	
-	•	Errors writing to CDs and DVDs are fairly common.
-	•	
-	•	They may not be big enough for all the research data, so multiple disks or drives may be needed.
-	•	
-	•	They pose a security risk due to their portability.
-	•	
-If you choose to use CDs, DVDs and USB flash drives (for example, for working data or extra backup copies), you should:
+#### Space
+- Limited to space available on your computer hard drive, on the range of 250 GB – 1TB
 
-Ensure your master copy is safe and is kept up to date on a networked drive.
+#### Security
+- PCs and laptops may be lost or stolen
+- May have multiple valid users
+- Encryption
 
-Choose high quality products from reputable manufacturers.
+#### Integrity of storage media
+- All content stored on the local drive, which may fail 
 
-Follow the instructions provided by the manufacturer for care and handling, including environmental conditions and labelling.
+#### Back-up maintenance
+- Depends on you
 
-Regularly check the media to make sure that they are not failing, and periodically 'refresh' the data (that is, copy to a new disk or new USB flash drive).
 
-Ensure that any private or confidential data is encrypted.
+### External storage devices
+External storage devices such as hard drives, USB flash drives (also known as memory sticks, USB keyrings or pen drives), Compact Discs (CDs) and Digital Video Discs (DVDs), can be an attractive option for storing your data due to their low cost and portability. However, they are not recommended for the long term storage of your data
 
-What do you think would be the advantages of storing your data on the central, or school networked drives?
-If you store your data on the university networked drives your data will be stored in a single place and backed up regularly. The risk of loss, theft or unauthorised use will be minimised as the data will be stored securely on these networked drives. Your data will also be available to you as and when required. Therefore, you should keep at least one copy of your master data files on the networked services.
-Keeping backups is probably the most important data management task. There is a real risk of losing data through hard drive failure or accidental deletion. It is therefore recommended that you keep at least 3 copies of your data on at least 2 different media, keeping storage devices in separate locations with at least 1 off-site, and check that they work regularly. You should also have a policy for maintaining regular backups.
+#### USB stick, CDs, DVDs
+
+#### External harddrive 
+#### Back-up maintenance
+- Depends on you
+
+
+### University networked drives
+Networked drives are managed by IT staff. 
+
+#### Space
+- 
+#### Security
+- 
+#### Accessibility
+- Access controlled by IT staff.
+#### Integrity of storage media
+- Storage is distributed, redundancy for failure of a single hard drive
+- Depends on IT staff to perform and check integrity.
+
+#### Back-up
+- Regular back-up strategy in place. 
+
+### Cloud servers
+
+## Back up strategies
+
+
+Making regular backups is an integral part of data management. You can backup data to your personal computer, external hard drives, or departmental or university servers. Software that makes backups for you automatically can simplify this process considerably. CDs or DVDs are not recommended because they are easily lost, decay rapidly, and fail frequently.
+
+- Use a Cloud server as a sort of back-up and storage space accessible from multiple locations.
 
 When considering your backup strategy you need to know:
 	•	How will you back up your data?
@@ -204,6 +177,8 @@ Disadvantages
 	•	
 	•	Vendor lock-in, i.e. vendor’s proprietary formats may make migration to another vendor complex and expensive
 
+
+## Security strategies
 Data security means ensuring that research data are kept safe from corruption and that access is suitably controlled.
 
 
@@ -307,26 +282,133 @@ physical destruction, through disintegration, shredding, pulverizing or incinera
 
 More advice on secure deletion when disposing of a device is available here: www.ed.ac.uk/infosec/how-to-protect/secure-deletion
 
-- MANTRA "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
 
 
-### Personal computer 
-*Show options from the perspective of a spreadsheet*
+<!-- *Show options from the perspective of a spreadsheet*
 ### Spreadsheets
 - pros/cons from the data management perspective
 - Easy to share and to lose track
 
 ### Databases
 - Easy to share and maintain consistent
-- needs a manager
+- needs a manager -->
 
-### Cloud servers
 
-###USB stick
 
-### External harddrive 
+## Location and maintenance
+Data Backup Options
 
-### University servers
+Hard drive using software like:
+Windows 8 File History
+OS X Time Machine
+Linux/UNIX rsync)
+Tape backup system
+Many institutions provide a service similar to UCBackup at UC Berkeley. Check with your campus IT support to see if backup service is available. Alternately, your academic department may provide storage space and backup services.
+Cloud storage - some examples of private sector storage resources include:
+Amazon S3 and Glacier—Requires client software, no encryption support
+S3-based Remote Hard Drive Services such as Elephant Drive and Jungle Disk.
+Mozy (from EMC) Free client software, 448-bit Blowfish encryption or AES key
+Carbonite Free
+Test your backup system
+
+To be sure that your backup system is working, periodically retrieve your data files and confirm that you can read them. You should do this when you initially set up the system and on a regular schedule thereafter.
+
+Other data preservation considerations
+
+Who is responsible for managing and controlling the data?
+
+Who controls the data (e.g., the PI, a student, your lab, your university, your funder)? Before you spend a lot of time figuring out how to store the data, to share it, to name it, etc. you should make sure you have the authority to do so.
+
+For what or whom are the data intended?
+
+Who is your intended audience for the data? How do you expect they will use the data? The answer to these questions will help inform structuring and distributing the data.
+
+How long should the data be retained?
+
+Is there any requirement that the data be retained? If so, for how long? 3-5 years, 10-20 years, permanently? Not all data need to be retained, and some data required to be retained need not be retained indefinitely. Have a good understanding of your obligation for the data's retention.
+
+Beyond any externally imposed requirments, think about the long-term usefulness of the data. If the data is from an experiment that you anticipate will be repeatable more quickly, inexpensively, and accurately as technology progresses, you may want to store it for a relatively brief period. If the data consists of observations made outside the laborartory that can never be repeated, you may wish to store it indefinitely.
+
+- From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+
+Your data are the life blood of your research. If you lose your data, recovery could be slow, costly or worse, it could be impossible. 
+
+Therefore, through the course of your research you must ensure that all your research data, regardless of format, are stored securely, backed up and maintained regularly.
+
+You should estimate the volume of data required for your project at an early stage, probably while drawing up your data management plan. It is also a good idea to consider including costs for data storage in funding proposals.
+
+These may all sound like common sense to you now but the time will come when you will be glad that you have considered these issues right at the beginning of your research and taken the necessary precautions.
+
+You can store your research data on networked drives, personal computers/laptops, and external storage devices. Click on the heading to view detailed information on each option.
+
+Networked drives
+Networked drives are managed by staff centrally or within your School or College. It is highly recommended that you store your research data on regularly backed up networked drives such as:
+	•	
+	•	DataStore, which is storage for active data for all reseach staff and students. It is fully backed-up, secure, resilient, and has multi-site storage. Every researcher is automatically allocated 500 GB storage space for free. Up to 250 GB of each allocation can be shared to create group space. Additional space can be purchased for £200 per TB per year. It is accessible via VPN (Virtual Private Network) from outside the University.
+	•	
+	•	Fileservers managed by your research group or school.
+	•	
+
+This way you will ensure that your data will be:
+	•	
+	•	Stored in a single place and backed up regularly.
+	•	
+	•	Available to you as and when required.
+	•	
+	•	Stored securely minimising the risk of loss, theft or unauthorised use.
+
+Personal computers and laptops
+
+
+External storage devices
+External storage devices such as hard drives, USB flash drives (also known as memory sticks, USB keyrings or pen drives), Compact Discs (CDs) and Digital Video Discs (DVDs), can be an attractive option for storing your data due to their low cost and portability. However, they are not recommended for the long term storage of your data, particularly your master copies, as:
+	•	
+	•	Their longevity is not guaranteed, especially if they are not stored correctly, for example CDs, DVDs and magnetic tapes degrade over the long term. They can be easily damaged, misplaced or lost.
+	•	
+	•	Errors writing to CDs and DVDs are fairly common.
+	•	
+	•	They may not be big enough for all the research data, so multiple disks or drives may be needed.
+	•	
+	•	They pose a security risk due to their portability.
+	•	
+If you choose to use CDs, DVDs and USB flash drives (for example, for working data or extra backup copies), you should:
+
+Ensure your master copy is safe and is kept up to date on a networked drive.
+
+Choose high quality products from reputable manufacturers.
+
+Follow the instructions provided by the manufacturer for care and handling, including environmental conditions and labelling.
+
+Regularly check the media to make sure that they are not failing, and periodically 'refresh' the data (that is, copy to a new disk or new USB flash drive).
+
+Ensure that any private or confidential data is encrypted.
+
+What do you think would be the advantages of storing your data on the central, or school networked drives?
+If you store your data on the university networked drives your data will be stored in a single place and backed up regularly. The risk of loss, theft or unauthorised use will be minimised as the data will be stored securely on these networked drives. Your data will also be available to you as and when required. Therefore, you should keep at least one copy of your master data files on the networked services.
+Keeping backups is probably the most important data management task. There is a real risk of losing data through hard drive failure or accidental deletion. It is therefore recommended that you keep at least 3 copies of your data on at least 2 different media, keeping storage devices in separate locations with at least 1 off-site, and check that they work regularly. You should also have a policy for maintaining regular backups.
+
+
+
+
+
+- MANTRA "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
+
+
+ Best-practices for storing your file calls for redundancy. Files back up are to have 3 regular back ups of your files. One local ..., one ... and one remote.
+
+ Encryption and Compression
+
+ Unencrypted data will be more easily read by you and others in the future, but you may need to encrypt sensitive data.
+
+ Use mainstream encryption tools (e.g., PGP)
+ Don't rely on 3rd party encryption alone
+ Keep passwords and keys on paper (2 copies)
+ Uncompressed data will be also be easier to read in the future, but you may need to compress files to conserve disk space.
+
+ Use a mainstream compression tool (e.g., ZIP, GZIP, TAR)
+ Limit compression to the 3rd backup copy
+ Backups and storage
 
 ## Security
 The security precaustions needed for your data will depend on your project.
@@ -347,3 +429,7 @@ Find out More:
 PC example: hard drive taken out of computer and mounted on another host gives them access. 
 Mac example: Connecting your Mac to another Mac and booting your Mac in Target Disk Mode, your Mac's hard drive will appear as a mounted drive on the other Mac. Unless Mac1 is encrypted with FileVault, all files will be accessible [website](https://support.apple.com/kb/PH10725?locale=en_US)*
 
+## References
+- DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+## Materials

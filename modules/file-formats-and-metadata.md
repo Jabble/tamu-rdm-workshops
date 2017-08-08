@@ -194,3 +194,10 @@ Why not move from compressed to uncompressed? You cannot go back to a higher qua
 
 ### Walkthrough: Convert file formats
 Open this file in excel.
+
+
+Document and Store Data Using Stable File Formats. DataONE. http://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats. Useful information about file formats.
+
+File formats. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/file-formats
+
+Metadata and Describing Data. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/writing-metadata

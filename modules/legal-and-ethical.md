@@ -39,38 +39,39 @@ Copyright does **not** apply to:
 
 The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. 
 
-In some cases, the arrangement of data or portions of a dataset may be protected. Since definitions of data and types of data vary, it's best to play it safe. 
+In some cases, the arrangement of data or portions of a dataset may be protected by copyright. However, definitions of data and types of data vary and it's best to play it safe. 
+
+
 
 ## Licenses and credit for data
 How to play it safe? 
 
 When reusing data:
 
-- follow the instructions of other data creators
-- follow community norms and cite the original
+- follow the instructions of the data creators
+- follow community norms and cite the original creators
 
-When creating data:
+When sharing data:
 
-- Make it clear to others how they can use your data and how to cite you.
+- make clear to others how others can use your data and how to cite you
 
-## The difference between ownership and control
-Although you may not be able to legally claim copyright over particular arrangements or types of data, you may still have some control over the data.
+## Claiming ownership and control
+Rights of control over data, or access to data, can be given without legally claiming ownership of the data. Although you may not be able to claim ownership over particular arrangements or types of data, you may still have some control.
 
-From: "Legal and Policy Issues", DataOne
+### Example
+A data set, produced under a federal grant, contained within an institutional data repository may be owned by that institution. The Principle Investigator of the project that generated that data, while not the owner, may have authority to restrict or release access to that data, or limit the use of the data by others. In this circumstance, the PI can claim **control** of the data without the ability to claim **ownership**. 
 
-A data set, produced under a federal grant, contained within an institutional data repository may be owned by that institution. The Principle Investigator of the project that generated that data, while not the owner, maybe grants the authority to restrict or release access to that data, or limit the use of the data by others.  In this circumstance, the PI can claim **control** of the data without the ability to claim **ownership**. 
+From: DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
 
-## Data ownership
-Rights of control over data or access to data can be given without shifting ownership.
-
-Different people or groups can claim control or ownership over research data. It may be:
+### Interested groups
+Different people or groups may claim ownership or control over research data. It may be:
 
 - You
 - Your advisor
 - Texas A&M University
 - A funder 
 
-Ownership can be determined in:
+These claims may found in:
 
 - Funder agreements
 - Institutional Intellectual Property policy
@@ -83,10 +84,6 @@ From: Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewards
 3. Ownership
 "Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
 
-
-
-University Rule 29.01.03.M1
-
 ## Restricted data
 Some data may need to be kept secure due to agreements, rules, and regulations. These will dictate how you are able to interact with the data.
 
@@ -97,12 +94,16 @@ You may encounter data pertaining to or including:
 - Threatened and endangered species information
 - Indigenous peoples and lands information
 - Human subjects research (IRB)
-- Personal Health information (HIPAA)
+- Personal health information (HIPAA)
+- Student education records (FERPA)
 
 ## Privacy and confidentiality
-Privacy relates to the individual or subject. Confidentiality relates to the actions of the researcher.
+Privacy relates to the rights of an individual or subject. 
 
-## Ethics
+Confidentiality relates to the actions of the researcher.
+
+### Ethics
+
 - IRB and Ethical review
 - Safeguarding data and data destruction
 
@@ -122,8 +123,11 @@ Other considerations include retention of original collection instruments, such 
 
 Questions of which data to keep and for how long need to be considered in the context of your ability to maintain the confidentiality of your subjects’ information, and should be planned in advance."
 
-## References
+### Video: Advice from a copyright specialist
+Nancy Simms, Copyright Specialist at University of Minnesota Libraries [youtube](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
 
-- "Copyright Basics," U.S. Copyright Office, [PDF](https://www.copyright.gov/circs/circ01.pdf)
-- "Legal and Policy Issues", DataOne [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
+
+## References
+- U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
+- DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
 - MANTRA Research Data Management Training, [website](http://datalib.edina.ac.uk/mantra/)

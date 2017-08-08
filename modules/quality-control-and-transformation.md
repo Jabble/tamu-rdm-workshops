@@ -10,7 +10,41 @@
 
 ## Primary and secondary data quality
 
+Maintining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. Key elements to keep track of include:
 
+Maintain dataset provenance
+- Where did the data come from? Did you collect it, or did you get your data form another source?
+- 
+
+
+
+Document transformations
+Beware of accidental duplication
+
+Review metadata for compatibility of context, methods, and meaning
+For what purpose was the data collected?
+How was the data collected?
+Is it sensible to combine these datasets?
+
+
+Ensure compatibility
+Convert to common units
+Choose appropriate numeric precision
+Evaluate and standardize missing value codes
+
+Document all assumptions
+What assumptions underlie the original datasets?
+What assumptions did you make in combining the datasets?
+
+
+Recognize that you are creating a new dataset
+Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
+
+
+Enable transparency and reproducibility in the integration process
+Ensure others understand and can evaluate your decision making process.
+Automate the integration as much as possible
+Especially when integrating many datasets or large datasets
 
 ## Data cleaning and transformation
 There are a number of reasons you might need to transform your data during your research project or afterwards. Unlike the earlier discussion about migrating your file format, data transformation involves computing new values from old in the actual data content.
