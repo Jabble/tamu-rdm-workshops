@@ -1,7 +1,8 @@
 # File organization
 ## Objectives
-- Compare file naming conventions.
-- Design a file naming convention.
+- Recognize the purpose of file naming conventions.
+- Explain the components of sensible file names.
+- Compare and critique file naming conventions.
 
 ## Introduction
 Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> Share and preserve
@@ -19,10 +20,13 @@ What's in a name?
 Describe?
 
 ## Naming conventions
-Naming files sensible things is good for you and for your computers. Without structured information, our lives would be much poorer. There's one necessary condition from which an organized scheme can develop. 
+Without structured information, our lives would be much poorer.  Naming files and directories sensible things is good for you and for your computers. So, we're going to talk about what are "sensible" names. 
+
+First, I need to note. There's one necessary condition for a naming convention to succeed, and for an organized scheme to develop. 
 
 **Be consistent.** 
-Choose a naming convention and ensure that the rules are followed systematically by always including the **same information** in the **same order**.
+
+Choose a naming convention and ensure that the rules are followed systematically by always including the **same information** in the **same order**. This is one of those things to think about a little in advance, set (make a habit), and more or less forget.
 
 Have conventions for your:
 
@@ -30,33 +34,30 @@ Have conventions for your:
 2. Folder names
 3. File names
 
-## What's in a file name?
-What information ought to go into a file name? This will depend on your project and expected use. 
+## What's in a name?
+Let's start at the low level. What ought to go into a file name? "sensible things." Well, these will depend on your project and expected use. 
 
-When constructing files, the following components are often relevant. Use them alone or in a combination that suits your needs.
+Generally, descriptive information that will help you identify the content you seek when browsing, sorting, and/or searching, especially in the case when additional context is lost or missing.
 
-|informational component | example | tip |
+When constructing files, the following components are "sensible things." Use them alone or in a combination that suits your needs.
+
+|informational component | possible use | tip |
 |----------|----------|----------|
-|Name | project name, name of research team, or research data| Keep it simple|
-|Sequential numbering | Run of experiment |Include leading zeros|
-|Dates | Use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format for dates to retain the order| |
-|Unique identifier | A subject id for files, project number, grant number in the folder name| |
-|Experimental Condition | such as lab instrument, solvent, temperature, etc.| |
-|Version number
-|Name of creator
+|names | creator, project, team, named data| Keep it relevant and simple|
+|sequential numbering | Run of experiment, version number |Include leading zeros|
+|dates and times| year month and day created, range of years indicating a period for the data|Use [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format for dates to retain the order |
+|unique identifier | subject id, project number, grant number| |
+|experimental condition |lab instrument, solvent, temperature, etc.| |
 
 ### Tips for choosing and ordering components into names
 What order should this information take? 
 
-The order of elements is mainly useful for for browsing and sorting files on your computer. Expecially is you want to have an overview of the files you have present.
+The order of these elements is primarily useful for browsing and sorting files on your computer. Especially is you want to have an overview of the files or directories.
 
-Do not use generic file names that may conflict when moved from one location to another. Ensure filenames are independent of location and if you work on more than one computer ensure that your files are synchronised. 
-Transportable rather than too context specific
+
 
 
 ### file order and sorting
-
-order of elements for sorting files
 
 Order the components of a name to organize your file by:
 
@@ -65,52 +66,57 @@ Type
 Subject
 Sequential number (forced order)
 
+Naming files by chronology - if using a date, use the format Year-Month-Day: YYYY-MM-DD or YYYY-MM or YYYY-YYYY. This will maintain chronological order of your files.
+2006-03-24_Attachment
+24 March 2006 Attachment
+240306attch
+
+Descriptive file naming Keep file names short and relevant - using sufficient characters to capture enough descriptive information
+labtox_recent_110810_old version.sps
+2010-08-11_bioassay_toxicity_V1.sps
+FFTX_3776438656.sps
+
 ### Directory structure
 Consider the organisation that will result from naming your files and folders a particular way and the scalability
 e.g. project with names of regions like ILSSI for directories
 
-I'll share my directory structure and file naming schemes I use with you.
+I'll share my directory structure and file naming schemes I use with you. What's the problem with them? Do you see any?
+
+Do not use generic file names that may conflict when moved from one location to another. 
+Ensure filenames are independent of location and if you work on more than one computer ensure that your files are synchronised. 
+Transportable rather than too context specific
 
 [screenshot](../images/20170726-124454-screenshot.png)
 
 [screenshot](../images/20170726-125025-screenshot.png)
 
-### Tips when writing names
+### Tips when putting name components together
 The way you put the components together is particularly useful for search. and cross-platform integration.
 
-- Be descriptive
-- Include relevant information for identification
-- Always include the same informational components
-- Retain the order of components
 - Keep names under 32 characters
-- Avoid special characters
+- Include relevant information for identification
+- Include the same informational components
+- Retain the order of components
+- Avoid special characters ( & * % $ £ ] { ! @)
+	- These are often used for specific tasks in different operating systems
 - Use '-' or '_' instead of ' '
+	- Like special characters, these are parsed differently on different systems.
 - limit '.' to one before the file extension 
 
+Do not assume that the software application or instrument uses case dependency when naming or renaming files within the aforementioned utility - assume that TANGO, Tango and tango are the same, even thought some file systems may consider them as different.
+
+Where possible, use file extensions (often defaults) to accurately reflect the software environment in which the file was created and the physical format of the file. Eg use .por for SPSS portable files, .xls or .xlsx for Excel files, .ssd or .sas7bdat as appropriate for SAS files, .txt for text files, etc Exercise 
+let's practice. Good practices for naming files, especially files associated with a research project are below.
 
 Organising data with Professor Richard Rodger from University of Edinburgh [youtube](https://www.youtube.com/watch?v=RhxVmYtKqIY)
 
-### Exercise 
-let's practice. Good practices for naming files, especially files associated with a research project are below.
+###
+
+
 
 
 ### Folder and file naming conventions
 There are also a number of common elements that should be considered when developing a file naming strategy, including:
-
-- Version number 
-
-- Date of creation
-
-- Name of creator
-
-- Description of content
-
-- Name of research team/department associated with the data
-
-- Publication date
-
-- Project number
-
 
 
 File names should outlast the file creator who originally named the file.
@@ -125,34 +131,22 @@ There are a number of easy-to-follow rules that should be followed when naming d
 
 Keep file names short and relevant - generally about 25 characters is a sufficient length to capture enough descriptive information for naming a data file
 
-Do not use special characters in a filename such as : & * % $ £ ] { ! @ as these are often used for specific tasks in different operating systems
+Do not use special characters in a filename such as : as 
 
-Use underscores instead of full-stops or spaces because, like special characters, these are parsed differently on different systems.
+
 
 The filename should include as much descriptive information that will assist identification independent of where it is stored.
 
 If including dates, format them consistently.
 
-Do not assume that the software application or instrument uses case dependency when naming or renaming files within the aforementioned utility - assume that TANGO, Tango and tango are the same, even thought some file systems may consider them as different.
+.
 
-Where possible, use file extensions (often defaults) to accurately reflect the software environment in which the file was created and the physical format of the file. Eg use .por for SPSS portable files, .xls or .xlsx for Excel files, .ssd or .sas7bdat as appropriate for SAS files, .txt for text files, etc.
 
-Naming files by chronology - if using a date, use the format Year-Month-Day: YYYY-MM-DD or YYYY-MM or YYYY-YYYY. This will maintain chronological order of your files.
-2006-03-24_Attachment
-24 March 2006 Attachment
-240306attch
-
-Descriptive file naming Keep file names short and relevant - using sufficient characters to capture enough descriptive information
-labtox_recent_110810_old version.sps
-2010-08-11_bioassay_toxicity_V1.sps
-FFTX_3776438656.sps
 
 
 - MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
 
-The goal of having folder and file naming conventions is primarily for easy identification and sorting. This way you can quickly navigate to the right place and identify the file or files you need at a glance.
 
-Remember, you can use other means to save more information about your files and the data within them. We discussed this in more depth in the "Data Documentation" portion. This can be done inside the file itself or in a seperate README file that describes your file naming convention.
 
 
 
@@ -169,8 +163,10 @@ generate potential file names for your data & document your strategy
 share your strategy with a partner & hear what they came up with
 volunteer to share your idea with the class
 
+## Set, forget... repeat
+Okay, you might not get it right the first time. 
 
-## Batch renaming
+### Batch renaming
 Although all operating systems have in-built tools for managing files, there are software tools that can organise research data files and folders in a consistent and automated way through batch renaming (also known as mass file renaming, bulk renaming). Batch renaming software exists for most operating systems.
 
 There are many situations in which batch renaming may be useful, such as:
@@ -268,6 +264,11 @@ Identify separate versions of files and datasets using file or directory naming 
 Record all changes to a file no matter how small. Discard obsolete versions after making backups.
 
 From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+## Conclusion
+The goal of having folder and file naming conventions is primarily for easy identification (through search and browse) and sorting. This way you can quickly navigate to the right place and identify the file or files you need at a glance.
+
+Remember, you can use other means to save more information about your files and the data within them. We discussed this in more depth in the "Data Documentation" portion. This can be done inside the file itself or in a seperate Notebooks and README file that describe your file naming convention and file organization.
 
 ## References
 - Library Carpentry. [lesson](https://data-lessons.github.io/library-data-intro/03-foundations/)

@@ -1,12 +1,12 @@
 # Data documentation
 ## Objectives
-- Understand relevant information to document
-- Differentiate lab notebooks, codebooks, and readme files
+- Identify relevant project-level and data-level documentation.
+- Recognize the purpose of documentation tools such as lab notebooks, codebooks, and readme files.
 
 ## Introduction
-Plan management -> **Collect and store**  -> Assure quality -> **Analyze and present** -> **Share and preserve**
+Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> Share and preserve
 
-In this module, we'll focus on documenting important parts of your workflow to help you later write your thesis or dissertation, and to make sure you can share your data.
+In this module, we'll focus on documenting important parts of your workflow to help you share information about your project with your advisor, write your thesis or dissertation, and to ensure your data are useful later.
 
 ## Why document 
 "You may be on intimate terms with your dataset while you are collecting and analysing it, but remembering that the variable "sglmemgp" means single member of group, or the exact procedure you used to transform or derive particular variables, could potentially become difficult months or years later." 
@@ -17,10 +17,10 @@ It will enable:
 
 - You to get a mess of details out of your head, so that you can focus on doing your work and avoid forgetting important considerations.
 - You can reproduce and improve workflows in the future.
-- Other researchers, including your collaborators, to find the right data and use them properly.
+- Other researchers, including your collaborators, can find the right data and use them properly.
 
 ## What to document
-Documentation can be used to describe your research projects at different levels. High-level documentation explains your research goals and the progress of your project. At a low-level, documentation explains the details of the data, how it has been collected and changed over time.
+Documentation can be used to describe your research projects at different levels. High-level documentation explains your research goals and the progress of your project. Low-level documentation explains the details of the data, how it has been collected, stored, and changed over time.
 
 Project documentation explains:
 
@@ -106,9 +106,9 @@ Good practices:
 
 ### README and log files
 
-Coopted for data management from software code.
+Coopted for data management from software code. Readme files can serve a similar purpose as notebooks, but are primarily aimed at an external audience and your future-self rather than ongoing note-taking. 
 
-Readme files can serve a similar purpose as notebooks, but are primarily aimed at an external audience and may be less concerned with project-lvel documentation and more with the documenting the dataset level. 
+They may be less concerned with project-level documentation and more with the documenting the dataset and data element level. 
 
 A readme.txt file is the classic way of accounting for all the files and folders in a project. Common in software. Logs can be used to automatically report actions taken by a software.
 
@@ -185,7 +185,7 @@ Anything else someone needs to know to better understand the data
 This list represents the types of things you would want to know when faced with an unknown dataset. Not only is such information incredibly useful if you’re sharing a dataset, but it’s also useful if you plan to reuse a dataset in the future or you are working with a very large dataset. Basically, if there’s a chance you won’t remember the details or never knew them in the first place, a data dictionary is needed.
 
 
-Can be contained in a readme doc, or seperate thing.
+Can be contained in a readme doc, a seperate file, or as  part of a data spreadsheet. seperate thing.
 Use example from blog
 - Data Ab Initio. [blog](http://dataabinitio.com/?p=454)
 
