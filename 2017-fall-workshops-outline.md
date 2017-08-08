@@ -3,6 +3,7 @@
 - [introducing-rdm.md](../modules/introducing-rdm.md)
 - [research-data-lifecycle.md](../modules/research-data-lifecycle.md)
 - [legal-and-ethical.md](../modules/legal-and-ethical.md)
+- [data-gathering.md](../modules/data-gathering.md)
 
 ## Collect and organize data
 - [data-gathering.md](../modules/data-gathering.md)
@@ -12,9 +13,10 @@
 ## Assure data usability
 - [storage-backup-and-security.md](../modules/storage-backup-and-security.md)
 - [version-control.md](../modules/version-control.md)
-- [quality-control.md](../modules/quality-control.md)
+- [quality-control-and-transformation.md](../modules/quality-control-and-transformation.md)
 
 ## Analyze and present data
+- [quality-control-and-transformation.md](../modules/quality-control-and-transformation.md)
 - [data-analysis.md](../modules/data-analysis.md)
 - [visualization.md](../modules/visualization.md)
 
