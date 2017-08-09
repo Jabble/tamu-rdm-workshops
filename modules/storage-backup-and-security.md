@@ -1,6 +1,6 @@
 # Storage, backup, and security
 ##Objectives
-- Understand risks associated with storage lications where data files are stored and risks
+- Understand risks associated with storage locations
 - Design a storage strategy
 
 ## Introduction
@@ -9,86 +9,118 @@ Plan management -> **Collect and store** -> **Assure quality** -> Analyze and pr
 In this module, we'll focus on digital data storage, including locations and methods to back up data. The goal is safety first, to reduce the risk of data loss and security incidents.
 
 ## Storage space
-Space is important to keep in mind when thinking about your storage and back up strategy. To avoid being under-prepared, estimate the growth rate of your data: 
+Space is important to keep in mind when thinking about your storage and back up strategy. 
 
-- Are you manually collecting and recording data?
-- Are you using observational instruments and computers to collect data?
-- Is your data collection highly iterative?
+I recommend estimating the growth rate and size of your data collection to avoid being under-prepared. Ask yourself:
+
+- How large are your data files?
+- Is your data collection iterative?
 - How much data will you accumluate every day, week, or month?
 - How much data do you anticipate collecting and generating by the end of your project?
 
-For instance, image data typically requires a lot of storage space. You may need to decide whether to retain all your images over the course of your research, and after your project is complete. 
+### Example 
+Image data typically requires a lot of storage space. If your process is iterative and automated, you may need to decide whether to retain all your images over the course of your research and after your project is complete. 
 
-## Data storage
-Good practice:
+## Storing data
+Good practice: Keep at least 3 copies of data in at least 2 geographically distributed locations. 
 
-Keep at least 3 copies of data in at least 2 geographically distributed locations. Geographically distributed copies reduce risk posed by a calamity at one location power outage, flood, fire, etc.)
-Original + external backup located locally + external backup at a remote location
+- Original 
+- External backup located locally 
+- External backup at a remote location
 
-## Storage locations and maintenance
-Storage locations will likely depend on how much freedom you have in the management of your data. Your data may need to be stored in a particular location due to legal and ethical considerations, or simply due to your lab or research group's practices. This section will point out features of different storage locations that may be useful to consider when using particular storage locations.
+Geographically distributed copies reduce risk posed by a calamity at one location. Like insurance in case of theft, power outage, flood, fire, etc.
 
+## Choosing storage and back up locations
+The location of your data will likely depend on the degree of freedom you have in the management of your data. 
 
+Your data may need to be stored in a particular location due to legal and ethical considerations, or due to your lab or research group's practices. 
 
+This section will point out features of different storage locations that will help you understand the benefits and risks of using particular locations for storing and backing up your data.
 
+We will focus on:
 
-Space
-Security
-Accessibility
-Integrity of back ups and storage media
-Maintenance and update strategy
+- Accessibility
+- Security
+- Available space
+- Integrity
+- Maintenance and update 
 
-### Personal computer hard drive
+### Personal computers
 #### Accessibility
-- Convenient for storing your data while in use. Not recommended for storing master copies of data.
+- Convenient for storing your data while in use. 
 
+#### Security
+- Personal computers may be lost or stolen
+- Depends on personal practices:
+	- may have multiple valid users with access
+	- may or may not be encrypted
+	
 #### Space
 - Limited to space available on your computer hard drive, on the range of 250 GB – 1TB
 
+#### Integrity
+- All files stored on the local drive, which may fail
+
+#### Maintenance and update
+- Depends on personal practices for:
+	- regular back-up to another location
+	- software updates
+
+### External hard drive or NAS
+#### Accessibility
 #### Security
-- PCs and laptops may be lost or stolen
-- May have multiple valid users
-- Encryption
-
-#### Integrity of storage media
-- All content stored on the local drive, which may fail 
-
-#### Back-up maintenance
-- Depends on you
-
-
-### External storage devices
+#### Available space
+#### Integrity
+#### Maintenance and update
 External storage devices such as hard drives, USB flash drives (also known as memory sticks, USB keyrings or pen drives), Compact Discs (CDs) and Digital Video Discs (DVDs), can be an attractive option for storing your data due to their low cost and portability. However, they are not recommended for the long term storage of your data
 
 #### USB stick, CDs, DVDs
+#### Accessibility
+#### Security
+#### Available space
+#### Integrity
+#### Maintenance and update
 
-#### External harddrive 
-#### Back-up maintenance
+maintenance
 - Depends on you
 
 
 ### University networked drives
-Networked drives are managed by IT staff. 
+*list some options*
+- Recommended for storing master copies of data, but not permanently.
 
-#### Space
-- 
-#### Security
-- 
 #### Accessibility
-- Access controlled by IT staff.
-#### Integrity of storage media
-- Storage is distributed, redundancy for failure of a single hard drive
-- Depends on IT staff to perform and check integrity.
+- Accessible via log in
 
-#### Back-up
-- Regular back-up strategy in place. 
+#### Security
+- Access controlled by IT staff
+
+#### Available space
+- Depends on agreement
+
+#### Integrity
+- May require personal checks on data integrity
+- Storage is distributed, redundancy for failure of a single hard drive
+#### Maintenance and update
+- Regular update and back-up strategy in place. 
+
 
 ### Cloud servers
+TAMU Google Apps
+#### Accessibility
+- Accessible from multiple locations
+- store and synchronise data files online and between computers
+#### Security
+#### Available space
+- Provide the first few gigabytes free and users pay for more facilities, including space.
+#### Integrity
+#### Maintenance and update
 
-## Back up strategies
+## How to maintain integrity and back ups
 
+For storage locations that you control, making regular backups is an integral part of data management. 
 
-Making regular backups is an integral part of data management. You can backup data to your personal computer, external hard drives, or departmental or university servers. Software that makes backups for you automatically can simplify this process considerably. CDs or DVDs are not recommended because they are easily lost, decay rapidly, and fail frequently.
+You can backup data on your personal computer, external hard drives, or departmental or university servers. Software that makes backups for you automatically can simplify this process considerably. CDs or DVDs are not recommended because they are easily lost, decay rapidly, and fail frequently.
 
 - Use a Cloud server as a sort of back-up and storage space accessible from multiple locations.
 
@@ -178,20 +210,57 @@ Disadvantages
 	•	Vendor lock-in, i.e. vendor’s proprietary formats may make migration to another vendor complex and expensive
 
 
-## Security strategies
-Data security means ensuring that research data are kept safe from corruption and that access is suitably controlled.
+## Security strategies and tips
+Data security means ensuring that research data are kept safe from corruption and loss, and that access is suitably controlled.
+
+The security precaustions needed for your data will depend on your project.
+
+As we discussed in the "Legal and ethical considerations" section, if you're working with ... data, you're responsible for maintaining confidentiality of identifiable data. Make sure to work with your advisor and your research team to ensure data security 
+
+This means data on your computer may need to be kept safe. Or you may be given access to a secure system that stores the data.  
+
+Protect against: 
+
+- Accidental or malicious damage/modification
+- Theft
+- Breach of confidentiality agreements and privacy laws.
+- Premature release of data
+	- voiding intellectual property claims.
+	- before data have been checked for accuracy and authenticity.
+
+### Password management
+In which case, you should be careful with your login credentials and be aware of policies moving or sharing the data.
+ 
+use a password manager.
+#### Good passwords
+
+#### Fun fact: Login passwords on your computer are easy to bypass
+Your computer password doesn't necessarily keep your data safe. Unless your files are encrypted on your computer, someone who has physical access to your computer can get access to your data with enough effort.
+
+How? Basiclaly, your computer's hard drive can be used like a big USB stick. File permissions for a user are set by your operting system. If someone boots your hard drive with their operating system, those permissions are irrelevant. This can involve different strategies for Macs and PCs, but in both cases it's easy to do with a bit of effort and Googling.
+
+As a precaution, encypt your hard drive.
+
+Find out More: 
+
+PC example: hard drive taken out of computer and mounted on another host gives them access. 
+Mac example: Connecting your Mac to another Mac and booting your Mac in Target Disk Mode, your Mac's hard drive will appear as a mounted drive on the other Mac. Unless Mac1 is encrypted with FileVault, all files will be accessible [website](https://support.apple.com/kb/PH10725?locale=en_US)*
+
+### Encryption
+Encryption is the process of converting data into an unreadable code. You must have access to a password or a secret encryption key to be able to read an encrypted file.
+
+Encrypting your data will help ensure your data remain safe from disclosure in the event that a laptop or other portable device such as a USB flash drive/memory stick ends up lost or stolen.
+
+- Data files on computer
+- Data files in transit
+- Entire computer harddrive
+### Deletion
+
+
 
 
 It is important to consider the security of your data to prevent:
-	•	Accidental or malicious damage/modification to data.
-	•	
-	•	Theft of valuable data.
-	•	
-	•	Breach of confidentiality agreements and privacy laws.
-	•	
-	•	Premature release of data, which can void intellectual property claims.
-	•	
-	•	Release before data have been checked for accuracy and authenticity.
+
 
 You need to consider the following questions for securing your research data:
 	•	How will you manage access arrangements and data security?
@@ -230,9 +299,7 @@ A guide on creating strong passwords is available on University of Edinburgh Inf
 
 What is encryption?
 
-Encryption is the process of converting data into an unreadable code. You must have access to a password or a secret encryption key to be able to read an encrypted file.
 
-Encrypting your data will help ensure your data remain safe from disclosure in the event that a laptop or other portable device such as a USB flash drive/memory stick ends up lost or stolen.
 
 The University of Edinburgh Data Encryption policy warns users that "medium and high risk personal data or business information must be encrypted if it leaves the University environment".
 
@@ -410,24 +477,7 @@ Keeping backups is probably the most important data management task. There is a 
  Limit compression to the 3rd backup copy
  Backups and storage
 
-## Security
-The security precaustions needed for your data will depend on your project.
 
-As we discussed in the "Legal and ethical considerations" section, ff you're working with ... data, you're responsible for maintaining confidentiality of identifiable data. Make sure to work with your advisor and your research team to  make sure the 
-
-This means data on your computer may need to be kept safe. Or you may be given access to a secure system that stores the data. In which case, you should be careful with your login credentials and be aware of policies moving or sharing the data. 
-
-### Fun fact: Login passwords on your computer are easy to bypass
-Your computer password doesn't necessarily keep your data safe. Unless your files are encrypted on your computer, someone who has physical access to your computer can get access to your data with enough effort.
-
-How? Basiclaly, your computer's hard drive can be used like a big USB stick. File permissions for a user are set by your operting system. If someone boots your hard drive with their operating system, those permissions are irrelevant. This can involve different strategies for Macs and PCs, but in both cases it's easy to do with a bit of effort and Googling.
-
-As a precaution, encypt your hard drive.
-
-Find out More: 
-
-PC example: hard drive taken out of computer and mounted on another host gives them access. 
-Mac example: Connecting your Mac to another Mac and booting your Mac in Target Disk Mode, your Mac's hard drive will appear as a mounted drive on the other Mac. Unless Mac1 is encrypted with FileVault, all files will be accessible [website](https://support.apple.com/kb/PH10725?locale=en_US)*
 
 ## References
 - DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)

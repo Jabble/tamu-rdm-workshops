@@ -3,7 +3,7 @@
 - Define data types. 
 - Compare tabular data arrangements in spreadsheets.
 - Recognize differences in plain text, spreadsheet, and database formats.
-- Understand data validation.
+- Bonus: Understand data validation.
 
 ## Introduction
 Collect and store [image](../images/20170801-data_lifecycle-collect_store-text.png)

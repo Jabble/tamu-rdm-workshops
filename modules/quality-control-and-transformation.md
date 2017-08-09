@@ -1,12 +1,16 @@
 # Quality control
-## Module objectives
+##  Objectives
 - Understand the need for quality control
 - Understand how to document cleaning 
+
+## Introduction
 
 ## Why quality control?
 - Data are dirty
 - Ensure data are clean and usable
 - Document caveats
+
+## Combining data sets
 
 ## Primary and secondary data quality
 
