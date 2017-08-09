@@ -1,8 +1,8 @@
 # Version control
 ## Module objectives
+- Identify elements of version control 
 - Understand the reason for using version control
-- Understand how version control works
-- Use a version control system
+- Recognize the value of a Version Control System
 
 ## Introduction
 **Versioning** is a way to keep track of changes to data over time. **Version control** is your set-up for tracking these changes and managing files as they change. Version control allows you to:
@@ -26,7 +26,7 @@ The less stability in the dataset, the more complexity in tracking changes. This
 Even fixed datasets will have several versions, raw data often needs to be transformed, cleaned or manipulated. But, keeping track of rapidly changing datasets can be a much bigger challenge. 
 
 ## Implementing version control
-This will come up again, but I'd like to make the point that you'll always want to keep the original data in a seperate file, raw and unchanged.
+This will come up again, but I'd like to make the point that you'll always want to keep the original data in a seperate file, raw and unchanged. Make a copy and start working with that.
  
 We'll discuss two ways to implement version control....
 
@@ -34,10 +34,12 @@ Simply making copies of files as you work with them and adjusting the names is o
 
 A version control system will require more learning and investment on at the beginning, but it will ease your work by automatically tracking changes as you work.
 
-### Simple 
-Create new files to make changes to a raw dataset.  either track changes made to a file, or save files iteratively when changes are made
+### Simple: Saving files iteratively
+Even a simple version control set-up is more than saving files with different names. You'll need to find ways to:
 
-. identify and distinguish versions of research data files consistently. This ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed. Thus you will need to establish a method that makes sense to you that will indicate the version of your data files.
+- recognizably name new versions
+- log a description of the changes made between versions, and/or track the changes themselves
+- discard obsolete versions, especially if you have limited space
 
 ### Example workflow
 raw data file 1
@@ -49,6 +51,12 @@ combined 1+2 v 2.0 -track changes
 raw data file 3
 combined 1+2+3 raw file -follow changes in combined 1+2 and track
 
+### Tips
+- 
+Track changes made to a file and save files iteratively after changes are made.
+
+. identify and distinguish versions of research data files consistently. This ensures that a clear audit trail exists for tracking the development of a data file and identifying earlier versions when needed. Thus you will need to establish a method that makes sense to you that will indicate the version of your data files.
+
 
 A common form for expressing data file versions is to use ordinal numbers (1,2,3 etc.) for major version changes and decimals for minor changes e.g v1, v1.1, v2.6
 
@@ -56,7 +64,7 @@ Beware of using confusing labels: revision, final, final2, definitive_copy as yo
 
 Record every change irrespective of how minor that change may be
 
-Discard or delete obsolete versions (whilst retaining the original 'raw' copy)
+Discard or delete obsolete versions (but retain the original 'raw' copy)
 
 Use an auto-backup facility (if available) rather than saving or archiving multiple versions
 
@@ -81,15 +89,24 @@ A consistent approach to expressing data file versions means that you can easily
 
 - MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
 
-## Version control systems
-Tools you can choose to use to 
+### Robust: Using a Version Control System
+Version Control Systems (VCS) are software tools to help you automate version control. Depending on how you work, this may require buy-in from collaborators.
+
+This kind of system stores the changes made and allows you to write documentation each time you've made changes and decide to create a new version.
+
 
 Benefits, but they have a steeper learning curve. We aren't going to get into the details in this workshop. But I will show you how one software looks. This is Git.
 
 You implement Git by telling the software where it should look. So, a folder/directory it should pay attention to. If there are any changes within this folder/directory including addinf folders, adding files, making changes to exisitng files, deleting files, Git will track the changes. But, you need to log the changes you've made in order to Git to make distinct versions that you can roll back to. So, as soon as you make a change that is big enough where you want to make sure you don't lose anything between now and your future changes, you commit and then push changes to a new version.
+
 Consider using version control software e.g. Subversion, TortoiseSVN, 
-Git ()
+Git (https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 Mercurial (https://www.mercurial-scm.org)
+
+
+## Deciding when 
+
+You will stll need to decide when to save and create new versions. Even with a VCS, it is still a good idea to keep a seperate, unchanged, file with the original data.
 
 ## References
 - DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
