@@ -65,7 +65,26 @@ combined 1+2+3 raw file -follow changes in combined 1+2 and track
 	- Discard or delete obsolete versions (but retain the original 'raw' copy)
 	- Use an auto-backup facility (if available) rather than saving or archiving multiple versions
 	
+Provide version information for use and discovery
 
+Best Practice: 
+Provide versions of data products with defined identifiers to enable discovery and use
+
+Items to consider when versioning data products:
+
+Develop definition of what constitutes a new version of the data, for example:
+New processing algorithms
+Additions or removal of data points
+Time or date range
+Included parameters
+Data format
+Immutability of versions
+Develop standard naming convention for versions with associated descriptive information
+Associate metadata with each version including the description of what differentiates this version from another version
+Description Rationale: 
+Data products potentially change through time as they are developed using new or improved algorithms or based upon different source data. Providing versions with defined identifiers will enable users to determine the appropriate version of the data to use for their particular application and allow them to properly cite the data used in an analysis allowing others to replicate their work.
+
+- DataOne [website](https://www.dataone.org/best-practices/provide-version-information-use-and-discovery-0)
 
 Some structured examples of maintaining version control [document name] [version number] [status: draft/final]:
 

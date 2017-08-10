@@ -136,7 +136,7 @@ Certain types of Personally Identifiable Information (PII), including Social Sec
 High Risk Activities such as those involving business records in which loss or inappropriate disclosure would result in large consequences in terms of economic loss, loss of trust, or legal liability.
 Data Sharing: Users of the Service can allow others to access data for the purpose of sharing and collaboration. Do not share data with anyone who does not have the appropriate authority to view it unless the data is of a public nature.
 
-## How to maintain integrity and back ups
+## How to maintain integrity
 
 copy data files to new media two to five years after first created
 check data integrity of stored data files regularly (checksum)
