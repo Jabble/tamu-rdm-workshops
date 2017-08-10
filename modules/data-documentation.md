@@ -180,7 +180,7 @@ Variable format
 Variable coding values and meanings
 Known issues with the data (systematic errors, missing values, etc.)
 Relationship to other variables
-Null value indicator
+Null value indicator and missing value codes
 Anything else someone needs to know to better understand the data
 This list represents the types of things you would want to know when faced with an unknown dataset. Not only is such information incredibly useful if you’re sharing a dataset, but it’s also useful if you plan to reuse a dataset in the future or you are working with a very large dataset. Basically, if there’s a chance you won’t remember the details or never knew them in the first place, a data dictionary is needed.
 
