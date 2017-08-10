@@ -1,12 +1,16 @@
 # Quality control and assurance
 ##  Objectives
-- Define data quality control and data quality assurance
-- Understand the need for quality control 
+- Understand the need for quality control
+- Identify quality control practices
 
 ## Introduction
 Activities that prevent errors from entering or remaining in a dataset. These are strategies to ensure data are usable for your analysis and procedures to identify potential problems with data that could affect its use. 
 
 From the point you decide to collect data, you'll need to consider how you will make sure the quality of the data aren't compromised.
+
+## Exercise: Quality control procedures
+- Do you already have quality control procedures?
+- What are some actions you will take to maintain the quality of your data before, during, and after collection?
 
 ## Types of errors
 *Note about errors being common*
@@ -25,10 +29,6 @@ From the point you decide to collect data, you'll need to consider how you will 
 *Bruce's high-altitude water sample story. 2 months of data collection lost, because someone else made a mistake. Happily, this person is now a full professor anyway.*
 
 What type of error was this?
-
-## Exercise: Quality control procedures
-- Do you already have quality control procedures?
-- What are some actions you will take to maintain the quality of your data before, during, and after collection?
  
 ## How to control quality
 Quality control practices are specific to the type of data being collected, but we'll highlight some practices that you may be able to use.
@@ -58,11 +58,7 @@ When transcribing data from paper records to digital representation, have at lea
 
 
 ### After data entry
-Conduct error checks, including: 
-
-
-
-
+Conduct error checks, these may include: 
 
 1. For tabular data, make sure data line up in the proper columns.
 2. Check for consistency
@@ -159,39 +155,10 @@ Geographic coordinates:
 
 Map coordinates to detect errors
 
-#### Documentation tips
-
-- Document checks made to data.
-	 - This allows you to avoid needing to duplicate the error checking process.
-- Document changes made to data.
-	- This allows you to undo them if necessary.
-- Mark data with quality control flags.
-	- As part of any review or quality assurance of data, potential problems can be categorized systematically. For example data can be labeled as 0 for unexamined, -1 for potential problems and 1 for "good data." 
-	- Some research communities have developed standard protocols; check with others in your discipline to determine if standards for data flagging already exist.
-
-## Ensure basic quality control
-
-
-
-
-Description Rationale: 
-
-
-
-
-
-## Tips for combining data sets
-
-## Primary and secondary data quality
-
-Maintining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. Key elements to keep track of include:
-
+### When combining data sets
 Maintain dataset provenance
 - Where did the data come from? Did you collect it, or did you get your data form another source?
 - 
-
-
-
 Document transformations
 Beware of accidental duplication
 
@@ -220,13 +187,7 @@ Ensure others understand and can evaluate your decision making process.
 Automate the integration as much as possible
 Especially when integrating many datasets or large datasets
 
-
-
-
-
-
-
-## Consider the compatibility of the data you are integrating
+Consider the compatibility of the data you are integrating
 
 Best Practice: 
 The integration of multiple data sets from different sources requires that they be compatible. Methods used to create the data should be considered early in the process, to avoid problems later during attempts to integrate data sets. Note that just because data can be integrated does not necessarily mean that they should be, or that the final product can meet the needs of the study. Where possible, clearly state situations or conditions where it is and is not appropriate to use your data, and provide information (such as software used and good metadata) to make integration easier.
@@ -246,11 +207,16 @@ Water-quality data collected by two separate agencies may be thematically simila
 
 DataOne [website](https://www.dataone.org/best-practices/consider-compatibility-data-you-are-integrating)
 
+### Documenting actions
+As I mentioned earlier, maintining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. 
 
-
-
-
-
+- Document checks made to data.
+	 - This allows you to avoid needing to duplicate the error checking process.
+- Document the changes made to data.
+	- This allows you to undo them if necessary.
+- Mark data with quality control flags.
+	- As part of any review or quality assurance of data, potential problems can be categorized systematically. For example data can be labeled as 0 for unexamined, -1 for potential problems and 1 for "good data." 
+	- Some research communities have developed standard protocols; check with others in your discipline to determine if standards for data flagging already exist.
 
 ## References
 - DataOne [website](https://www.dataone.org/best-practices/ensure-basic-quality-control)
