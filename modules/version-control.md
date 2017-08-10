@@ -28,7 +28,7 @@ The less stability in a dataset, the more complexity in tracking changes. This w
 Even fixed datasets will have several versions, raw data often needs to be transformed, cleaned or manipulated. But, keeping track of rapidly changing datasets can be a much bigger challenge. 
 
 ## Implementing version control
-This will come up again, but I'd like to make the point that you'll always want to keep original data in a seperate file, raw and unchanged. Make a copy and start working with, and versioning, that.
+This will come up again and again, but I'd like to make the point, you'll always want to keep original data in a seperate file, raw and unchanged. Make a copy and start working with, and versioning, that.
  
 We'll discuss two ways to implement version control.
 
@@ -43,7 +43,7 @@ Even a simple version control set-up is more than saving files with different na
 - Log a description of the changes made between versions, and/or track the changes themselves.
 - Discard obsolete versions, especially if you have limited space.
 
-### Example: non-linear workflow
+### Example: a non-linear workflow
 raw data file 1
 raw data file 2
 combined 1+2 raw file
