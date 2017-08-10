@@ -6,7 +6,7 @@
 ## Introduction
 Plan management -> **Collect and store** -> **Assure quality** -> Analyze and present -> Share and preserve
 
-In this module, we'll focus on digital data storage, including locations and methods to back up data. The goal is safety first, to reduce the risk of data loss and security incidents.
+In this module, we'll focus on digital data storage, including locations and methods for data back up. The goal is safety first, to reduce the risk of data loss and security incidents.
 
 ## Storage space
 Space is important to keep in mind when thinking about your storage and back up strategy. 
@@ -18,7 +18,7 @@ I recommend estimating the growth rate and size of your data collection to avoid
 - How much data will you accumluate every day, week, or month?
 - How much data do you anticipate collecting and generating by the end of your project?
 
-### Example 
+### Example: Storing images
 Image data typically requires a lot of storage space. If your process is iterative and automated, you may need to decide whether to retain all your images over the course of your research and after your project is complete. 
 
 ## Storing data
@@ -66,23 +66,21 @@ We will focus on:
 	- regular back-up to another location
 	- software updates
 
-### External hard drive or NAS
+### External hard drive or USB stick
 #### Accessibility
+- Low cost
+- Portable
 #### Security
+- Both may be lost or stolen
+- Depends on personal practices:
+	- may or may not be encrypted
 #### Available space
+- At the same scale as personal computers
 #### Integrity
+- USB sticks are flimsy
+- Hard drive may fail
 #### Maintenance and update
-External storage devices such as hard drives, USB flash drives (also known as memory sticks, USB keyrings or pen drives), Compact Discs (CDs) and Digital Video Discs (DVDs), can be an attractive option for storing your data due to their low cost and portability. However, they are not recommended for the long term storage of your data
-
-#### USB stick, CDs, DVDs
-#### Accessibility
-#### Security
-#### Available space
-#### Integrity
-#### Maintenance and update
-
-maintenance
-- Depends on you
+- Usually used as a location for back ups, which depend on personal practices
 
 
 ### University networked drives
@@ -91,6 +89,7 @@ maintenance
 
 #### Accessibility
 - Accessible via log in
+- May have a cost
 
 #### Security
 - Access controlled by IT staff
@@ -105,22 +104,51 @@ maintenance
 - Regular update and back-up strategy in place. 
 
 
-### Cloud servers
+### Online services
 TAMU Google Apps
+Amazon S3 -Requires client software, no encryption support
+Dropbox
+SpiderOak
+etc.
+
 #### Accessibility
 - Accessible from multiple locations
 - store and synchronise data files online and between computers
 #### Security
+- non-transparent
 #### Available space
 - Provide the first few gigabytes free and users pay for more facilities, including space.
 #### Integrity
 #### Maintenance and update
+- Regular update and back-up strategy in place. 
+
+
+
+### TAMU Google Apps
+Google Apps at Texas A&M. "Terms Of Use and Privacy" [website](http://google.tamu.edu/Resources/terms_of_use.html)
+
+Users of the Service must follow both Google’s Acceptable Use Policy and Texas A&M University IT Security Controls. The following additional provisions apply:
+
+Restrictions on Use: The Service is appropriate for many academic uses as well as some business and administrative uses. The Service is not appropriate for:
+Electronic Protected Health Information (EPHI) subject to the Health Insurance Portability and Accountability Act (HIPAA).
+Data controlled for export under Export Control Laws (EAR, ITAR).
+Certain types of Personally Identifiable Information (PII), including Social Security Numbers, credit card numbers, and bank or financial account numbers.
+High Risk Activities such as those involving business records in which loss or inappropriate disclosure would result in large consequences in terms of economic loss, loss of trust, or legal liability.
+Data Sharing: Users of the Service can allow others to access data for the purpose of sharing and collaboration. Do not share data with anyone who does not have the appropriate authority to view it unless the data is of a public nature.
 
 ## How to maintain integrity and back ups
 
+copy data files to new media two to five years after first created
+check data integrity of stored data files regularly (checksum)
+know data retention policies that apply: funder, publisher, home institution
+
+TAMU is minimum 3 years.
+
 For storage locations that you control, making regular backups is an integral part of data management. 
 
-You can backup data on your personal computer, external hard drives, or departmental or university servers. Software that makes backups for you automatically can simplify this process considerably. CDs or DVDs are not recommended because they are easily lost, decay rapidly, and fail frequently.
+You can backup data on your personal computer, external hard drives, or departmental or university servers. 
+
+Software that makes backups for you automatically can simplify this process considerably. 
 
 - Use a Cloud server as a sort of back-up and storage space accessible from multiple locations.
 
