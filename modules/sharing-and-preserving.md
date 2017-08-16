@@ -2,8 +2,25 @@
 - Repositories
 - Licensing
 
+## Maintaining your data over time
+During your research, you will need to make sure your data are not lost, stolen, or corrupted. But, you will also need to hang on to the data after your project is complete.
 
-Sharing and Archiving
+### External requirements
+Your funder, publisher, and/or institution are likely to have data retention policies. Meaning that you will need to safely store your data for a certain period after your project is complete. 
+
+For Texas A&M University, the minimum research data retention period is **3 years**. 
+
+Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+
+### Long-term usefulness
+Beyond any externally imposed requirments, you should think about the long-term usefulness of your data. 
+
+If the data are from an experiment that you anticipate will be repeatable more quickly, inexpensively, and accurately as technology progresses, you may want to store it for a relatively brief period. 
+
+If the data consists of observations made outside the laboratory that can never be repeated, you may wish to store it indefinitely.
+
+
+## Sharing and Archiving
 Why share your data?
 
 Required by publishers (e.g., Cell, Nature, Science).

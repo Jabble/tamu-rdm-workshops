@@ -1,271 +1,252 @@
 # Storage, backup, and security
 ##Objectives
-- Understand risks associated with storage locations
+- Understand risks associated with data storage
+- Understand data back up
 - Design a storage strategy
 
 ## Introduction
 Plan management -> **Collect and store** -> **Assure quality** -> Analyze and present -> Share and preserve
 
-In this module, we'll focus on digital data storage, including locations and methods for data back up. The goal is safety first, to reduce the risk of data loss and security incidents.
+In this module, we'll focus on storage of digital data. We'll cover storage locations, and discuss data backup and security. The goal is to think "safety first," and reduce risks.
 
-## Storage space
-Space is important to keep in mind when thinking about your storage and back up strategy. 
+## What risks?
+We'll focus on reducing the likelihood of:
 
-I recommend estimating the growth rate and size of your data collection to avoid being under-prepared. Ask yourself:
+- Data loss
+- File corruption
+- Unauthorized data access
 
-- How large are your data files?
-- Is your data collection iterative?
-- How much data will you accumluate every day, week, or month?
-- How much data do you anticipate collecting and generating by the end of your project?
+**Data loss** may occur if a file is accidentally deleted, a computer is stolen, or a hard drive fails and data are not backed up. 
 
-### Example: Storing images
-Image data typically requires a lot of storage space. If your process is iterative and automated, you may need to decide whether to retain all your images over the course of your research and after your project is complete. 
+**File corruption** may occur when digital files are moved or copied, and when they are stored on one medium for a long period of time. 
 
-## Storing data
-Good practice: Keep at least 3 copies of data in at least 2 geographically distributed locations. 
+**Unauthorized access** may occur if appropriate security precautions are not followed for sensitive data.
 
-- Original 
-- External backup located locally 
-- External backup at a remote location
+## Discussion: Choosing storage and back up locations
+*Group discussion, taking live notes for each storage location*
 
-Geographically distributed copies reduce risk posed by a calamity at one location. Like insurance in case of theft, power outage, flood, fire, etc.
+The location of your data will likely depend on the degree of freedom you have in the management of your data. Your data may need to be stored in a particular location due to legal and ethical considerations, or due to your lab or research group's practices. 
 
-## Choosing storage and back up locations
-The location of your data will likely depend on the degree of freedom you have in the management of your data. 
+In this section we will survey 4 types of storage locations, discussing features that help to assess the benefits and risks of using particular locations for storing and backing up your data.
 
-Your data may need to be stored in a particular location due to legal and ethical considerations, or due to your lab or research group's practices. 
-
-This section will point out features of different storage locations that will help you understand the benefits and risks of using particular locations for storing and backing up your data.
-
-We will focus on:
+We'll talk about:
 
 - Accessibility
+- Space
 - Security
-- Available space
 - Integrity
-- Maintenance and update 
 
 ### Personal computers
+- Recommended for working with data that aren't sensitive or restricted.
+- Depend heavily on personal practices.
 #### Accessibility
-- Convenient for storing your data while in use. 
-
-#### Security
-- Personal computers may be lost or stolen
-- Depends on personal practices:
-	- may have multiple valid users with access
-	- may or may not be encrypted
-	
+- Convenient for storing data while in use.
 #### Space
-- Limited to space available on your computer hard drive, on the range of 250 GB – 1TB
-
+- Limited to space available on the computer hard drive.
+#### Security
+- Can be lost or stolen.
+- Can have multiple valid users with access.
+- Hard drive may or may not be encrypted.
 #### Integrity
-- All files stored on the local drive, which may fail
-
-#### Maintenance and update
+- Files are stored on the local hard drive, which will eventually fail.
 - Depends on personal practices for:
-	- regular back-up to another location
-	- software updates
+	- Regular back-up to another location.
+	- Software updates.
 
 ### External hard drive or USB stick
+- Usually used as a location for backup or data sharing.
+- Depends heavily on personal practices.
 #### Accessibility
 - Low cost
-- Portable
-#### Security
-- Both may be lost or stolen
-- Depends on personal practices:
-	- may or may not be encrypted
+- Portable, can be kept locally and attached to personal or work computers
 #### Available space
-- At the same scale as personal computers
+- Same scale as personal computers, limited to space available on the hard drive or USB stick.
+#### Security
+- May be lost or stolen.
+- Hard drive or USB stick may or may not be encrypted.
 #### Integrity
-- USB sticks are flimsy
-- Hard drive may fail
-#### Maintenance and update
-- Usually used as a location for back ups, which depend on personal practices
-
+- USB sticks are flimsy.
+- Hard drives will eventually fail.
 
 ### University networked drives
-*list some options*
-- Recommended for storing master copies of data, but not permanently.
+- Recommended for storing master copies of data.
+- Managed by professional IT staff.
+#### Accessibility
+- Made accessible via log in on personal or work computer.
+#### Available space
+- Depends on agreement with IT, may have a cost.
+- Capable of storing large datasets.
+#### Security
+- Access controlled by IT staff.
+- Measures may be set up for storing sensitive and controlled data.
+#### Integrity
+- Storage is distributed, with redundancy for failure of a single hard drive.
+- Regular update and back-up strategies are in place.
+
+### Third-party services
+**TAMU-sponsored services:**
+
+- TAMU Google Drive
+- Syncplicity
+
+**Other common services:**
+
+- Amazon S3 (cloud computing storage facilities)
+- Dropbox
+- SpiderOak
 
 #### Accessibility
-- Accessible via log in
-- May have a cost
-
-#### Security
-- Access controlled by IT staff
-
+- Accessible via log in, usually via web browser and on a computer.
+- Store and synchronise data files online and between computers.
+- Most are platform-agnostic.
 #### Available space
-- Depends on agreement
-
-#### Integrity
-- May require personal checks on data integrity
-- Storage is distributed, redundancy for failure of a single hard drive
-#### Maintenance and update
-- Regular update and back-up strategy in place. 
-
-
-### Online services
-TAMU Google Apps
-Amazon S3 -Requires client software, no encryption support
-Dropbox
-SpiderOak
-etc.
-
-#### Accessibility
-- Accessible from multiple locations
-- store and synchronise data files online and between computers
+- Usually provide the first few gigabytes free and users pay for more.
+- Capable of storing large datasets.
 #### Security
-- non-transparent
-#### Available space
-- Provide the first few gigabytes free and users pay for more facilities, including space.
+- Depends on the service.
+- Some services may have measures for storing sensitive and controlled data.
+- Services operated on servers physically located outside US, may be a problem for some data.
 #### Integrity
-#### Maintenance and update
-- Regular update and back-up strategy in place. 
+- May provide versioning.
+- Storage is distributed, redundancy for failure of a single hard drive.
+- Regular update and back-up strategies in place.
+- Service provider may go out of business.
 
+## TAMU-sponsored online services
+### Google Drive
+Google Drive is a cloud storage service that allows you to store an unlimited amount of files that you can access anywhere you have an internet connection. You can upload documents, presentations, pictures, videos and anything else you may need.
 
+Google Team Drive is a new addition similar to Google Drive, but is especially designed for teams. Files in Google Team Drive belong to the team instead of an individual user, so shared files remain even if a member leaves.
 
-### TAMU Google Apps
-Google Apps at Texas A&M. "Terms Of Use and Privacy" [website](http://google.tamu.edu/Resources/terms_of_use.html)
+Users of the Service must follow both Google’s Acceptable Use Policy and Texas A&M University IT Security Controls.
 
-Users of the Service must follow both Google’s Acceptable Use Policy and Texas A&M University IT Security Controls. The following additional provisions apply:
+**The Service is not appropriate for:**
 
-Restrictions on Use: The Service is appropriate for many academic uses as well as some business and administrative uses. The Service is not appropriate for:
-Electronic Protected Health Information (EPHI) subject to the Health Insurance Portability and Accountability Act (HIPAA).
-Data controlled for export under Export Control Laws (EAR, ITAR).
-Certain types of Personally Identifiable Information (PII), including Social Security Numbers, credit card numbers, and bank or financial account numbers.
-High Risk Activities such as those involving business records in which loss or inappropriate disclosure would result in large consequences in terms of economic loss, loss of trust, or legal liability.
+- Electronic Protected Health Information (EPHI) subject to the Health Insurance Portability and Accountability Act (HIPAA).
+- Data controlled for export under Export Control Laws (EAR, ITAR).
+- Certain types of Personally Identifiable Information (PII), including Social Security Numbers, credit card numbers, and bank or financial account numbers.
+- High Risk Activities such as those involving business records in which loss or inappropriate disclosure would result in large consequences in terms of economic loss, loss of trust, or legal liability.
+
 Data Sharing: Users of the Service can allow others to access data for the purpose of sharing and collaboration. Do not share data with anyone who does not have the appropriate authority to view it unless the data is of a public nature.
 
-## How to maintain integrity
+Google Apps at Texas A&M. "Terms Of Use and Privacy" [website](http://google.tamu.edu/Resources/terms_of_use.html)
 
-copy data files to new media two to five years after first created
-check data integrity of stored data files regularly (checksum)
-know data retention policies that apply: funder, publisher, home institution
+### Syncplicity
+Syncplicity offers a secure cloud environment for users in The Texas A&M University System to store documents. It offers users the ability to sync any folder or desktop, include and exclude subfolders, and use native clients for Windows, Mac, iOS, and Android.
 
-TAMU is minimum 3 years.
+TAMU IT [website](https://tamu.service-now.com/tamu-selfservice/knowledge_detail.do?sysparm_document_key=kb_knowledge,267fe85c6f985a400798122cbb3ee4e0)
 
-For storage locations that you control, making regular backups is an integral part of data management. 
+## Example: Professor Richard Rodger
+*Watch 2-minute video*
 
-You can backup data on your personal computer, external hard drives, or departmental or university servers. 
+Backing up data with Professor Richard Rodger, University of Edinburgh [youtube](https://www.youtube.com/watch?v=jX-XNo8KbOo)
 
-Software that makes backups for you automatically can simplify this process considerably. 
+## Exercise: Thinking about storage
+- Where do you think you will you store your data?
+- How many copies of your data will you keep?
 
-- Use a Cloud server as a sort of back-up and storage space accessible from multiple locations.
+## Storing data
+Good practices for storing data to reduce the likelihood of data loss and file corruption.
 
-When considering your backup strategy you need to know:
-	•	How will you back up your data?
-	•	
-	•	Will all data, or only amended data, be backed up? (A backup of amended data is known as an "incremental backup", while a backup of all data is known as a "full backup").
-	•	
-	•	How often will full and incremental backups be made?
-	•	
-	•	• How long will backups be stored? It is important to ascertain the back-up schedule and retention policies of any centralised backup services (e.g. under the Grandfather-Father-Son rotation scheme, files may be available for two to three months before the space is over-written).
-	•	
-	•	How much hard drive space or how many CDs/DVDs will be required to maintain this backup schedule?
-	•	
-	•	How will you keep track of different versions of data, especially when backing-up to multiple devices? If using versioning software, which software will you use (e.g., Tortoise, Subversion)?
-	•	
-	•	If the data are sensitive, how will they be stored securely and appropriately, and how will you manage the destruction of identifying data if required (e.g. at the end of your research)?
-	•	
-	•	What backup services are available that meet these needs and, if none, what alternatives are available?
+1. Keep at least 3 copies of data in at least 2 geographically distributed locations. 
+- Original 
+- External backup, kept locally 
+- External backup, kept at a remote location
 
-Important! To ensure that your backup system is working properly, you should regularly test it by restoring your data files from your backups to check that you can read them.
+For storage that you control, redundancy is an integral part of data management. Geographically distributed copies reduce the risk posed by a calamity at one location. You can think of it as insurance in case of theft, power outage, flood, fire, etc.
 
-Backing up data with Professor Richard Rodger,  University of Edinburgh [youtube](https://www.youtube.com/watch?v=jX-XNo8KbOo)
+2. Check data integrity after copying data files, and regularly check backup files.
+- Restore your data files from backups to check that they can be read
+- Generate checksums
 
-Remote, online or managed backup services provide users with an online system for storing and backing up computer files.
+Digital files can be corrupted when they are copied, moved, or stored for a long period.
 
-Typically online backup services:
-	•	
-	•	Allow users to store and synchronise data files online and between computers.
-	•	
-	•	Employ cloud computing storage facilities (e.g. Amazon S3).
-	•	
-	•	Provide the first few gigabytes free and users pay for more facilities, including space.
+3. Copy data files to new media 2–5 years after first created.
 
-Wikipedia has a thorough comparison of online backup services: http://en.wikipedia.org/wiki/Comparison_of_online_backup_services
+All storage media (e.g. hard drives) break down over time. 
 
-Some examples of online providers are (click on the example to see detailed information):
-Dropbox
-This is a Web based file hosting service operated by Dropbox, Inc. that uses cloud computing to enable users to store and share files and folders with others across the Internet using file synchronisation. 
+## Create a backup system
+- How much space will you need to store your original data?
+- Where you store your original data?
+- How often should backups be made? A daily, weekly, or monthly schedule?
+- Do you want a full backup or an incremental backup with changes on this schedule?
+- How long should each backup be stored before being over-written by a new one? 
+- How much additional space will be required to maintain these backups?
+- How will you keep track of different versions of data when backing up to multiple devices? 
+- Where will you backup your data locally? And remotely?
 
-There are both free and paid services, each with varying options. Dropbox offers a relatively large number of user clients across a variety of desktop and mobile operating systems.
-Google Drive
-Google Drive is an online service which provides 15GB of storage for free, allowing files to be accessible from anywhere. A Google account is required to use the Drive service and enables the creation and editing of files directly within the service, providing the means to collaborate and share files with others (including documents, spreadsheets, presentations, forms, and drawings).
-Memopal
-Memopal is a cloud-based storage application and service that enables users to store and synchronise computer files and share files and folders with others using the Internet.
+### Use software to help
+Once you have an idea of what you want. Software that automatically backs up files can simplify the process considerably. 
 
-Source: Wikipedia: http://en.wikipedia.org/wiki/Memopal
-FilesAnywhere
-FilesAnywhere is one of the first cloud-based storage services to emerge and today continues to offer customers, both consumer and business, a means to back up, edit, sync, collaborate, and share data as well as catalog photos, videos, and music.
+These softwares can back up to the locations you choose, at the schedule you choose.
 
-Source: Wikipedia: http://en.wikipedia.org/wiki/FilesAnywhere
-OneDrive
-OneDrive (previously SkyDrive, Windows Live SkyDrive and Windows Live Folders) is a file hosting service that allows users to upload and sync files to a cloud storage and then access them from a Web browser or their local device. It is part of the suite of online services formerly known as Windows Live and allows users to keep the files private, share them with contacts, or make the files public. Publicly shared files do not require a Microsoft account to access.
+*Show how each looks*
 
-Source: Wikipedia: http://en.wikipedia.org/wiki/OneDrive
-Tresorit
-Tresorit is an online cloud storage service based in Switzerland and Hungary that emphasizes enhanced security and data encryption. The service offers users 5 GB of data for free, though it has offered 50 GB to users through promotions with Lifehacker and GigaOM for a limited period of time. It has been likened to a high-security alternative to Dropbox.
+- Time Machine: Mac-only 
+- Arq: Mac, Windows ([website](https://www.arqbackup.com))
+- Crashplan: Windows, Mac, Linux ([website](https://www.crashplan.com/en-us/))
 
-Source: Wikipedia: http://en.wikipedia.org/wiki/Tresorit
-iCloud
-iCloud is a cloud storage and cloud computing service from Apple Inc. launched on October 12, 2011. The service provides its users with means to store data such as documents, photos, and music on remote servers for download to iOS, Macintosh or Windows devices, to share and send data to other users, and to manage their Apple devices if lost or stolen. The service also provides the means to wirelessly back up iOS devices directly to iCloud, instead of being reliant on manual backups to a host Mac or Windows computer using iTunes.
+### Test your backup system
+To be sure that your backup system is working, periodically retrieve your data files and confirm that you can read them. 
 
-Source: Wikipedia: http://en.wikipedia.org/wiki/ICloud
-Advantages
-	•	
-	•	No user intervention is required (changing tapes, labeling CDs, performing manual tasks)
-	•	
-	•	Remote backup maintains data off-site
-	•	
-	•	Most provide versioning and encryption
-	•	
-	•	They are multi-platform
-	•	
+You should do this when you initially set up the system and on a regular schedule thereafter.
 
-Disadvantages
-	•	
-	•	• Many cloud storage services operate on servers physically located outside the European Economic Area (EEA). It is important that UK users must NEVER use online storage platforms located outside the EEA to store sensitive personally identifiable data, as this is very likely to breach a key principle of the Data Protection Act 1998 – that personal information should not be transferred outside the EEA without adequate protection – which is against UK law.
-	•	
-	•	Restoration of data may be slow (dependent upon network bandwith)
-	•	
-	•	Stored data may not be entirely private (if unencrypted)
-	•	
-	•	Service provider may go out of business
-	•	
-	•	Protracted intellectual property rights/copyright/data protection licences
-	•	
-	•	Vendor lock-in, i.e. vendor’s proprietary formats may make migration to another vendor complex and expensive
+## Security tips
+As we discussed in the "Legal and ethical considerations" module, if you're working with sensitive data, you're responsible for maintaining confidentiality of identifiable data.
 
+This means data on your computer may need to be kept safe. Or you may be given access to a secure system that stores the data. Make sure to work with your advisor and your research team to understand and meet data security requirements. 
 
-## Security strategies and tips
-Data security means ensuring that research data are kept safe from corruption and loss, and that access is suitably controlled.
+General good practices to reduce the likelihood of unauthorized data access.
 
-The security precaustions needed for your data will depend on your project.
+- Be aware of policies for moving or sharing the data.
+	- Speak with your advisor.
+- Avoid logging in to secure spaces using untrusted computers or networks.
+	- Such as cafés.
+- Make sure physical storage media in locked room or safe
+	- Lock up your computer or hard drives when they are not in use.
+	- Servers managed by the university or third parties should also be located in secure rooms.
+- Use strong passwords and be careful with your login credentials.
+- Store and transmit sensitive data using encryption.
+- Ensure complete destruction when deleting sensitive data.
 
-As we discussed in the "Legal and ethical considerations" section, if you're working with ... data, you're responsible for maintaining confidentiality of identifiable data. Make sure to work with your advisor and your research team to ensure data security 
+### Passwords 
+Tips:
 
-This means data on your computer may need to be kept safe. Or you may be given access to a secure system that stores the data.  
+- Create unique passwords for your accounts
+- Use 18 or more characters where possible, and max it out if you can
+- Use nonsense "passphrases" with fake words, numbers, and symbols
 
-Protect against: 
+A password manager can make life easier:
 
-- Accidental or malicious damage/modification
-- Theft
-- Breach of confidentiality agreements and privacy laws.
-- Premature release of data
-	- voiding intellectual property claims.
-	- before data have been checked for accuracy and authenticity.
+- 1password
+- LastPass
 
-### Password management
-In which case, you should be careful with your login credentials and be aware of policies moving or sharing the data.
- 
-use a password manager.
-#### Good passwords
+### Encryption
+Encryption is the process of converting data into an unreadable code. You must have access to a password or a secret encryption key to be able to read an encrypted file.
+
+Encrypting your data will help ensure your data remain safe from disclosure in the event that a laptop, desktop, USB stick, or external hard drive are lost or stolen. 
+
+However, data encryption is not a substitute for other information protection controls. It still relies on the creation of a strong password. If the encryption key is lost, the disk image gets corrupted, or the hard disk fails, any encrypted data will be lost.
+
+Use mainstream encryption tools.
+
+- Data files on computer
+You can encrypt individual files or folders on your computer.
+
+- Data files in transit
+Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications.
+
+- Entire computer hard drive
+software:
+BitLocker (Windows) full disk encryption
+FileVault (Mac) 
+ solution for encrypting data on computers and laptops.
+BitLocker (formerly BitLocker Drive Encryption) is a  feature included with the Ultimate and Enterprise editions of Windows Vista and Windows 7, the Pro and Enterprise editions of Windows 8 and Windows 8.1, the Pro, Enterprise, and Education editions of Windows 10, and Windows Server 2008 and later. It is designed to protect data by providing encryption for entire volumes.
 
 #### Fun fact: Login passwords on your computer are easy to bypass
 Your computer password doesn't necessarily keep your data safe. Unless your files are encrypted on your computer, someone who has physical access to your computer can get access to your data with enough effort.
 
-How? Basiclaly, your computer's hard drive can be used like a big USB stick. File permissions for a user are set by your operting system. If someone boots your hard drive with their operating system, those permissions are irrelevant. This can involve different strategies for Macs and PCs, but in both cases it's easy to do with a bit of effort and Googling.
+How? Basically, your computer's hard drive can be used like a big USB stick. File permissions for a user are set by your operting system. If someone boots your hard drive with their operating system, those permissions are irrelevant. This can involve different strategies for Macs and PCs, but in both cases it's easy to do with a bit of effort.
 
 As a precaution, encypt your hard drive.
 
@@ -274,240 +255,52 @@ Find out More:
 PC example: hard drive taken out of computer and mounted on another host gives them access. 
 Mac example: Connecting your Mac to another Mac and booting your Mac in Target Disk Mode, your Mac's hard drive will appear as a mounted drive on the other Mac. Unless Mac1 is encrypted with FileVault, all files will be accessible [website](https://support.apple.com/kb/PH10725?locale=en_US)*
 
-### Encryption
-Encryption is the process of converting data into an unreadable code. You must have access to a password or a secret encryption key to be able to read an encrypted file.
+### Sentitive Data Deletion
+File deletion is not enough to ensure that sensitive electronic data are completely removed from a computer system. File deletion removes only the pointers to the disk sectors in which the data reside. 
 
-Encrypting your data will help ensure your data remain safe from disclosure in the event that a laptop or other portable device such as a USB flash drive/memory stick ends up lost or stolen.
-
-- Data files on computer
-- Data files in transit
-- Entire computer harddrive
-### Deletion
-
-
-
-
-It is important to consider the security of your data to prevent:
-
-
-You need to consider the following questions for securing your research data:
-	•	How will you manage access arrangements and data security?
-	•	
-	•	How will you enforce permissions, restrictions and embargoes?
-	•	
-	•	Other security issues such as sensitive data, off-network storage, storage on mobile devices (laptops, smartphones, flash drives, etc), policy on making copies of data, etc. where relevant.
-
-Securing research data is part of the issue of information technology security. You should always have up to date anti-virus software installed on your office and home computers.
-
-If you have sensitive data that are covered by privacy laws or confidentiality agreements, it is best to store them on a computer that is not connected to any network. If this is not possible, then you can also consider encrypting your data or your PC.
-
-However, you should also be aware of physical security. A computer that is not connected to a network is still vulnerable to theft and malicious damage/modification to data.
-
-Highly sensitive data, regardless of physical storage medium (laptop, USB flash drives, CDs/DVDs), should be stored in a locked room or safe when not in use. Such data should not be stored or transmitted without encryption.
-Two issues which are often overlooked but are worth highlighting are 'usernames' and 'passwords' They are so common users often forget they are still a key part of security on most systems.
-
-If possible:
-	•	
-	•	Never use your username as your e-mail address e.g. fbloggs27@staffmail.ed.ac.uk.
-	•	
-	•	Instead use an alias e.g.: Fred.Bloggs@ed.ac.uk.
-	•	
-	•	Do not write passwords on Post-Its or say them aloud as you type.
-	•	
-	•	Do not log in to secure spaces on untrusted computers or networks (e.g. internet cafés).
-	•	
-	•	Do not use the obvious (car reg., phone no., pet’s name)
-	•	
-	•	Do not use any dictionary words (including foreign) on their own.
-	•	
-	•	Never use the same password for a cloud service, that you use for a University service. For example, to do so is against University of Edinburgh Computer Regulations.
-	•	
-
-A guide on creating strong passwords is available on University of Edinburgh Information Services web pages.
-
-What is encryption?
-
-
-
-The University of Edinburgh Data Encryption policy warns users that "medium and high risk personal data or business information must be encrypted if it leaves the University environment".
-
-BitLocker (Windows) and FileVault (Mac) are currently the University of Edinburgh's recommended software solution for encrypting data on computers and laptops.
-
-Please note the following considerations before encrypting your data:
-
-Data encryption is not a substitute for other information protection controls.
-
-Data encryption is reliant on the creation of a strong password.
-
-Encrypted data cannot be recovered in the event of a failure.
-
-If the encryption key is lost, the disk image gets corrupted, or the hard disk fails, any encrypted data will be lost.
-
-Establish a reliable and secure backup procedure for the data and any related passwords.
-
-
-For further information on encryption visit IS/Computing Services pages on encryption:
-www.ed.ac.uk/infosec/how-to-protect/encrypting
-
-Encryption of laptops is also an obvious step for laptop security. However, for laptop encryption there is no "one size fits all" solution. Bit Locker, Pretty Good Privacy (PGP) and some other commercial software packages are available, however, you need to consider the operating system.
-
-BitLocker (formerly BitLocker Drive Encryption) is a full disk encryption feature included with the Ultimate and Enterprise editions of Windows Vista and Windows 7, the Pro and Enterprise editions of Windows 8 and Windows 8.1, the Pro, Enterprise, and Education editions of Windows 10, and Windows Server 2008 and later. It is designed to protect data by providing encryption for entire volumes. See Wikipedia for further information: 
-http://en.wikipedia.org/wiki/BitLocker
-
-Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. See Wikipedia for further information:
-http://en.wikipedia.org/wiki/PGP_Desktop
-
-If you keep sensitive data on USB flash drives it is recommended that you use drives with encryption software. They give protection to the data if the drive is lost - especially important if the data contain personal or commercially sensitive data. Compared with 'ordinary' USB flash drives they cost only a modest amount more so are a good buy. Your local IT support service will probably be happy to advise on the suitability of any encrypted flash drive that you are planning on purchasing.
-
-You can create a special type of encrypted container in which you can place sensitve data and documents. See this page for more details:
-www.ed.ac.uk/infosec/how-to-protect/encrypting/encrypted-containers
-
-Once research on data which includes sensitive data no longer requires that the identifiable portions of the data be retained, they should be destroyed and future research be done with de-identified or anonymised data. This applies to paper records, as well as electronic records.
-
-File deletion is not enough to ensure that sensitive electronic data are completely removed from a computer system. File deletion removes only the pointers to the disk sectors in which the data reside. Deleted files can be recovered using commonly available software tools.
+Deleted files can be recovered using commonly available software tools.
 
 To ensure the complete destruction of sensitive data, the main options are:
 
-•	data erasure (aka data clearing or data wiping) i.e. removing all data while leaving the hard drive or other storage medium still operable - current techniques may not, however, be completely successful on solid-state drives and USB flash drives;
+- Data erasure, also called "data clearing" or "data wiping." This involves using software to remove all data by overwritting it. It leaves the hard drive or other storage medium operable.
+- Degaussing. This disturbs the magnetic alignment of magnetic storage media and in many cases makes newer media, such as hard drives, unusable.
+- Physical destruction. Through disintegration, shredding, pulverizing or incineration.
 
-degaussing, which disturbs the magnetic alignment of magnetic storage media and in many cases makes newer media (such as hard drives and tapes) unusable;
-
-physical destruction, through disintegration, shredding, pulverizing or incineration.
-
-
-More advice on secure deletion when disposing of a device is available here: www.ed.ac.uk/infosec/how-to-protect/secure-deletion
-
-
-
-<!-- *Show options from the perspective of a spreadsheet*
-### Spreadsheets
-- pros/cons from the data management perspective
-- Easy to share and to lose track
-
-### Databases
-- Easy to share and maintain consistent
-- needs a manager -->
-
-
-
-## Location and maintenance
-Data Backup Options
-
-Hard drive using software like:
-Windows 8 File History
-OS X Time Machine
-Linux/UNIX rsync)
-Tape backup system
-Many institutions provide a service similar to UCBackup at UC Berkeley. Check with your campus IT support to see if backup service is available. Alternately, your academic department may provide storage space and backup services.
-Cloud storage - some examples of private sector storage resources include:
-Amazon S3 and Glacier—Requires client software, no encryption support
-S3-based Remote Hard Drive Services such as Elephant Drive and Jungle Disk.
-Mozy (from EMC) Free client software, 448-bit Blowfish encryption or AES key
-Carbonite Free
-Test your backup system
-
-To be sure that your backup system is working, periodically retrieve your data files and confirm that you can read them. You should do this when you initially set up the system and on a regular schedule thereafter.
-
-Other data preservation considerations
-
-Who is responsible for managing and controlling the data?
-
-Who controls the data (e.g., the PI, a student, your lab, your university, your funder)? Before you spend a lot of time figuring out how to store the data, to share it, to name it, etc. you should make sure you have the authority to do so.
-
-For what or whom are the data intended?
-
-Who is your intended audience for the data? How do you expect they will use the data? The answer to these questions will help inform structuring and distributing the data.
-
-How long should the data be retained?
-
-Is there any requirement that the data be retained? If so, for how long? 3-5 years, 10-20 years, permanently? Not all data need to be retained, and some data required to be retained need not be retained indefinitely. Have a good understanding of your obligation for the data's retention.
-
-Beyond any externally imposed requirments, think about the long-term usefulness of the data. If the data is from an experiment that you anticipate will be repeatable more quickly, inexpensively, and accurately as technology progresses, you may want to store it for a relatively brief period. If the data consists of observations made outside the laborartory that can never be repeated, you may wish to store it indefinitely.
-
-- From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
-
-
-Your data are the life blood of your research. If you lose your data, recovery could be slow, costly or worse, it could be impossible. 
-
-Therefore, through the course of your research you must ensure that all your research data, regardless of format, are stored securely, backed up and maintained regularly.
-
-You should estimate the volume of data required for your project at an early stage, probably while drawing up your data management plan. It is also a good idea to consider including costs for data storage in funding proposals.
-
-These may all sound like common sense to you now but the time will come when you will be glad that you have considered these issues right at the beginning of your research and taken the necessary precautions.
-
-You can store your research data on networked drives, personal computers/laptops, and external storage devices. Click on the heading to view detailed information on each option.
-
-Networked drives
-Networked drives are managed by staff centrally or within your School or College. It is highly recommended that you store your research data on regularly backed up networked drives such as:
-	•	
-	•	DataStore, which is storage for active data for all reseach staff and students. It is fully backed-up, secure, resilient, and has multi-site storage. Every researcher is automatically allocated 500 GB storage space for free. Up to 250 GB of each allocation can be shared to create group space. Additional space can be purchased for £200 per TB per year. It is accessible via VPN (Virtual Private Network) from outside the University.
-	•	
-	•	Fileservers managed by your research group or school.
-	•	
-
-This way you will ensure that your data will be:
-	•	
-	•	Stored in a single place and backed up regularly.
-	•	
-	•	Available to you as and when required.
-	•	
-	•	Stored securely minimising the risk of loss, theft or unauthorised use.
-
-Personal computers and laptops
-
-
-External storage devices
-External storage devices such as hard drives, USB flash drives (also known as memory sticks, USB keyrings or pen drives), Compact Discs (CDs) and Digital Video Discs (DVDs), can be an attractive option for storing your data due to their low cost and portability. However, they are not recommended for the long term storage of your data, particularly your master copies, as:
-	•	
-	•	Their longevity is not guaranteed, especially if they are not stored correctly, for example CDs, DVDs and magnetic tapes degrade over the long term. They can be easily damaged, misplaced or lost.
-	•	
-	•	Errors writing to CDs and DVDs are fairly common.
-	•	
-	•	They may not be big enough for all the research data, so multiple disks or drives may be needed.
-	•	
-	•	They pose a security risk due to their portability.
-	•	
-If you choose to use CDs, DVDs and USB flash drives (for example, for working data or extra backup copies), you should:
-
-Ensure your master copy is safe and is kept up to date on a networked drive.
-
-Choose high quality products from reputable manufacturers.
-
-Follow the instructions provided by the manufacturer for care and handling, including environmental conditions and labelling.
-
-Regularly check the media to make sure that they are not failing, and periodically 'refresh' the data (that is, copy to a new disk or new USB flash drive).
-
-Ensure that any private or confidential data is encrypted.
-
-What do you think would be the advantages of storing your data on the central, or school networked drives?
+## Conclusion
 If you store your data on the university networked drives your data will be stored in a single place and backed up regularly. The risk of loss, theft or unauthorised use will be minimised as the data will be stored securely on these networked drives. Your data will also be available to you as and when required. Therefore, you should keep at least one copy of your master data files on the networked services.
+
 Keeping backups is probably the most important data management task. There is a real risk of losing data through hard drive failure or accidental deletion. It is therefore recommended that you keep at least 3 copies of your data on at least 2 different media, keeping storage devices in separate locations with at least 1 off-site, and check that they work regularly. You should also have a policy for maintaining regular backups.
 
+### Handout: Strategy
+*Physical handout and available online for download*
 
+Questions to answer to build a storage and backup strategy:
 
-
-
-- MANTRA "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
-
-
- Best-practices for storing your file calls for redundancy. Files back up are to have 3 regular back ups of your files. One local ..., one ... and one remote.
-
- Encryption and Compression
-
- Unencrypted data will be more easily read by you and others in the future, but you may need to encrypt sensitive data.
-
- Use mainstream encryption tools (e.g., PGP)
- Don't rely on 3rd party encryption alone
- Keep passwords and keys on paper (2 copies)
- Uncompressed data will be also be easier to read in the future, but you may need to compress files to conserve disk space.
-
- Use a mainstream compression tool (e.g., ZIP, GZIP, TAR)
- Limit compression to the 3rd backup copy
- Backups and storage
-
-
+- How much space will you need to store your original data?
+	- How large are your data files?
+	- Is your data collection iterative?
+	- How much data will you accumluate every day, week, or month?
+	- How much data do you anticipate collecting and generating by the end of your project?
+- How do you want to back up your data?
+	- Will all the data be backed up each time (full backup), or only amended data and changes (incremental backup)?
+- How often will backups be made?
+	- How often do you make changes to the data?
+	- Should back ups be scheduled daily, weekly, monthly?
+- How long will each backup be stored before being over-written? 
+	- For example: under the Grandfather-Father-Son rotation scheme, files may be available for two to three months before the space is over-written.
+- How much additional space will be required to maintain the backups?
+- How will you keep track of different versions of data when backing up to multiple devices? 
+	- Will you use a Version Control Systems (VCS)?
+- Where will you backup your data locally? And remotely?
+	- What hardware and services are available that meet your accessibility, security, and space needs?
+	
+### Bonus:
+- Before the next session, ask your advisor where he/she stores his/her data and how it's backed up
+- If they use network drives, who manages them and do they know the security and back-up policies?
 
 ## References
 - DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+- Hicock, Robyn. 2016. "Microsoft Password Guidance" [PDF](https://www.microsoft.com/en-us/research/publication/password-guidance/)
+- MANTRA. "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
 
 ## Materials

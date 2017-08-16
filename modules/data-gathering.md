@@ -6,7 +6,7 @@
 - Bonus: Understand data validation.
 
 ## Introduction
-Collect and store [image](../images/20170801-data_lifecycle-collect_store-text.png)
+Collect and store [image](../images/20170801-data_lifecycle-collect_store-text.png) 
 
 In this module, we'll focus on data entry and how to arrange data to your advantage. The goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. We'll start broadly and then get more concrete and specific. 
 

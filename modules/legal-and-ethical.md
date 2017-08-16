@@ -79,10 +79,10 @@ These claims may found in:
 - A license attached to the data
 
 ### Texas A&M University 
-From: Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
-
 3. Ownership
 "Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
+
+Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
 
 ## Restricted data
 Some data may need to be kept secure due to agreements, rules, and regulations. These will dictate how you are able to interact with the data.

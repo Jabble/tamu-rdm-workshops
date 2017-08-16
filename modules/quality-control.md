@@ -1,19 +1,19 @@
-# Quality control and assurance
+# Quality control
 ##  Objectives
 - Understand the need for quality control
 - Identify quality control practices
 
 ## Introduction
-Activities that prevent errors from entering or remaining in a dataset. These are strategies to ensure data are usable for your analysis and procedures to identify potential problems with data that could affect its use. 
+*Define difference between quality control and assurance*
 
-From the point you decide to collect data, you'll need to consider how you will make sure the quality of the data aren't compromised.
+In this module, we'll focus on actions that prevent errors from entering or remaining in a dataset when collecting data and combining datasets. The goal is to assure the quality of the data you plan to analyse and identify potential problems with data that could affect its use. 
 
-## Exercise: Quality control procedures
-- Do you already have quality control procedures?
-- What are some actions you will take to maintain the quality of your data before, during, and after collection?
+## Exercise: Quality control experience
+- Have you worked with quality control procedures before?
+- What are some actions you have taken pr expect to take to maintain the quality of your data before, during, and after collection?
 
 ## Types of errors
-*Note about errors being common*
+Errors in data are common. The two types of errors that quality control aims to avoid are:
 
 **Errors of Omission**
 
@@ -31,7 +31,7 @@ From the point you decide to collect data, you'll need to consider how you will 
 What type of error was this?
  
 ## How to control quality
-Quality control practices are specific to the type of data being collected, but we'll highlight some practices that you may be able to use.
+Quality control practices are specific to the type of data being collected. It is likely that you will work with established data collection procedures, which may include quality control elements. We'll highlight some practices that you may be able to use before gathering data, during data entry, after data entry, and when combining datasets.
 
 ### Before gathering data
 Define standards including:
