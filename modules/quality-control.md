@@ -25,7 +25,7 @@ Errors in data are common. The two types of errors that quality control aims to 
 - Incorrect or inaccurate data entered
 - Examples: malfunctioning instrument, mistyped data
 
-### Example: Gathering physical samples
+### Video: Gathering physical samples
 *Bruce's high-altitude water sample story. 2 months of data collection lost, because someone else made a mistake. Happily, this person is now a full professor anyway.*
 
 What type of error was this?
@@ -110,17 +110,29 @@ Correct interpretation of the content of a data table typically depends on knowi
 Best Practice: 
 Outliers may not be the result of actual observations, but rather the result of errors in data collection, data recording, or other parts of the data life cycle. The following can be used to identify outliers for closer examination:
 
-Statistical determination:
+- Statistical tests
 
 Outliers may be detected by using Dixon’s test, Grubbs test or the Tietjen-Moore test.
-Visual determination:
+
+- Visual determination
 
 Box plots are useful for indicating outliers
-Scatter plots help identify outliers when there is an expected pattern, such as a daily cycle
-Comparison to related observations:
 
-Difference plots for co-located data streams can show unreasonable variation between data sources. Example: Difference plots from weather stations in close proximity or from redundant sensors can be constructed.
-Comparisons of two parameters that should covary can indicate data contamination. Example: Declining soil moisture and increasing temperature are likely to result in decreasing evapotranspiration.
+Scatter plots help identify outliers when there is an expected pattern, such as a daily cycle
+
+Normal probability plots
+Regression
+
+Map geographic coordinates to detect errors
+
+- Comparison to related observations
+
+Difference plots for co-located data streams can show unreasonable variation between data sources. 
+Example: Difference plots from weather stations in close proximity or from redundant sensors can be constructed.
+
+Comparisons of two parameters that should covary can indicate data contamination. 
+Example: Declining soil moisture and increasing temperature are likely to result in decreasing evapotranspiration.
+
 No outliers should be removed without careful consideration and verification that they are not representing true phenomena.
 
 Description Rationale: 
@@ -144,8 +156,7 @@ The goal is not to eliminate outliers but to identify potential data contaminati
 
 Methods to look for outliers
 Graphical 
-Normal probability plots
-Regression
+
 Scatter plots
 Maps
 Subtract values from mean
@@ -153,59 +164,7 @@ Subtract values from mean
 
 Geographic coordinates:
 
-Map coordinates to detect errors
 
-### When combining data sets
-Maintain dataset provenance
-- Where did the data come from? Did you collect it, or did you get your data form another source?
-- 
-Document transformations
-Beware of accidental duplication
-
-Review metadata for compatibility of context, methods, and meaning
-For what purpose was the data collected?
-How was the data collected?
-Is it sensible to combine these datasets?
-
-
-Ensure compatibility
-Convert to common units
-Choose appropriate numeric precision
-Evaluate and standardize missing value codes
-
-Document all assumptions
-What assumptions underlie the original datasets?
-What assumptions did you make in combining the datasets?
-
-
-Recognize that you are creating a new dataset
-Revisit the data life cycle to ensure the new dataset is properly documented, validated, and preserved
-
-
-Enable transparency and reproducibility in the integration process
-Ensure others understand and can evaluate your decision making process.
-Automate the integration as much as possible
-Especially when integrating many datasets or large datasets
-
-Consider the compatibility of the data you are integrating
-
-Best Practice: 
-The integration of multiple data sets from different sources requires that they be compatible. Methods used to create the data should be considered early in the process, to avoid problems later during attempts to integrate data sets. Note that just because data can be integrated does not necessarily mean that they should be, or that the final product can meet the needs of the study. Where possible, clearly state situations or conditions where it is and is not appropriate to use your data, and provide information (such as software used and good metadata) to make integration easier.
-
-Description Rationale: 
-When using integrated data sets, it is crucial that the data are comparable and compatible to avoid mistakes in analyses and interpretation.
-
-Related Best Practices: 
-Confirm a match between data and their description in metadata
-Document steps used in data processing
-Define the data model
-Additional Information: 
-Burley, T.E., and Peine, J.D., 2009, NBII-SAIN Data Management Toolkit, U.S. Geological Survey Open-File Report 2009-1170, 96 p. Available from: http://pubs.usgs.gov/of/2009/1170/
-
-Examples: 
-Water-quality data collected by two separate agencies may be thematically similar but may have been sampled using completely different methods. Differences in such water-quality sample methods can include equipment, sampling method protocol, and lab analysis procedures. Analysis performed on integrated water-quality data that were collected using completely different methods would likely result in questionable results.
-
-DataOne [website](https://www.dataone.org/best-practices/consider-compatibility-data-you-are-integrating)
 
 ### Documenting actions
 As I mentioned earlier, maintining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. 

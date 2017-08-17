@@ -1,4 +1,4 @@
-# Data analysis and transformation and cleaning?
+# Data analysis and transformation?
 ## Module Objectives
 ### Data cleaning and transformation
 There are a number of reasons you might need to transform your data during your research project or afterwards. Unlike the earlier discussion about migrating your file format, data transformation involves computing new values from old in the actual data content.
@@ -8,7 +8,7 @@ Some transformations are purely statistical, and are used to prepare the data to
 Of course there are implications for decisions about which form of the data to keep for the long term, which form to share with other researchers, and how to document all changes to the data. Other units in this module cover these topics.
 
 In survey data collected from questionnaires, multiple choice and other kinds of responses are usually coded as numbers instead of character strings. This simple type of transformation has the advantages of easing data entry if typing in paper responses and avoiding inconsistencies (e.g. typos) in data values.
-
+ 
 Qualitative data, for example interview transcripts, may be transformed into quantitative data by applying textual coding and categorisation techniques. Such variables (subjectively derived from a human thought process rather than computed) are understandably described as categorical or nominal, and can have a certain range of statistical techniques applied to them. Variables measured at an ordinal, interval or ratio level, that is 'real' numbers where a value reflects some measurement of the concept of interest, allow for a wider range of methods of analysis.
 
 Another reason for data transformation may be to visualise the data effectively. A simple example is converting data where there is a numerator and a denominator, from ratios to percentages in order to display on a bar chart or pie graph. 

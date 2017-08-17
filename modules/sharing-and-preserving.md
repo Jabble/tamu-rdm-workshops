@@ -5,6 +5,11 @@
 ## Maintaining your data over time
 During your research, you will need to make sure your data are not lost, stolen, or corrupted. But, you will also need to hang on to the data after your project is complete.
 
+### The difference between back up and archiving
+The storage we have discussed so far can be considered workable over the course of your project, and into the medium term. Perhaps up to 5 years or so after your project. However, you may need to make your data publically available, in which case, it need to continue to be maintained. Or you may want to preserve the data for a longer period of time due to some other requirements. 
+
+Recommendations for long-term maintenance and to ensure accessibility to data requires different way of thinking. 
+
 ### External requirements
 Your funder, publisher, and/or institution are likely to have data retention policies. Meaning that you will need to safely store your data for a certain period after your project is complete. 
 
