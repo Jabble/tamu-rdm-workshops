@@ -1,4 +1,4 @@
-# Data gathering
+# Data collection
 ## Objectives
 - Define data types. 
 - Compare tabular data arrangements in spreadsheets.
@@ -20,6 +20,18 @@ What you intend to study will inform how you gather data and the types of data y
 - **Reference data** are published (possibly peer-reviewed) or curated datasets informing research. Common types: gene sequence databanks, chemical structures, census data, spatial data portals. 
 
 **Example**: In order to study changes in bird populations at Big Thicket National Preserve over time, I combine my own observational data with reference data from previous research projects.
+
+
+<!-- ## Quantitative and qualitative data
+Data are often described as quantitive or qualitative. Quantitative data are expressed numerically (interval, ratio, possibly ordinal). Qualitative data are categorical (nominal, ordinal) data expressed in natural language.
+
+### Exercise: Qualitative or quantitative?
+- The number of website visits.
+- Sport preferences (football, basketball, volleyball, hockey, ping pong)
+- Frequency of different hair colors.
+- Responses on a scale of agreement (strongly disagree, disagree, neutral, agree, strongly agree).
+- Social security numbers. -->
+
 
 ### Exercise: Identify your data source(s)
 *Raise hands or [etherpad](https://etherpad.net/p/Data_gathering)*
@@ -114,7 +126,7 @@ The goal is to create quality data sets that are valid, and organized to support
 	- Often, these can be the names of variables, such as "age, "gender", "frequency", "date".
 3. Include one observation per row, and one variable per column.
 4. Ensure that data in each column are of a single type, e.g. date, text, number.
-5. Use a standard format for values in each column, e.g. names, codes, dates.
+5. Use a standard format for values in each column, e.g. unique identifiers, names, codes, dates.
 6. Once gathered, leave the raw data raw. Use a copy for cleaning and analysis.
 
 ### Dealing with missing data
@@ -124,6 +136,8 @@ Preferably leave the cell empty and use a separate column to qualify missing val
 - in text fields, use NA (“Not Applicable” or “Not Available”). 
 
 ### Using codes
+Codes are often used for categorical variables, they may be called "dummy codes" because they have no arithmetic meaning, doesn't make sense to add or subtract them.. Such as coding smokiers and nonsmokers as 1 or 0.
+
 This should be documented seperately, in a *Codebook*. We'll cover Codebooks when we discuss data documentation.
 
 <!-- As we mentioned at the beginning, the aim of data entry is to prepare you for later stages of the lifecycle. *You will see more of the result of these practices in the analysis workshop.* -->
@@ -191,7 +205,7 @@ You may also prefer to use a form for data entry into a spreadsheet. This can al
 - DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
 - Wickham, Hadley. 2014. Tidy Data. Journal of Statistical Software, 59:10 [pre-print](/papers/tidy-data.pdf) | [publisher](http://www.jstatsoft.org/v59/i10/)
 - Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
-
+- Coursera. https://www.coursera.org/learn/data-visualization/lecture/7yx2o/video-lesson-what-do-we-mean-by-data
 ## Materials
 - Microsoft Excel spreadsheet with poorly formatted data for rearrangement (all students can look and work with it)
 - Example data to enter in plain text editor, Excel, and Google Form. Should also be the same as in Database format.
