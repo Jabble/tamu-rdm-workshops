@@ -5,7 +5,7 @@
 - Use a metadata schema
 
 ## Introduction
-Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> **Share and preserve**
+Plan management -> **Collect and store** -> Assure quality -> Analyze and present -> **Share and preserve**
 
 In this module, we'll look at converting data into different file formats, as well as organizing data with accessibility in mind. The goal is for you to be aware of strategies and techniques that can help you focus on working with your data, and ensure your data can be shared with others. 
 
@@ -196,8 +196,8 @@ Why not move from compressed to uncompressed? You cannot go back to a higher qua
 Open this file in excel.
 
 
-Document and Store Data Using Stable File Formats. DataONE. http://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats. Useful information about file formats.
-
-File formats. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/file-formats
-
-Metadata and Describing Data. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/writing-metadata
+## References
+- Cornell Research Data Management Service Group. File formats. http://data.research.cornell.edu/content/file-formats
+- Cornell Research Data Management Service Group. Metadata and Describing Data. http://data.research.cornell.edu/content/writing-metadata
+- DataONE. Document and Store Data Using Stable File Formats. http://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats. Useful information about file formats.
+- Library of Congress. Recommended formats statement. VI. Datasets/Databases. https://www.loc.gov/preservation/resources/rfs/data.html

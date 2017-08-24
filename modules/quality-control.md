@@ -4,98 +4,104 @@
 - Identify quality control practices
 
 ## Introduction
-*Define difference between quality control and assurance*
+In this module, we'll focus on actions that prevent errors from entering or remaining in a dataset. 
 
-In this module, we'll focus on actions that prevent errors from entering or remaining in a dataset when collecting data and combining datasets. The goal is to assure the quality of the data you plan to analyse and identify potential problems with data that could affect its use. 
+The goal is to ensure the quality of the data you plan to analyze, and to identify potential problems with data that could affect its use. 
 
-## Exercise: Quality control experience
-- Have you worked with quality control procedures before?
-- What are some actions you have taken pr expect to take to maintain the quality of your data before, during, and after collection?
+## Exercise: Maintaining quality 
+- Have you worked with quality assurance or control procedures before?
+- What are some actions you have taken or expect to take to maintain the quality of your data before, during, and after collection?
 
 ## Types of errors
-Errors in data are common. The two types of errors that quality control aims to avoid are:
+Errors in data are common. The two types of errors that quality control actions aim to avoid are:
 
 **Errors of Omission**
 
-- Data or metadata not recorded
+- Data or metadata not recorded.
 - Examples: inadequate documentation, human error, anomalies in the field
 
 **Errors of Commission**
 
-- Incorrect or inaccurate data entered
+- Incorrect or inaccurate data entered.
 - Examples: malfunctioning instrument, mistyped data
 
-### Video: Gathering physical samples
-*Bruce's high-altitude water sample story. 2 months of data collection lost, because someone else made a mistake. Happily, this person is now a full professor anyway.*
+### Video: Physical samples
+Dr. Bruce Herbert on data quality assurance procedures [youtube](https://youtu.be/xy7b_6MIB4k)
 
-What type of error was this?
+2 months of data collection lost, because someone made a mistake. Happily, Dr. Herbert is now a full professor.
+
+- What type of error was this?
+- What would keep this from happening in the future?
  
 ## How to control quality
-Quality control practices are specific to the type of data being collected. It is likely that you will work with established data collection procedures, which may include quality control elements. We'll highlight some practices that you may be able to use before gathering data, during data entry, after data entry, and when combining datasets.
+Quality control practices are specific to the type of data being collected. It is likely that you will use established data gathering procedures, which include processes for ensuring data quality. 
 
-### Before gathering data
-Define standards including:
+We'll highlight some practices that you may be able to incorporate during data entry, and after data entry to help ensure quality.
 
-- Formats
-- Codes	
-- Measurement units
-- Documentation practices
-
-### During data collection and entry
+## During data collection and entry
 Tips:
 
-- Think about your data organization and design your data storage.
-- Enforce consistent formats, terminology, codes, measurement units.
-- Minimize number of times data must be entered.
-	- Especially if this is manual.
-- Double check manual entry for errors.
+- Enforce consistent procedure and use of standards.
+- Minimize number of times data must be entered. Especially if data entry this is manual.
+
+For manual entry:
+
+- Consider adding an automatic validation layer (as mentioned in Data gathering).
+- Double check for errors.
 	- Preferably using a second person.
 
-#### Example: A quality control procedure for data transcription
+## Example: Data transcription
 Manually entered data can suffer from a high error rate. Double data entry and/or double checking of data can dramatically improve data quality.
 
 When transcribing data from paper records to digital representation, have at least two, but preferably more people transcribe the same data, and compare resulting digital files. At a minimum someone other than the person who originally entered the data should compare the paper records to the digital file. Disagreements can then be flagged and resolved.
 
+## After data entry
+Conduct error checks
 
-### After data entry
-Conduct error checks, these may include: 
+### Check data formatting
+For tabular data, make sure data line up in the proper columns and rows and follow good practices for tabular data arrangement discussed in Data gathering.
 
-1. For tabular data, make sure data line up in the proper columns.
-2. Check for consistency
-Dates and times:
+### Check for valid data
+This is where automatic validation can be helpful. If you use codes these can also be checked against the list of allowed values to validate code entries. When coded data are digitized, they should be re-checked against the original source.
 
-Ensure that dates and times are valid
-Time zones should be clearly indicated (UTC or local)
 Data Types:
 
-Values should be consistent with the data type (integer, character, datetime) of the column in which they are entered. Example: 12-20-2000A should not be entered in a column of dates).
-Use consistent data types in your data files. A database, for instance, will prevent entry of a string into a column identified as having integer data.
+For tabular data, values should be consistent with the data type (integer, character, datetime) of the column in which they are entered. 
 
-Codes should be checked against the list of allowed values to validate code entries
-When coded data are digitized, they should be re-checked against the original source. Double data entry, or having another person check and validate the data entered, is a good mechanism for identifying data entry errors.
+Dates and times:
 
-2. Identify missing values and assign missing value codes 
-Missing values are common in environmental data and many instruments will automatically add missing value codes in their datastream which will have to be dealt with for storage and analysis.
+- Ensure that dates and times are written correctly.
+- Time zones should be clearly indicated (UTC or local)
 
-Missing values should be handled carefully to avoid their affecting analyses. Codes for missing values should be used consistently throughout all data associated files and identified in the metadata and/or data description files. The content and structure of data tables are best maintained when consistent codes are used to indicate that a value is missing in a data field. 
+### Identify missing values 
+Missing values are common and many instruments will automatically add special codes for missing values in their datastream.
 
-Commonly used approaches for coding missing values include:
-Text:
-N/A
-None
-Null
-Not Applicable
+Missing values should be handled carefully to avoid affecting analyses. Codes for missing values should be used consistently throughout all data associated files and identified in documentation.
 
-Numeric:
-99
--99
--999.99
+Common codes for missing text:
 
-3. Identify values that are estimated
-Best Practice: 
-Data tables should ideally include values that were acquired in a consistent fashion. However, sometimes instruments fail and gaps appear in the records. For example, a data table representing a series of temperature measurements collected over time from a single sensor may include gaps due to power loss, sensor drift, or other factors. In such cases, it is important to document that a particular record was missing and replaced with an estimated or gap-filled value.
+- N/A
+- None
+- Null
+- Not Applicable
 
-Specifically, whenever an original value is not available or is incorrect and is substituted with an estimated value, the method for arriving at the estimate needs to be documented at the record level. This is best done in a qualifier flag field. An example data table including a header row follows:
+Common codes for missing numbers:
+
+- 99
+- -99
+- -999.99
+
+### Identify estimated values 
+Sometimes instruments fail and gaps appear in data. 
+
+*show visual*
+For example: a data table representing a series of temperature measurements collected over time from a single sensor may include gaps due to power loss, sensor drift, or other factors. In such cases, it is important to document that a particular record was missing.
+
+It may also need to be replaced with an **estimated** or **gap-filled** value.
+
+Whenever an original value is not available or is incorrect, and is substituted with an estimated value, the method for arriving at the estimate needs to be documented at the record level. 
+
+This is best done in a **qualifier flag field**. 
 
 Day, Avg Temperature, Flag
 1, 31.2, actual
@@ -103,79 +109,77 @@ Day, Avg Temperature, Flag
 3, 33.4, estimated
 4, 35.8, actual
 
-Description Rationale: 
-Correct interpretation of the content of a data table typically depends on knowing which data values were actually recorded in the field or estimate using other approaches.
+### Identify anomalies and outliers
+You can use exploratory data analysis:
+- frequency distribution
+- graphical representaiton
+- calculate center and spread 
 
-4. Identify anomalies and outliers
-Best Practice: 
-Outliers may not be the result of actual observations, but rather the result of errors in data collection, data recording, or other parts of the data life cycle. The following can be used to identify outliers for closer examination:
+It is important to find outliers and anomolies in data in order to determine whether data may be contaminated.
+
+Outliers may be the result of valid observations, but it is important to identify and examine their validity. Because, they may also be the result of errors in data collection and data recording. 
+
+No outliers should be removed without careful consideration and verification that they don't represent true phenomena.
+
+Three techniques for finding outliers in your data are:
 
 - Statistical tests
+- Visual determinations
+- Comparing to related observations
 
+#### Statistical tests
 Outliers may be detected by using Dixon’s test, Grubbs test or the Tietjen-Moore test.
 
-- Visual determination
+Summary statistics 
+Subtract values from mean
 
+#### Visual deteminations
 Box plots are useful for indicating outliers
 
 Scatter plots help identify outliers when there is an expected pattern, such as a daily cycle
 
 Normal probability plots
+
 Regression
 
-Map geographic coordinates to detect errors
+Mapping geographic coordinates
 
-- Comparison to related observations
-
+#### Comparing to related observations
 Difference plots for co-located data streams can show unreasonable variation between data sources. 
+
 Example: Difference plots from weather stations in close proximity or from redundant sensors can be constructed.
 
 Comparisons of two parameters that should covary can indicate data contamination. 
+
 Example: Declining soil moisture and increasing temperature are likely to result in decreasing evapotranspiration.
 
-No outliers should be removed without careful consideration and verification that they are not representing true phenomena.
+### Signs that outliers may be incorrect
 
-Description Rationale: 
-Outliers may represent data contamination, a violation of the assumptions of the study, or failure of the instrumentation. Although outliers may be valid observations it is important to identify and examine their validity.
+- Data collected by instruments:
 
-No missing, impossible, or anomalous values
-Perform statistical summaries
-
-Look for outliers
-Data collected by instruments:
 Values recorded by instruments should be checked to ensure they are within the sensible range of the instrument and the property being measured. Example: Concentrations cannot be < 0, and wind speed cannot exceed the maximum speed that the anemometer can record.
 
-Data collected by observations:
+- Data collected by observations:
+
 Range checks and comparisons with historic maxima will help identify anomalous values that require further investigation.
 Comparing current and past measurements help identify highly unlikely events. For example, it is unlikely that the girth of a tree will decrease from one year to the next.
-Codes should be used to indicate quality of data.
 
 
-Outliers are extreme values for a variable given the statistical model being used
-The goal is not to eliminate outliers but to identify potential data contamination
+## How to document actions
+As I mentioned earlier, maintaining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. 
 
-Methods to look for outliers
-Graphical 
-
-Scatter plots
-Maps
-Subtract values from mean
-
-
-Geographic coordinates:
-
-
-
-### Documenting actions
-As I mentioned earlier, maintining documentation as you go along will save you having to try and think back about your procedures, ad hoc decisions you had to make while gathering your data, and the processing you did to transform and analyze raw data. 
-
-- Document checks made to data.
+- Document procedures and standards you followed including:
+	- Data types and formats
+	- Codes and terminology
+	- Measurement units
+- Document the checks made to data.
 	 - This allows you to avoid needing to duplicate the error checking process.
-- Document the changes made to data.
-	- This allows you to undo them if necessary.
 - Mark data with quality control flags.
 	- As part of any review or quality assurance of data, potential problems can be categorized systematically. For example data can be labeled as 0 for unexamined, -1 for potential problems and 1 for "good data." 
 	- Some research communities have developed standard protocols; check with others in your discipline to determine if standards for data flagging already exist.
+
+## Conclusion
+Quality assurance and quality control will help you to avoid problems with your data and to prepare your data for analysis.
 
 ## References
 - DataOne [website](https://www.dataone.org/best-practices/ensure-basic-quality-control)

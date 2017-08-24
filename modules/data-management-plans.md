@@ -41,9 +41,9 @@ It's hard to know what you should pay attention to and how to manage your data b
 Including:
 
 - The types of data to be authored;
-- the standards that would be applied, for example format and metadata content;
-- provisions for archiving and preservation;
-- access policies and provisions; and
+- the standards that would be applied, for example file formats and metadata standards;
+- access policies and provisions;
+- provisions for archiving and preservation; and
 - plans for eventual transition or termination of the data collection in the long-term future.
 
 ## Exercise: Read a Data Management Plan
