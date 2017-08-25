@@ -37,15 +37,39 @@ The lifecycle focuses specifically on curation activities.
 ## Simplified lifecycle
 This workshop series will cover data management activities within stages of the data lifecycle.
 
-1. Plan management [image](../images/20170801-data_lifecycle-plan_management-text.png)
-2. Collect and store [image](../images/20170801-data_lifecycle-collect_store-text.png) 
-3. Assure quality [image](../images/20170801-data_lifecycle-assure_quality-text.png)
-4. Analyze and present [image](../images/20170801-data_lifecycle-analyze_present-text.png)
-5. Share and preserve [image](../images/20170801-data_lifecycle-share_preserve-text.png)
+1. Introduction to Research Data Management
+2. Collect and document data
+3. Store digital data
+4. Work with data
+5. Share and preserve data
+6. Plan ahead
 
 Since we're taking a lifecycle approach, we'll look at how practices at each stage impact later stages in the lifecycle. 
+
+### Workshops
+
+1. Introduction to Research Data Management
+2. Collect and document data
+3. Store digital data
+4. Work with data
+5. Share and preserve data
+6. Plan ahead
+
+This 6-week series provides an overview of research data management concepts. It covers good practices, tools, tips, and resources for effective management of digital data, including:
+
+Data formatting for easy analysis.
+File organization and naming conventions for identification.
+Quality control for integrity.
+Documentation and version control for tracking changes and roll-back.
+Managing storage for security.
+Back-up procedures for redundancy.
+Policies for sharing and reuse.
+Archiving and preservation for future accessibility
 
 ## References
 - DataOne. "Data Lifecycle" [image](../dataone-data_lifecycle-image.png)
 - Digital Curation Center (DCC). "Curation Lifecycle Model" [PDF](http://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf)
 - Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
+
+## Materials
+- Workshop syllabus hand-out
