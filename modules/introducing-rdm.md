@@ -7,6 +7,8 @@
 My name is Anna Dabrowski. I'm the Data Management Librarian at the Texas A&M University Libraries. This is a new position, which means I'm working on expanding our data services here at the Libraries and this workshop series is one way for us to do that. Your subject librarians are also an excellent resource for you, and they may be able t
 
 ### Student introductions
+*(Etherpad)[]*
+
 1. Your name
 2. What do you study or intend to study? What is your area of research?
 3. Do already have, or work with, data?

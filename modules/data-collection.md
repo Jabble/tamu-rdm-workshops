@@ -6,9 +6,8 @@
 - Bonus: Understand data validation.
 
 ## Introduction
-Collect and store [image](../images/20170801-data_lifecycle-collect_store-text.png) 
-
-In this module, we'll focus on data entry and how to arrange data to your advantage. The goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. We'll start broadly and then get more concrete and specific. 
+In this module, we'll focus on data entry and how to arrange data to your advantage. 
+The goal is to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle. We'll start broadly and then get more concrete and specific. 
 
 ## Ways to gather data
 What you intend to study will inform how you gather data and the types of data you gather. In order to conduct your research, you may use and combine data from different sources. These can be grouped into five main categories. The category(ies) your data comes from will affect the choices that you make throughout your data management.

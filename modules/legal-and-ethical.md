@@ -6,14 +6,83 @@
 ## Introduction
 In this module, we'll discuss legal and ethical issues that need to be tackled when working with data. The goal is to help you identify and understand your obligations.  
 
+## Who owns the data?
+This question pertains to the individual or entity that has the legal rights to the data, and can retain the data after the completion of the project.
+
+Data ownership can be very complex. 
+Before starting a project you should have an idea of the ownership issues related to research products resulting from your particular project, including data.
+
+### Stakeholders
+Data are seen as assets and therefore research stakeholders want to protect their **intellectual property rights**.
+
+Different people or groups may be stakeholders claiming ownership or some level of control over research data, including:
+
+- Institutions (Texas A&M University)
+- Funders
+- Research faculty (Your advisor, a Principle Investigator)
+- Data collectors (You)
+
+### Determining ownership
+Ownership can be determined by:
+
+- Funder agreements (grants or contracts)
+- Institutional Intellectual Property policies
+- A data use agreement
+- A license attached to the data
+
+### Texas A&M University
+Institutional policies can help ascertain who owns data produced at an institution and under what circumstances someone may:
+
+- Access data
+- Take data
+- Share data
+- Publish data
+ 
+3. Ownership
+"Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
+
+Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+
+## Claiming ownership and control
+Rights of control over data, or access to data, can be given without legally changing ownership of the data. 
+
+Although you may not be able to claim ownership over data, you may still have control over, or access to data. 
+
+Think of this a little like using a service such as spotify to listen to music. Spotify has contracts with artists. You have access to music, but you don’t own that music.
+
+### Example: Federally funded research grant
+In most cases for federally funded research, the government gives the research institution the right to use data collected with public funds as an incentive to put research to use for the common good. 
+Thus the research institution owns the data but allows the principal investigator (PI) on the grant to be the steward of the data.
+
+The PI takes responsibility for the collection, recording, storage, retention and disposal of data. They can claim control over the data. 
+
+Meanwhile the graduate students, postdocs, or faculty involved in performing research on a particular grant cannot assume that they own the data that they are collecting and managing. 
+
+Students should not take the data with them when they leave the institution unless they have made appropriate arrangements with the project PI.
+
+<!-- ## Funders
+### Federal grants and contracts
+Under grants, researchers must carry out the research and submit reports, but control of the data remains with the institution that received the funds.
+With contracts, the researcher is required to deliver a product or service, which is then usually controlled by the government.
+
+### Private funders
+Private funders seek to retain the rights for commercial use of the data.
+
+### Philanthropic funders
+Depending on their interests, they may retain or give away ownership rights. -->
+
 ## Intellectual Property
-Intellectual Property (IP) refers to:
+As we mentioned a little while ago, data are seen as assets and therefore research stakeholders want to protect their **intellectual property rights**.
+
+Now, we’ll talk a little about which Intellectual Property rights can be granted to the owners of data.
+
+Generally Intellectual Property (IP) law covers:
 
 - Copyright
 - Patents
 - Trademarks
 - Industrial Designs
-
+Intellectual property generated in an academic setting usually involves copyrights, trade secrets, and patents.
 ## Copyright
 Copyright is a legal protection for the creators of "original works of authorship."
 
@@ -39,9 +108,7 @@ Copyright does **not** apply to:
 
 The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. 
 
-In some cases, the arrangement of data or portions of a dataset may be protected by copyright. However, definitions of data and types of data vary and it's best to play it safe. 
-
-
+In some cases, the arrangement or compilation of data or portions of a dataset may be protected by copyright. However, definitions of data and types of data vary and it's best to play it safe. 
 
 ## Licenses and credit for data
 How to play it safe? 
@@ -55,34 +122,7 @@ When sharing data:
 
 - make clear to others how others can use your data and how to cite you
 
-## Claiming ownership and control
-Rights of control over data, or access to data, can be given without legally claiming ownership of the data. Although you may not be able to claim ownership over particular arrangements or types of data, you may still have some control.
 
-### Example
-A data set, produced under a federal grant, contained within an institutional data repository may be owned by that institution. The Principle Investigator of the project that generated that data, while not the owner, may have authority to restrict or release access to that data, or limit the use of the data by others. In this circumstance, the PI can claim **control** of the data without the ability to claim **ownership**. 
-
-From: DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
-
-### Interested groups
-Different people or groups may claim ownership or control over research data. It may be:
-
-- You
-- Your advisor
-- Texas A&M University
-- A funder 
-
-These claims may found in:
-
-- Funder agreements
-- Institutional Intellectual Property policy
-- A data use agreement
-- A license attached to the data
-
-### Texas A&M University 
-3. Ownership
-"Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
-
-Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
 
 ## Restricted data
 Some data may need to be kept secure due to agreements, rules, and regulations. These will dictate how you are able to interact with the data.
@@ -128,6 +168,7 @@ Nancy Simms, Copyright Specialist at University of Minnesota Libraries [youtube]
 
 
 ## References
-- U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
 - DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
 - MANTRA Research Data Management Training, [website](http://datalib.edina.ac.uk/mantra/)
+- New England Collaborative Data Management Curriculum. "Module 5: Legal and Ethical Considerations for Research Data" [website](http://library.umassmed.edu/necdmc/modules)
+- U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
