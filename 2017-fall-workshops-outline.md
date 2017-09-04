@@ -23,7 +23,7 @@
 
 ## 4. Work with data
 - [Quality control](modules/quality-control.md) 60min + Break 10min
-- [Data processing](modules/data-analysis.md) 60min + Break 10min
+- [Data processing](modules/data-processing.md) 60min + Break 10min
 <!-- - [Data visualization](modules/visualization.md) -->
 
 ## 5. Share and preserve data
