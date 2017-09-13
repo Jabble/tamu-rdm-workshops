@@ -4,23 +4,33 @@
 - Recognize the purpose of documentation tools such as lab notebooks, codebooks, and readme files.
 
 ## Introduction
-In this module, we'll focus on documenting important parts of your workflow to help you share information about your project with your advisor, write your thesis or dissertation, and to ensure your data are useful later.
+In this module, we'll focus on documenting important parts of your workflow to help you 
+
+- share information about your project with your advisor, 
+- write your thesis or dissertation, 
+- and to ensure your data are useful later.
 
 Data documentation starts during collection and continues throughout the time you work with the data, including when performing quality assurance and analysis.
 
 ## Why document 
-"You may be on intimate terms with your dataset while you are collecting and analysing it, but remembering that the variable "sglmemgp" means single member of group, or the exact procedure you used to transform or derive particular variables, could potentially become difficult months or years later." 
-
-Clear and detailed documentation is essential for data to be understood, interpreted, and used. Documenting your data from the beginning of research projects, will make your research career easier.
-
-It will enable:
+Documenting your data enables:
 
 - You to get a mess of details out of your head, so that you can focus on doing your work and avoid forgetting important considerations.
 - You can reproduce and improve workflows in the future.
 - Other researchers, including your collaborators, can find the right data and use them properly.
 
+"You may be on intimate terms with your dataset while you are collecting and analysing it, but remembering that the variable "sglmemgp" means single member of group, or the exact procedure you used to transform or derive particular variables, could potentially become difficult months or years later." 
+
+Clear and detailed documentation is essential for data to be understood, interpreted, and used. Documenting your data from the beginning of research projects, will make your research career easier.
+
+### Video: documenting data during secondary analysis
+Professor John MacInnes, University of Edinburgh, speaks to the value of documention during data analysis [youtube](https://www.youtube.com/watch?v=EIZsxT-fIiQ)
+
 ## What to document
-Documentation can be used to describe your research projects at different levels. **High-level** documentation explains your research goals and the progress of your project. **Low-level** documentation explains the details of the data, how it has been collected, stored, and changed over time.
+Documentation can be used to describe your research projects at different levels. 
+
+- **High-level** documentation explains your research goals and the progress of your project. 
+- **Low-level** documentation explains the details of the data, how it has been collected, stored, and changed over time.
 
 Project documentation explains:
 
@@ -40,9 +50,6 @@ Dataset documentation explains:
 - Relationship among data files or tables in a database schema
 	- Version information
 - File formats and software used
-
-## Video: documenting data during secondary analysis
-Professor John MacInnes, University of Edinburgh, speaks to the value of documention during data analysis [youtube](https://www.youtube.com/watch?v=EIZsxT-fIiQ)
 
 ## How to document
 - Laboratory notebooks

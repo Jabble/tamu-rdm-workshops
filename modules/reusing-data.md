@@ -2,6 +2,7 @@
 - Finding and accessing data sources
 - Evaluating data sources
 - Combining and cleaning datasets
+- follow instructions
 - Credit for work and incentives
 - Citation
 

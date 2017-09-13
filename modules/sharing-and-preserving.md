@@ -97,3 +97,6 @@ Denhard, Michael (2009): dphase_mpeps: MicroPEPS LAF-Ensemble run by DWD for the
 Manoug, J L (1882): Useful data on the rise of the Nile. Alexandria : Printing-Office V Penasson. http://n2t.net/ark:/13960/t44q88124
 
 From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+
+Data licenses
+https://data.research.cornell.edu/content/intellectual-property

@@ -40,6 +40,21 @@ If you prefer not to participate, this is fine. But, I ask that you please give 
 
 If you have a question, or I'm unclear, please ask. If I don't have an answer I will try to find one for you. 
 
+
+## Research Data Management
+Research Data Management (RDM) refers to the practices of organizing, documenting, storing, sharing, and preserving data collected during a research project. 
+
+The aim of research data management is to ensure that data are usable over time.
+
+The idea of usability over time, and across platforms, will keep coming up in this workshop series and drives a lot of the recommended practices we will discuss.
+
+### Data
+Research data are information artifacts that scholars draw upon for evidence in supporting research claims, and producing new knowledge.
+
+We can define data very broadly. Research data could include any number of physical artifacts, such as a biological specimen, an architectural blue print, a paper map, etc.
+
+Our focus will be on digital data.
+
 ### Question: Why is "data management" a thing?
 
 - Personal efficiency

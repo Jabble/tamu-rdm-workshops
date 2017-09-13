@@ -169,6 +169,6 @@ Nancy Simms, Copyright Specialist at University of Minnesota Libraries [youtube]
 
 ## References
 - DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
-- MANTRA Research Data Management Training, [website](http://datalib.edina.ac.uk/mantra/)
+- MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
 - New England Collaborative Data Management Curriculum. "Module 5: Legal and Ethical Considerations for Research Data" [website](http://library.umassmed.edu/necdmc/modules)
 - U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)

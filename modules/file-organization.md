@@ -5,8 +5,6 @@
 - Compare and critique file naming conventions.
 
 ## Introduction
-Plan management -> **Collect and store**  -> Assure quality -> Analyze and present -> Share and preserve
-
 In this module, we'll look at organizing data files with accessibility in mind. The goal is for you to be aware of strategies that can help you focus on working with your data, rather than trying to find files. 
 
 Professor Jeff Haywood at the University of Edinburgh on the importance of good file management [youtube](https://www.youtube.com/watch?v=i2jcOJOFUZg)
@@ -198,6 +196,7 @@ Use codebook to explain your naming format along with any abbreviations or codes
 This can be done inside the file itself or in a seperate Notebooks and README file that describe your file naming convention and file organization. 
 
 ## References
+- Cornell. "File management" [Website](https://data.research.cornell.edu/content/file-management)
 - DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
 - Library Carpentry. [lesson](https://data-lessons.github.io/library-data-intro/03-foundations/)
 - MANTRA "Organizaing data" [module](http://mantra.edina.ac.uk/organisingdata/)
@@ -206,6 +205,6 @@ This can be done inside the file itself or in a seperate Notebooks and README fi
 - MIT Libraries [website](http://libraries.mit.edu/data-management/store/organize/)
 - Meghan Frazer 2013 "An eleveator pitch for file naming conventions" [article](http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions)
 
-File management. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/file-management
+. Cornell Research Data Management Service Group. http://data.research.cornell.edu/content/file-management
 
 ## Materials

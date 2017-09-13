@@ -1,6 +1,9 @@
 # Manipulating data
 ## Objectives
-From the data management perspective, the important point here is to make sure you're aware that you will need to process and possibly transform your data. And to point out that this should be done in a manner that allows you to roll back changes if you make a mistake. Or to return to the unchanged data in case you choose to use it in a different way in the future.
+From the data management perspective, the important point here is to make sure you're aware that you will need to process and possibly transform your data. 
+And to point out that this should be done in a manner that allows you to roll back changes if you make a mistake. 
+ Or to return to the unchanged data in case you choose to use it in a different way in the future.
+
 ## Introduction
 In this module, we'll discuss common manipulations of data including some common data transformations and tools for processing data. Again, we will speak from the data management perspective and generally cover the considerations you may want to make. 
 

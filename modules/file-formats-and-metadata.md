@@ -166,7 +166,6 @@ Recommended file formats for data have a few features that make them likely to b
 - commonly used by the research community
 
 
-
 In the case of tabular data, even if you use a spreadsheet software like Excel to work with data, the preferred format to save, export or later transform your data into is CSV. From both Excel or Google Docs this is a built-in menu option. 
 
 Note that the CSV file is a much simpler plain text format. Without special encoding that these softwares add and are able to read. If you use something like highlighting, or freezing headers, or formulas within your Excel spreadsheets, this will be lost in the CSV.
@@ -197,6 +196,8 @@ Open this file in excel.
 
 
 ## References
+
+
 - Cornell Research Data Management Service Group. File formats. http://data.research.cornell.edu/content/file-formats
 - Cornell Research Data Management Service Group. Metadata and Describing Data. http://data.research.cornell.edu/content/writing-metadata
 - DataONE. Document and Store Data Using Stable File Formats. http://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats. Useful information about file formats.
