@@ -1,6 +1,6 @@
 # Data collection
 ## Objectives
-- Define data types. 
+- Identify data sources. 
 - Compare tabular data arrangements in spreadsheets.
 - Recognize differences in plain text, spreadsheet, and database formats.
 - Bonus: Understand data validation.
