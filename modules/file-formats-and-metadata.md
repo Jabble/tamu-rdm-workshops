@@ -17,6 +17,18 @@ In this module, we'll look at converting data into different file formats, as we
 File Formats
 The file format you choose for your data is a primary factor in someone else's ability to access it in the future. Think carefully about what file format will be best to manage, share, and preserve your data. Technology continually changes and all contemporary hardware and software should be expected to become obsolete. Consider how your data will be read if the software used to produce it becomes unavailable. Although any file format you choose today may become unreadable in the future, some formats are more likely to be readable than others.
 
+Containers: TAR, GZIP, ZIP
+Databases: XML, CSV
+Geospatial: SHP, DBF, GeoTIFF, NetCDF
+Moving Images: MOV, MPEG, AVI, MXF
+Audio: WAVE, AIFF, MP3, MXF
+Numbers/statistics: ASCII, DTA, POR, SAS, SAV
+Images: TIFF, JPEG 2000, PDF, PNG, GIF, BMP
+Text: PDF/A, HTML, ASCII, XML, UTF-8
+Web Archive: WARC
+
+
+
 Formats likely to be accessible in the future are:
 
 Non-proprietary

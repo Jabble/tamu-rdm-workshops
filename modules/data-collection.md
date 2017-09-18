@@ -29,7 +29,10 @@ Data are often described as quantitive or qualitative. Quantitative data are exp
 - Sport preferences (football, basketball, volleyball, hockey, ping pong)
 - Frequency of different hair colors.
 - Responses on a scale of agreement (strongly disagree, disagree, neutral, agree, strongly agree).
-- Social security numbers. -->
+- Social security numbers. 
+
+Quantitative data can include experimental measurements, e.g. lab instrument data, sensor readings, survey results, and test/simulation models.  Qualitative data can include text, audio, images, and video.  Some definitions of data are quite broad, and include objects such as laboratory specimens.-->
+
 
 
 ### Exercise: Identify your data source(s)
