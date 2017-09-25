@@ -5,8 +5,6 @@
 - Design a storage strategy
 
 ## Introduction
-Plan management -> **Collect and store** -> **Assure quality** -> Analyze and present -> Share and preserve
-
 In this module, we'll focus on storage of digital data. We'll cover storage locations, and discuss data backup and security. The goal is to think "safety first," and reduce risks.
 
 ## What risks?
@@ -271,6 +269,20 @@ If you store your data on the university networked drives your data will be stor
 
 Keeping backups is probably the most important data management task. There is a real risk of losing data through hard drive failure or accidental deletion. It is therefore recommended that you keep at least 3 copies of your data on at least 2 different media, keeping storage devices in separate locations with at least 1 off-site, and check that they work regularly. You should also have a policy for maintaining regular backups.
 
+
+	
+### Bonus:
+- Before the next session, ask your advisor where he/she stores his/her data and how it's backed up
+- If they use network drives, who manages them and do they know the security and back-up policies?
+
+## References
+- DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+- Hicock, Robyn. 2016. "Microsoft Password Guidance" [PDF](https://www.microsoft.com/en-us/research/publication/password-guidance/)
+- MANTRA. "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
+- New England Collaborative Data Management Curriculum. "Module 4: Data Storage, Backup, and Security" [Website](http://library.umassmed.edu/necdmc/modules)
+- Google Apps at Texas A&M. "Terms Of Use and Privacy" [website](http://google.tamu.edu/Resources/terms_of_use.html)
+
+## Materials
 ### Handout: Strategy
 *Physical handout and available online for download*
 
@@ -294,13 +306,4 @@ Questions to answer to build a storage and backup strategy:
 - Where will you backup your data locally? And remotely?
 	- What hardware and services are available that meet your accessibility, security, and space needs?
 	
-### Bonus:
-- Before the next session, ask your advisor where he/she stores his/her data and how it's backed up
-- If they use network drives, who manages them and do they know the security and back-up policies?
-
-## References
-- DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
-- Hicock, Robyn. 2016. "Microsoft Password Guidance" [PDF](https://www.microsoft.com/en-us/research/publication/password-guidance/)
-- MANTRA. "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
-
-## Materials
+Software

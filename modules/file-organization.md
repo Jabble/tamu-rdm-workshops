@@ -75,23 +75,7 @@ Extension - keep last
 
 Note: Each strategy has trade-offs
 
-### Directory structure
-Consider the organisation that will result from naming your files and folders a particular way
-e.g. project with names of regions like ILSSI for directories
 
-Type of analysis 
-Country
-Region
-Data files
-
-Country
-Region
-Type of analysis  
-Data files
-
-Remember to thnk in terms of scalability. What happens when you have more data for a particular region? What happens when you add a new region? What's most likely?
-
-The sub-directory structure should have clear, documented naming conventions. Separate files or directories could apply, for example, to each run of an experiment, each version of a dataset, and/or each person in the group.
 
 ## Exercise: Critique me!
 I'll share my directory structure and file naming schemes I use with you. What's the problem with them? Do you see any?
@@ -126,6 +110,24 @@ The way you put the components together is important for cross-platform integrat
 - include file extensions (often defaults) to accurately reflect the software environment in which the file was created
 
 Organising data with Professor Richard Rodger from University of Edinburgh [youtube](https://www.youtube.com/watch?v=RhxVmYtKqIY)
+
+## Directory structure
+Consider the organisation that will result from naming your files and folders a particular way
+e.g. project with names of regions like ILSSI for directories
+
+Type of analysis 
+Country
+Region
+Data files
+
+Country
+Region
+Type of analysis  
+Data files
+
+Remember to thnk in terms of scalability. What happens when you have more data for a particular region? What happens when you add a new region? What's most likely?
+
+The sub-directory structure should have clear, documented naming conventions. Separate files or directories could apply, for example, to each run of an experiment, each version of a dataset, and/or each person in the group.
 
 ## Exercise: 
 Which components do you think are most useful?
