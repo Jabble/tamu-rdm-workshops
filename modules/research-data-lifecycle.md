@@ -70,6 +70,8 @@ Archiving and preservation for future accessibility
 - DataOne. "Data Lifecycle" [image](../dataone-data_lifecycle-image.png)
 - Digital Curation Center (DCC). "Curation Lifecycle Model" [PDF](http://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf)
 - Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
+University of Virginia Library. (2014). Steps in the data life cycle [Image]. Retrieved from http://dmconsult.library.Virginia.edu/lifecycle
+UK Data Archive, University of Essex. (n.d.). Research data lifecycle [Image]. Retrieved from http://www.data-archive.ac.uk/create-manage/life-cycle
 
 ## Materials
 - Workshop syllabus hand-out
