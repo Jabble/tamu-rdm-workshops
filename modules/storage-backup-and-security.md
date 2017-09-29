@@ -48,23 +48,23 @@ We'll talk about:
 #### Integrity
 - Files are stored on the local hard drive, which will eventually fail.
 - Depends on personal practices for:
-	- Regular back-up to another location.
+	- Regular backup to another location.
 	- Software updates.
 
-### External hard drive or USB stick
-- Usually used as a location for backup or data sharing.
-- Depends heavily on personal practices.
+### External hard drives or USB sticks
+- Usually used as a location for backup or for data sharing.
+- Depend heavily on personal practices.
 #### Accessibility
 - Low cost
 - Portable, can be kept locally and attached to personal or work computers
 #### Available space
 - Same scale as personal computers, limited to space available on the hard drive or USB stick.
 #### Security
-- May be lost or stolen.
+- May easily be lost or stolen.
 - Hard drive or USB stick may or may not be encrypted.
 #### Integrity
 - USB sticks are flimsy.
-- Hard drives will eventually fail.
+- External hard drives will eventually fail.
 
 ### University networked drives
 - Recommended for storing master copies of data.
@@ -89,25 +89,25 @@ We'll talk about:
 
 **Other common services:**
 
-- Amazon S3 (cloud computing storage facilities)
+- Amazon S3 ("cloud" computing storage facilities)
 - Dropbox
 - SpiderOak
 
 #### Accessibility
-- Accessible via log in, usually via web browser and on a computer.
-- Store and synchronise data files online and between computers.
+- Accessible via log in, usually via web browser or a computer application.
+- Store files remotely and synchronise files across local computers.
 - Most are platform-agnostic.
 #### Available space
-- Usually provide the first few gigabytes free and users pay for more.
+- Usually provide the first few gigabytes free and users pay for more space.
 - Capable of storing large datasets.
 #### Security
 - Depends on the service.
 - Some services may have measures for storing sensitive and controlled data.
-- Services operated on servers physically located outside US, may be a problem for some data.
+- Services operated on servers physically located outside US may be a problem for some data.
 #### Integrity
-- May provide versioning.
+- Usually provide versioning, but this may be limited.
 - Storage is distributed, redundancy for failure of a single hard drive.
-- Regular update and back-up strategies in place.
+- Regular update and back-up strategies are in place.
 - Service provider may go out of business.
 
 ## TAMU-sponsored online services
@@ -176,9 +176,9 @@ All storage media (e.g. hard drives) break down over time.
 ### Use software to help
 Once you have an idea of what you want. Software that automatically backs up files can simplify the process considerably. 
 
-These softwares can back up to the locations you choose, at the schedule you choose.
+These software tools can backup to the locations you choose, at the schedule you choose.
 
-*Show how each looks*
+*Show one*
 
 - Time Machine: Mac-only 
 - Arq: Mac, Windows ([website](https://www.arqbackup.com))
@@ -199,8 +199,8 @@ General good practices to reduce the likelihood of unauthorized data access.
 - Be aware of policies for moving or sharing the data.
 	- Speak with your advisor.
 - Avoid logging in to secure spaces using untrusted computers or networks.
-	- Such as cafés.
-- Make sure physical storage media in locked room or safe
+	- Such as café wifi.
+- Make sure physical storage media are in a locked room or safe
 	- Lock up your computer or hard drives when they are not in use.
 	- Servers managed by the university or third parties should also be located in secure rooms.
 - Use strong passwords and be careful with your login credentials.
@@ -228,18 +228,18 @@ However, data encryption is not a substitute for other information protection co
 
 Use mainstream encryption tools.
 
-- Data files on computer
+**Data files on computer**
 You can encrypt individual files or folders on your computer.
 
-- Data files in transit
+**Data files in transit**
 Pretty Good Privacy (PGP) is a data encryption and decryption computer program that provides cryptographic privacy and authentication for data communication. PGP is often used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications.
 
-- Entire computer hard drive
+**Entire computer hard drive or USB stick**
+
 software:
-BitLocker (Windows) full disk encryption
-FileVault (Mac) 
- solution for encrypting data on computers and laptops.
-BitLocker (formerly BitLocker Drive Encryption) is a  feature included with the Ultimate and Enterprise editions of Windows Vista and Windows 7, the Pro and Enterprise editions of Windows 8 and Windows 8.1, the Pro, Enterprise, and Education editions of Windows 10, and Windows Server 2008 and later. It is designed to protect data by providing encryption for entire volumes.
+
+- BitLocker: Windows full disk encryption
+- FileVault: Mac
 
 #### Fun fact: Login passwords on your computer are easy to bypass
 Your computer password doesn't necessarily keep your data safe. Unless your files are encrypted on your computer, someone who has physical access to your computer can get access to your data with enough effort.
@@ -250,8 +250,8 @@ As a precaution, encypt your hard drive.
 
 Find out More: 
 
-PC example: hard drive taken out of computer and mounted on another host gives them access. 
-Mac example: Connecting your Mac to another Mac and booting your Mac in Target Disk Mode, your Mac's hard drive will appear as a mounted drive on the other Mac. Unless Mac1 is encrypted with FileVault, all files will be accessible [website](https://support.apple.com/kb/PH10725?locale=en_US)*
+- PC example: hard drive taken out of computer and mounted on another host gives them access. 
+- Mac example: Connecting your Mac to another Mac and booting your Mac in Target Disk Mode, your Mac's hard drive will appear as a mounted drive on the other Mac. Unless Mac1 is encrypted with FileVault, all files will be accessible [website](https://support.apple.com/kb/PH10725?locale=en_US)
 
 ### Sentitive Data Deletion
 File deletion is not enough to ensure that sensitive electronic data are completely removed from a computer system. File deletion removes only the pointers to the disk sectors in which the data reside. 
@@ -265,25 +265,23 @@ To ensure the complete destruction of sensitive data, the main options are:
 - Physical destruction. Through disintegration, shredding, pulverizing or incineration.
 
 ## Conclusion
-If you store your data on the university networked drives your data will be stored in a single place and backed up regularly. The risk of loss, theft or unauthorised use will be minimised as the data will be stored securely on these networked drives. Your data will also be available to you as and when required. Therefore, you should keep at least one copy of your master data files on the networked services.
+If you store your data on the university networked drives your data will be stored in a single place and backed up regularly. The risk of loss, theft or unauthorised use will be minimised as the data will be stored securely. Keep at least one copy of your master data files on the networked services.
 
-Keeping backups is probably the most important data management task. There is a real risk of losing data through hard drive failure or accidental deletion. It is therefore recommended that you keep at least 3 copies of your data on at least 2 different media, keeping storage devices in separate locations with at least 1 off-site, and check that they work regularly. You should also have a policy for maintaining regular backups.
-
-
+Keeping backups is an essential data management task. There is a real risk of losing data through hard drive failure or accidental deletion. Recommended that you keep at least 3 copies of your data on at least 2 different media, keeping storage devices in separate locations with at least 1 off-site, and check that they work regularly. You should also have a policy for maintaining regular backups.
 	
-### Bonus:
+## Bonus
 - Before the next session, ask your advisor where he/she stores his/her data and how it's backed up
-- If they use network drives, who manages them and do they know the security and back-up policies?
+- If they use network drives, who manages them and do they know the security and backup policies?
 
 ## References
-- DMPTool. "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+- DMPTool. "Data Management General Guidance" [Website](https://dmptool.org/dm_guidance)
 - Hicock, Robyn. 2016. "Microsoft Password Guidance" [PDF](https://www.microsoft.com/en-us/research/publication/password-guidance/)
-- MANTRA. "Storage and security" [module](http://mantra.edina.ac.uk/storageandsecurity/)
+- MANTRA. "Storage and security" [Module](http://mantra.edina.ac.uk/storageandsecurity/)
 - New England Collaborative Data Management Curriculum. "Module 4: Data Storage, Backup, and Security" [Website](http://library.umassmed.edu/necdmc/modules)
-- Google Apps at Texas A&M. "Terms Of Use and Privacy" [website](http://google.tamu.edu/Resources/terms_of_use.html)
+- Google Apps at Texas A&M. "Terms Of Use and Privacy" [Website](http://google.tamu.edu/Resources/terms_of_use.html)
 
 ## Materials
-### Handout: Strategy
+### Handout
 *Physical handout and available online for download*
 
 Questions to answer to build a storage and backup strategy:
@@ -306,4 +304,4 @@ Questions to answer to build a storage and backup strategy:
 - Where will you backup your data locally? And remotely?
 	- What hardware and services are available that meet your accessibility, security, and space needs?
 	
-Software
+Software list:
