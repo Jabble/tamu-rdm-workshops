@@ -47,7 +47,7 @@ Deposit in an open repository or archive
 Deposit in an open repository and publish a "data paper" describing the data
 While the first three options above are valid ways to share data, a repository is much more able to provide long-term access. Data deposited in a repository can be supplemented with a "data paper"—a relatively new type of publication that describes a dataset, but does not analyze it or draw any conclusions—published in a journal such as Nature Scientific Data or Geoscience Data Journal
 
-Finding a data repository
+### Finding a data repository
 
 You should select a repository or archive for your data based on the long-term security offered and the ease of discovery and access by colleagues in your field. There are two common types of repository to look for:
 
@@ -95,8 +95,11 @@ Donna Strahan. "08-B-1 from Jordan/Petra Great Temple/Upper Temenos/Trench 94/Lo
 OECD (2008), Social Expenditures aggregates, OECD Social Expenditure Statistics (database). http://dx.doi.org/10.1787/000530172303 (Accessed on 2008-12-02).
 Denhard, Michael (2009): dphase_mpeps: MicroPEPS LAF-Ensemble run by DWD for the MAP D-PHASE project. World Data Center for Climate.http://dx.doi.org/10.1594/WDCC/dphase_mpeps
 Manoug, J L (1882): Useful data on the rise of the Nile. Alexandria : Printing-Office V Penasson. http://n2t.net/ark:/13960/t44q88124
+__
 
-From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
 
-Data licenses
-https://data.research.cornell.edu/content/intellectual-property
+
+## Resources
+- Cornell. "Data licensing" [Website](https://data.research.cornell.edu/content/intellectual-property#data-licensing)
+- Data Curation Center. 2014. "How to license research data" [Website](http://www.dcc.ac.uk/resources/how-guides/license-research-data)
+- DMPTool. "Data Management General Guidance" [Website](https://dmptool.org/dm_guidance)
