@@ -1,8 +1,8 @@
-# Workshop outline
+# Introduction to Research Data Management workshop outline
 - 150min each
 
-## 1. Introduction to Research Data Management
-- [Introducing Research Data Management](modules/introducing-rdm.md) 30min
+## 1. Build an overview
+- [Introducing Research Data Management](modules/welcome.md) 30min
 - Break 10min
 - [The research data lifecycle](modules/research-data-lifecycle.md) 30min
 - Break 10min
