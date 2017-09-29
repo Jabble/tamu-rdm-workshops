@@ -34,7 +34,7 @@ Along these lines, there is one rule:
 
 **Individuals who behave in a manner that shows indent to exclude, intimidate, or cause discomfort to others will be asked to leave.**
 
-There is no grade. This is a chance for you to gain familiarity, practice, ask questions, and be silly (if you want). You should be aware that exercises and hands-on activities are key elements of the workshops, and active participation is expected.
+There is no grade. This is a chance for you to gain familiarity, practice, ask questions, and be silly (if you want). You should be aware that exercises and hands-on activities are key elements of the workshops, and active participation is expected.
 
 If you prefer not to participate, this is fine. But, I ask that you please give up your seat to someone on the wait list. There is a lot of great material available online that covers data management. I'm happy to send you all the resources for this series where you can watch online modules and read on your own. If you're choosing to sit here, then you're choosing to join in a group conversation. 
 
@@ -47,6 +47,16 @@ Research Data Management (RDM) refers to the practices of organizing, documentin
 The aim of research data management is to ensure that data are usable over time.
 
 The idea of usability over time, and across platforms, will keep coming up in this workshop series and drives a lot of the recommended practices we will discuss.
+
+The National Institutes of Health define research data as “Recorded factual material commonly accepted in the scientific community as necessary to document and support research findings” (National Institutes of Health).
+The National Science Foundation’s definition describes data as something “determined by the community of interest through the process of peer review and program management” (National Science Foundation). Examples of data provided by NSF include data, publications, samples, physical collections, software, and models.
+The National Endowment for the Humanities defines data as “materials generated or collected during the course of conducting research” and provides a wider variety of examples of data than NIH or NSF (National Endowment for the Humanities).
+
+Data should be valid, shared, and are heterogeneous and contextualized within research communities.
+
+Data management refers to the everyday handling and workflow of research data during the active phase of a project as well as the practices that support long-term preservation, access, and use after the project has been completed. These activities can include planning, documenting data, formatting data, storing data, anonymizing data, and controlling access to data.
+
+Data Management, as defined by NOAA's Administrative Order 212-15, "consists of two major activities conducted in coordination: data management services and data stewardship. They constitute a comprehensive end-to-end process including movement of data and information from the observing system sensors to the data user. This process includes the acquisition, quality control, metadata cataloging, validation, reprocessing, storage, retrieval, dissemination, and archival of data.”
 
 ### Data
 Research data are information artifacts that scholars draw upon for evidence in supporting research claims, and producing new knowledge.
