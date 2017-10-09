@@ -136,7 +136,7 @@ share your strategy with a partner & hear what they came up with
 volunteer to share your idea with the class
 
 ## Set, forget... repeat
-
+ 
 Okay, you might not get it right the first time. 
 
 ### Batch renaming
