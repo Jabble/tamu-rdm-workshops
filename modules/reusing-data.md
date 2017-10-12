@@ -88,19 +88,7 @@ Water-quality data collected by two separate agencies may be thematically simila
 
 DataOne [website](https://www.dataone.org/best-practices/consider-compatibility-data-you-are-integrating)
 
-### When combining data sets
-Use quality control techniques and transform data where needed, but there are additional questions to ask of the data.
 
-Review metadata for compatibility of context, methods, and meaning
-For what purpose was the data collected?
-How was the data collected?
-Is it sensible to combine these datasets?
-
-Maintain dataset provenance
-- Where did the data come from? Did you collect it, or did you get your data form another source?
-- 
-Document transformations
-Beware of accidental duplication
 
 ## References
 - Coursera. https://www.coursera.org/learn/data-visualization/lecture/7yx2o/video-lesson-what-do-we-mean-by-data
