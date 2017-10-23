@@ -1,4 +1,4 @@
-# Manipulating data
+# Data processing
 ## 2. Introduction
 - In addition to QA/QC tasks, you will need to do some data processessing as you prepare and analyze your data.
 - We'll talk about common manipulations of data including some common data transformations and tools for processing data.

@@ -29,9 +29,11 @@
 ## 5. Share and preserve data
 - [File formats and metadata](modules/file-formats-and-metadata.md) 40min
 - Break 10min
-- [Sharing and digital preservation](modules/sharing-and-preserving.md) 40min
+- [Sharing and reuseing data](modules/sharing-and-reusing-data.md) 40min
 - Break 10min
-- [Data reuse](modules/reusing-data.md) 40min
+- [Using data repositories](modules/using-data-repositories-.md) 40min
+
+
 
 ## 6. Plan ahead
 - [data-management-plans.md](modules/data-management-plans.mdd) 60min + Break 10min

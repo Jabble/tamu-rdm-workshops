@@ -4,12 +4,122 @@ In this module, we'll look at converting data into different file formats, and t
 The goal is to ensure your data are useful when shared with others. 
 
 ## Exercise
-- What kind of files you are likely to work with in your research? 
-- We talked a lot about spreadsheets. 
+- We've talked a lot about spreadsheets.  What kind of file formats you are likely to work with in your research? 
+- What are the outputs of the softwares you use?
+
 - Will you also have code, audio, video, etc?
 - Do you know how these files are saved?
 
+## File formats
+In order to understand file formats, we need to think about how computers save digital contant and are able to display or interpret that content.
+
+- File formats are a way of encoding information within a computer file. 
+- The format specifies how bits (0's and 1's) are used to encode information.
+- A program or application must be able to recognise the file format in order to access data within the file. 
+
+Example:
+
+- A web browser (chrome, safari, firefox, explorer) is able to process and display a file in the HTML (hyper-text markup language) 
+- This file format appears as a webpage. 
+- If the browser encounters another filetype, it may: 
+	- need to call on a special plug-in to view it, 
+	- let you download the file to view in another program if it cannot recognise it.
+
+File formats are based on either:
+
+- binary 
+- text 
+
+- A particular file format is often indicated as part of a file's name by a file name extension, or suffix. 
+	- The extension follows a . after filename and contains three or four letters that identify the format (.jpg or .jpeg).
+
+### Binary encoding
+Binary files can only be read by applicable software, and may be proprietary. 
+Only binary formats can be executed. Compiled applications are sometimes referred to as binaries. 
+But binary files can also mean that they contain images, sounds, compressed versions of other files
+
+This includes compiled programs, images, media, and most compressed files, and files that may contain textual information but are stored as binary data. 
+The binary file formats used by Microsoft Office products fit in this last category.
+Some files may contain both binary and text (such as Rich Text Format - .rtf files). 
+
+### 
+Image files are an example of files that use binary encodings.
+Many software tools can interpret the binary encoding used for image files.
+But, If you open them with a software that cannot interpret the particular binary encoding used to store the image, 
+Like text processing software, you see meaningless symbols.
+Text processing softwares can only handle text-based file formats, which use very different encoding standards.
+
+### Character encoding
+- Text files are machine-readable through a character encoding standard such as ASCII or Unicode. 
+- When we talk about "plain text" file formats it's worth understanding that there isn't actually a single "plain text."
+
+All text characters are encoded, and there are different encoding standards used in countries and by different software. 
+
+Have you ever seen funny characters unexpectedly pop up in emails you've received, or perhaps in documents you've opened and tried to read on your computer?
+
+*Examples of character encoding fails*
+
+The software you use needs to know the characters are encoding in order to know how to interpret and diplay the characters. 
+Sometimes a particular software expects one encoding, but a file is saved in another. 
+When the file is opened by that software things can look a little wonky. 
+Remember this if you're working with international collaborators who natively use a different language, they're more likely to use different encodings to display characters. 
+Special characters usually cause the biggest problems.
+
+### ASCII and UTF-8 text encoding standards
+Play it safe by making sue you're using ASCII or Unicode UTF-8 character encoding when you save plain text files.
+
+The ASCII text-encoding standard is older.
+It needs one byte to create 128 unique values (0–127) to represent the alphabetic, numeric, and punctuation characters commonly used in English.
+plus a selection of control codes which do not represent printable characters.
+
+UTF-8 is a newer character encoding capable of encoding all 1,112,064 valid code points in Unicode using one to four 8-bit bytes.
+It is an international sandard and especially used for online text content.
+It was designed for backward compatibility with ASCII, and is variable length can rep every character and is memory efficient (uses just as much apce as necessary).
+The first 128 characters (US-ASCII) need one byte. 
+The next 1,920 characters need two bytes to encode, which covers:
+- the remainder of almost all Latin-script alphabets,
+- Greek, Cyrillic, Coptic, Armenian, Hebrew, Arabic, Syriac, Thaana and N'Ko alphabets, 
+- as well as Combining Diacritical Marks. 
+
+Three bytes are needed for characters in the rest of the Basic Multilingual Plane, 
+which contains virtually all characters in common use
+including most Chinese, Japanese and Korean characters. 
+
+Four bytes are needed for characters in the other planes of Unicode, 
+which include less common CJK characters, 
+various historic scripts, 
+mathematical symbols, 
+and emoji (pictographic symbols)
+
+Well-known file extensions of 'plain text' are .txt, .csv, .asc, .html and .xml. 
+
+Most software applications offer export or exchange formats that allow a text-formatted file to be created for importing into another program. 
+
+From: Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+(i.e., ASCII, UTF-8)
+
 ## File formats for data
+### Your preferred formats
+You might have software preferences that suit your research workflow or are required by your research group. 
+
+From the data lifecycle perspective, we also want to think about:
+
+- Interoperability: making sure that we can share data with people who use different software tools. 
+- Preservation: making sure data files can be accessed 10 or more years down the line. 
+
+Data formats are often closely tied to data types and arrangements. 
+Earlier we discussed using spreadsheets for data entry, and we'll continue with this example.
+
+Qualitative experimental data in a tabular arrangement can be saved in many formats depending on the software you chose to use. A few are:
+
+|Formats                             |Extensions|
+|------------------------------------|----------|
+|Microsoft Excel spreadsheets        | .xslx    |
+|Google Spreadsheets                 | .gsheet  |
+|Comma-seperated values              | .csv     | 
+
+
+## Feature of files that last
 - The file format you choose for your data is a primary factor in someone else's ability to access it in the future. 
 - Think carefully about what file format will be best to manage, share, and preserve your data. 
 - Technology continually changes and all contemporary hardware and software should be expected to become obsolete. 
@@ -18,86 +128,96 @@ The goal is to ensure your data are useful when shared with others.
 
 Formats likely to be accessible in the future are:
 
-- Non-proprietary
-- Open, with documented standards
-- In common usage by the research community
-- Using standard character encodings (i.e., ASCII, UTF-8)
-- Uncompressed (space permitting)
+1. In common usage by the research community
+2. Non-proprietary
+- File formats that are non-proprietary (e.g. open source), or in widespread use, 
+- will tend to retain the best chance of being readable in the future. 
+- Proprietary formats, especially non-standard formats, used only by a specific software program or specific software version, are likely to present problems for future use. 
+- Rapid changes in technology and the market mean that file formats can become obsolete quickly - often a software application is unable to read a file created by an earlier version of itself. The implications for research data management depend on how long data need to be retained for future use - your own or others'.
+Files in proprietary formats usually must be opened by the software in which they were created. 
+Someone without a licence to the software may not be able to open the file at all. 
+Open formats, in which the software company or collective publishes the format rather than keeps it proprietary, 
+are more likely to be readable by more than one application. 
+
+Adobe PDF is an example of an open format that may be viewed in a number of applications, not just Adobe products.
+
+3. Open and documented standards
+4. Uncompressed (space permitting)
+5. Using standard character encodings 
 
 ## Recommended formats
 Examples of preferred format choices for data sharing, and especially for long-term preservation:
 
+Text	PDF/A, HTML, XML, TXT 
+Databases	XML, CSV 
+Numbers/statistics	ASCII, DTA, POR, SAS, SAV
+Geospatial	SHP, DBF, GeoTIFF, NetCDF
+Audio	WAVE, AIFF, MP3, MXF
+Images	TIFF, JPEG 2000, PDF, PNG, GIF, BMP
+Moving Images	MOV, MPEG, AVI, MXF
+Web Archive	WARC
+Containers	TAR, GZIP, ZIP
 
-Containers: TAR, GZIP, ZIP
-Databases: XML, CSV 
-Geospatial: SHP, DBF, GeoTIFF, NetCDF
-Moving Images: MOV, MPEG, AVI, MXF
-Audio: WAVE, AIFF, MP3, MXF
-Numbers/statistics: ASCII, DTA, POR, SAS, SAV
-Images: TIFF, JPEG 2000, PDF, PNG, GIF, BMP
-Text: PDF/A, HTML, ASCII, XML, TXT (UTF-8)
-Web Archive: WARC
+POR file extension is a portable version of SPSS
+
+The Library of Congress, National Digital Information Infrastructure and Preservation Program (NDIIPP) has created a comprehensive resource on formats for preservation.  
 
 ## Alternatives
 Examples of discouraged format choices and better alternatives:
-
+	
 Discouraged Format	Alternative Format
 Excel (.xls, .xlsx)	Comma Separated Values (.csv)
 Word (.doc, .docx)	plain text (.txt), or if formatting is needed, PDF/A (.pdf)
 PowerPoint (.ppt, .pptx)	PDF/A (.pdf)
 Photoshop (.psd)	TIFF (.tif, .tiff)
 Quicktime (.mov)	MPEG-4 (.mp4)
-Binary database formats
+
 
 - If you find it necessary or convenient to work with data in a proprietary/discouraged file format, do so, 
 - but consider saving your work in a more archival format when you are finished.
 
+It’s important to store data (textual, image, dataset, etc.) in as open a format as possible, while still keeping the characteristics of the data and its representation intact. If data, or its documentation is held in a proprietary, platform-dependent format, it is likely that these data will be inaccessible in the future, or will need to undergo a costly migration process before it is accessible and useable.  Examples of problematic formats include Microsoft Word, or Microsoft Excel. It is far better to convert data (files) to an open format (Open Document Format/ODF) or a more sustainable, platform-independent format such as CSV, or PDF/A.
 
-## Tabular data
+## Tips for converting file formats
 
-Tabular data warrants special mention because it is so common across disciplines, mostly as Excel spreadsheets. 
-If you do your analysis in Excel, you should use the "Save As..." command to export your work to .csv format when you are done. 
-Your spreadsheets will be easier to understand and to export if you follow best practices when you set them up, such as:
+You may need to transform your data as part of working with it, when sharing with collaborators, externally, or for preservation purposes.
+
+- Advantage of creating or saving research data in a text format, is that they can be read in by any plain text editor and are human readable. 
+- They can be opened in any operating system, and by a wide range of applications. 
+	- Therefore, the most unlikely to become obsolete over time
+	- Are a good format for sharing and moving across software
+
+- A typical example is Microsoft Excel or Google Docs built-in menu option to "Save As..." or "Export" 
+- Save spreadsheet data in comma delimited format 
+	- .csv or comma separated values
+- The structure of the rows and columns is preserved through commas and line returns. 
+	- Multiple worksheets must be saved as separate .csv files
+	- Any text formatting or macros in the native format will be lost on conversion.
+	- If you use something like highlighting, or freezing headers, or formulas within your Excel spreadsheets, this will be lost.
+
+- Change text encoding
+Proprietary to non-proprietary
+Why not move from compressed to uncompressed? 
+You cannot go back to a higher quality, e.g. a higher resolution image from a lower one. Saving a rich file like .. as ... to save space. In doing so, you may lose important information... this is worth remembering if you work with image or graphic, video, and audio files.
+*Walk through image compression*
 
 
-Encrypted data may be effectively lost if it was encrypted with a key that has been lost (e.g., a forgotten password). For this reason, encrypted data representations are strongly discouraged.
-Data that is legally encumbered may also be considered lost. So may data bound by ambiguous or unknown access and archiving rights, because the cost of clarifying the rights situation is often prohibitive. See data rights and licensing for guidance.
+Data formats that conform to an agreed international standard are less likely to become obsolete, 
+because a variety of software applications should be able to read them. 
+However, there are likely to be trade-offs in terms of software functionality, for example loss of formatting or macros.
 
-From: DMPTool "Data Management General Guidance" [website](https://dmptool.org/dm_guidance)
+Sometimes there is a de facto standard that is used; for example, PDF, an openly published portable document format invented by Adobe, 
+has become a de facto standard for publishing documents on the World Wide Web in a way that retains the original layout, fonts and text formatting.
 
- file format is a way of encoding information within a computer file. A program or application must be able to recognise the file format in order to access data within the file. 
+At some time during your research you may need to convert or migrate your data files from one format to another. 
+This may be due to a new computer, 
+new software, 
+sharing with someone who has different software, 
+working on a shared platform instead of your own PC, 
+or simply in order to ensure that your data can be read and used in the future.
 
-For example, a web browser is able to process and display a file in the HTML (hyper-text markup language) file format so that it appears as a Web page. If the browser encounters another filetype, it may need to call on a special plug-in to view it, or it may simply let you download the file to view in another program if it cannot recognise it.
-
-A particular file format is often indicated as part of a file's name by a file name extension, or suffix. Conventionally, the extension follows a dot in the filename and contains three or four letters that identify the format (.jpg or .jpeg). 
-
-In the Windows operating systems you can choose to display file suffixes or not. ("Hide extensions for known filetypes" is the default option in Windows Explorer, which can be reversed in order to see file extensions.) Macintosh files often do not have a suffix, which can be a problem when copied to another system to use.
-
-Files in proprietary formats usually must be opened by the software in which they were created. Someone without a licence to the software may not be able to open the file at all. Open formats, in which the software company or collective publishes the format rather than keeps it proprietary, are more likely to be readable by more than one application. Adobe PDF is an example of an open format that may be viewed in a number of applications, not just Adobe products.
-
-Filetypes are based on either text or binary encoding. 
-
-Text files are machine-readable through a character encoding standard such as ASCII or Unicode. Binary files can only be read by applicable software, and may be proprietary. Only binary formats can be executed. Some files may contain both binary and text (such as Rich Text Format - .rtf files). 
-
-A great advantage of creating or saving research data in a text format, where possible, is that such files can be read in by a plain text editor--like Windows Notepad -- and are human readable. They can be opened in any operating system, and by a wide range of applications. Therefore, text files are the most unlikely to become obsolete over time, and are a good format for sharing and long-term preservation.
-
-Well-known file extensions of 'plain text' are .txt, .csv, .asc, .html and .xml. 
-
-Most software applications offer export or exchange formats that allow a text-formatted file to be created for importing into another program. 
-
-A typical example is Microsoft Excel, which through the Save As command, can save spreadsheet data in comma delimited format (.csv or comma separated values). The structure of the rows and columns is preserved through commas and line returns. However, multiple worksheets must be saved as separate .csv files and any text formatting or macros in the native format will be lost on conversion.
-
-File formats that are non-proprietary (e.g. open source), or in widespread use, will tend to retain the best chance of being readable in the future. Proprietary formats, especially non-standard formats, used only by a specific software program or specific software version, are likely to present problems for future use. 
-
-Rapid changes in technology and the market mean that file formats can become obsolete quickly - often a software application is unable to read a file created by an earlier version of itself. The implications for research data management depend on how long data need to be retained for future use - your own or others'.
-
-Data formats that conform to an agreed international standard are less likely to become obsolete, because a variety of software applications should be able to read them. However, there are likely to be trade-offs in terms of software functionality, for example loss of formatting or macros.
-
-Sometimes there is a de facto standard that is used; for example, PDF, an openly published portable document format invented by Adobe, has become a de facto standard for publishing documents on the World Wide Web in a way that retains the original layout, fonts and text formatting.
-
-At some time during your research you may need to convert or migrate your data files from one format to another. This may be due to a new computer, new software, sharing with someone who has different software, working on a shared platform instead of your own PC, or simply in order to ensure that your data can be read and used in the future.
-
-Some lossiness - that is the loss of information and/or quality in the original data - may occur when migrating from one file format to another. It is important for you to understand what is at risk for the type of data you are working with.
+Some lossiness - that is the loss of information and/or quality in the original data - may occur when migrating from one file format to another. 
+It is important for you to understand what is at risk for the type of data you are working with.
 
 Potential risks for loss or corruption on conversion or migration to new media
 Word processed files: fonts, text formatting, headers, footers, footnotes, links to other documents...
@@ -114,101 +234,250 @@ File sizes may change and even become surprisingly large.
 
 It is worth briefing yourself on the format you are converting from and to before you begin; at least look them up on the Web. 
 
-Check the integrity of converted files as thoroughly as possible immediately afterwards, e.g. by counting rows and columns, testing functionality, testing export, etc. as well as simply 'eyeballing' the data to check it looks as it should.
 
-A checksum algorithm tool can be used to compare the bits of a file copied from one medium to another, but these won't work if the file format changes, or if comparing files on different computing platforms.
 
-At some point you may choose to compress your data files for the purpose of local or networked storage, transportation or transmission. This is called bit-rate reduction, which involves encoding information using fewer bits than the original representation. 
 
-Zip (.zip) is a de facto standard compression format that is used on Windows, Macintosh, Linux and Unix platforms, though there are others, sometimes specific to a particular operating system. A self-executing zip file (.exe) should not be used if the file is to be decompressed on another operating system.
+Check the integrity of converted files as thoroughly as possible immediately afterwards, 
+e.g. by counting rows and columns, testing functionality, testing export, etc. as well as simply 'eyeballing' the data to check it looks as it should.
 
-Zip is a "lossless" type of compression, which means the file should be identical to the original once unzipped. There are also "lossy" types of compression associated with some multimedia file formats, which may result in some distortion or loss of quality/fidelity when played.
+A checksum algorithm tool can be used to compare the bits of a file copied from one medium to another, 
+but these won't work if the file format changes, 
+or if comparing files on different computing platforms.
 
-Tar (tape archive) files are commonly used in Unix / Linux to bundle a set of files into one. Tar files may also be zipped to reduce the file size (.tar.Z or tar.gz or .tar.bz2). In Windows environments the zip file can be used for the same purpose - to bundle files together, with or without compression, or with more or less compression. Utilities for tar files in Windows also exist.
+At some point you may choose to compress your data files for the purpose of local or networked storage, transportation or transmission. 
+This is called bit-rate reduction, which involves encoding information using fewer bits than the original representation. 
 
-Lossiness can be one trade-off of compression. Another is the processing time it takes to compress/decompress before or during use, or the amount of computing resource this takes, in the case of very large files or shared servers.
+Zip (.zip) is a de facto standard compression format that is used on Windows, Macintosh, Linux and Unix platforms, 
+though there are others, sometimes specific to a particular operating system. 
+A self-executing zip file (.exe) should not be used if the file is to be decompressed on another operating system.
+
+Zip is a "lossless" type of compression, which means the file should be identical to the original once unzipped. 
+There are also "lossy" types of compression associated with some multimedia file formats, which may result in some distortion or loss of quality/fidelity when played.
+
+Tar (tape archive) files are commonly used in Unix / Linux to bundle a set of files into one. 
+Tar files may also be zipped to reduce the file size (.tar.Z or tar.gz or .tar.bz2). 
+In Windows environments the zip file can be used for the same purpose - to bundle files together, with or without compression, or with more or less compression. 
+Utilities for tar files in Windows also exist.
+
+Lossiness can be one trade-off of compression. 
+Another is the processing time it takes to compress/decompress before or during use, or the amount of computing resource this takes, in the case of very large files or shared servers.
 
 From: MANTRA "File formats and transformation" [module](http://mantra.edina.ac.uk/fileformatandtransformation/)
 
 
+## Metadata 
+Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource. 
+Metadata is often called data about data or information about information
 
-Data formats are often closely tied to data types and arrangements. Earlier we discussed using spreadsheets for data entry, and we'll continue with this example.
+- We talked a little bit about metadata when we discussed quality assurance and questions to ask if you'd like to combine datasets.
+	 - Things like: Is the dataset from a reliable source? How and for what purpose were the data collected?
+- These questions can only be answered by having appropriate metadata and sufficient documentation associated with data files.
 
-Qualitative experimental data in a tabular arrangement can be saved in many formats depending on the software you chose to use. A few are:
+- Things like searching on a computer and online by author, title, format, or a descriptive phrase require
+	 - that this kind of information (metadata) exists, 
+	 - is appropriately formatted and located.
 
-|Formats                             |Extensions|
-|------------------------------------|----------|
-|Microsoft Excel spreadsheets        | .xslx    |
-|Google Spreadsheets                 | .gsheet  |
-|Comma-seperated values              | .csv     | 
+- This is usually done through the creation of a metadata record. 
+- Attaching the digital object to its record makes it even more accessible and we'll get more into this later on.
+
+## Discussion
+- Have you created or used metadata? 
+- What is it good for?
+
+## Metadata for data
+Helps to organize objects for:
+Discoverability
+Accessibility
+
+- The creation of metadata is becoming a requirement for practical use of research observations and results. 
+
+To:
+
+- find data from other researchers to support your research; 
+- use the data that you do find; 
+- help other professionals to find and use data from your research; and
+- use your own data in the future when you may have forgotten details of the research.
+ 
+This will also depend on the existence of high-quality metadata. 
+
+- Better metadata makes it easier to search for an data 
+- and provides more information about ownership, reuse and the data structure 
+
+This information is attached to the object, and will follow it throughout its lifecycle, and facilitate its use.
+
+## Types of metadata
+- Descriptive metadata describes the object or data and gives the basic facts: who created it (i.e. authorship), title, keywords, and abstract. 
+- Structural metadata describes the structure of an object including its components and how they are related.  It also describes the format, process, and inter-relatedness of objects. It can be used to facilitate navigation, or define the format or sequence of complex objects.
+- Administrative metadata includes information about the management of the object and may include information about: preservation and rights management, creation date, copyright permissions, required software, provenance (history), and file integrity checks
+
+## Distinguishing documentation and metadata
+- Generally, documentation is maintained while working,
+- and metadata would be created do describe paricular data or datasets as objects in and of themselves.
+
+Documentation can be informal, created while working through project. May pertain to many different levels and provide general context.
+
+Metadata formally describes a particular object (can be a data file or dataset), usually upon “publication” of the object. 
+It is formatted as a record structured according to a particular schema. 
+May derive from the documentation.
+
+In conjunction they can aid in the accessibility and reusability of a dataset. 
+Due to it’s structure, metadata is more accessible to computers (search engines, aggregators)
+
+## Creating metadata records
+When? Primarily when you plan to share the data. 
+It will be built from and part of your documentation. 
+Metadata is typically manually created.  
+Some metadata may be collected automatically by scientific instrumentation, as it collects the data. 
 
 
-### Questions
-- Have you worked with spreadsheets?
-- Which software do you prefer?
-- Have you had to use a software you're uncomfortable with?
-- Do you use multiple tools?
 
-### Your preferred formats
-You might have software preferences that suit your research workflow or are required by your research group. 
+and needs to be available in a record.
 
-From the data lifecycle perspective, we also want to think about:
-
-- Interoperability: making sure that we can share data with people who use different software tools. 
-- Preservation: making sure data files can be accessed 10 or more years down the line. 
-
-### Exercise: Opening an old file
-Here is a data file from ...., try to open it.
-
-Some software can become obsolete, or move to new file formats without supporting old ones, and be difficult to convert.
-
-## Feature of files that last
-Recommended file formats for data have a few features that make them likely to be accessible in different computing environments and for the long term. 
-
-**These formats have the following features:**
-
-- non-proprietary
-- open and documented standard
-- uncompressed
-- standard character encoding (ASCII, or Unicode encoding)
-- commonly used by the research community
+- Machine generated
+- User generated
+	- Copy-paste from documentation
+	- Create on the spot
 
 
-In the case of tabular data, even if you use a spreadsheet software like Excel to work with data, the preferred format to save, export or later transform your data into is CSV. From both Excel or Google Docs this is a built-in menu option. 
+First, identify your elements:
+Title
+Creator
+Identifier
+Subject
+Dates
 
-Note that the CSV file is a much simpler plain text format. Without special encoding that these softwares add and are able to read. If you use something like highlighting, or freezing headers, or formulas within your Excel spreadsheets, this will be lost in the CSV.
+Ownership of an object may be indicated in a variety of ways, but typically a user can look at the creator, author, publisher, and source elements, or fields of an object’s metadata record.  Information about how an object may be reused will typically be indicated by the rights element, or field.  It may consist of a broad copyright statement, where the owner of the object has decided to retain all rights, or it may consist of licensing information (e.g. a Creative Commons license), which might, for instance, require attribution in exchange for the use of the object.  Information about the data structure of an object, if provided, may be indicated by information in the description field. For more complicated digital objects (e.g. data sets consisting of more than one file), this may include information about the other files, or the file structure, etc., with more complicated metadata schemas with many more elements (for instance the Metadata Encoding and Transmission Standard, METS).  Information about the format (or MIME type) will most often be provided in a format element.  Metadata for any special equipment, computing environment, or software necessary to reuse the object are also important to provide to the user.
 
-For the curious, the Library of Congress makes digital format descriptions available on their [website](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml).
 
-### Fun fact: Character encoding and internationalization
-Have you ever seen funny characters unexpectedly pop up in emails you've received, or perhaps in documents you've opened and tried to read on your computer?
 
-*Examples of character encoding fails*
-That's because "There ain't no such thing as plain text." 
 
-Software needs to know the character encoding in order to know how to interpret and diplay text characters. Sometimes a particular software expects one encoding, but a file is saved in another. When the file is opened by that software things can look a little wonky. Remember this if you're working with international collaborators who natively use a different language, they're more likely to use different encodings to display characters. Special characters usually cause the biggest problems.
 
-Play it safe by making sue you're using ASCII or Unicode.
 
-From: Spolsky, Joel. 2003. "The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)"[blog](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+Searching by author, title, format, or a phrase in the description requires that information of those kinds exist (a value for each of those fields in a metadata record).  Attaching the object to its record (if it is digital) makes it even more accessible, and this can be done with an identifier.
 
-### Converting formats
-You may need to transform your data as part of working with it, when sharing with collaborators, externally, or for preservation purposes.
-Change text encoding
-Proprietary to non-proprietary
-Why not move from compressed to uncompressed? You cannot go back to a higher quality, e.g. a higher resolution image from a lower one. Saving a rich file like .. as ... to save space. In doing so, you may lose important information... this is worth remembering if you work with image or graphic, video, and audio files.
-*Walk through image compression*
 
-### Walkthrough: Convert file formats
-Open this file in excel.
+## Metadata standards
+There are many different metadata standards and specifications, some of them are discipline, or domain, specific. These standards should be followed to facilitate the successful and continued access to and reuse of data. 
+
+Adhering to metadata standards is crucial to successful data management and for future publishing and funding. 
+Metadata standards guide the collection and structure of metadata so that data is collected, described, structured, and referred to consistently.
+
+
+## Examples of metadata standards
+Examples of some standards used in different disciplines.
+
+- Darwin Core:  Intended to facilitate the sharing of information about biological data
+- Ecological Metadata Language (EML): Particularly developed for the ecological discipline
+- CIF: An extensible standard file format and set of protocols for the exchange of crystallographic and related structured data.
+- DDI: An international standard for describing data from the social, behavioral, and economic sciences. Expressed in XML, the DDI metadata specification supports the entire research data lifecycle.
+- DataCite: A domain-agnostic list of core metadata properties chosen for the accurate and consistent identification of data for citation and retrieval purposes.
+- DC: A basic, domain-agnostic standard which can be easily understood and implemented, and as such is one of the best known and most widely used metadata standards.
+
+- DCC List: http://www.dcc.ac.uk/resources/metadata-standards/list
+- RDA List: http://rd-alliance.github.io/metadata-directory/standards/
+
+## Creating metadata records
+- As indicated throughout this chapter, metadata is structured information about a resource. 
+- Metadata standards, such as Dublin Core, help organize information by providing general guidance and syntax rules. 
+- However, because there has been a proliferation of different metadata standards to meet the research needs for different communities, 
+- Standards also make use of controlled vocabularies and technical standards in order to facilitate interoperability.
+
+- Controlled vocabularies are simply lists of predefined terms that ensure consistency of use, and help to disambiguate similar concepts.
+- Technical standards ensure that the units such as date and time, format, etc… are entered consistently amongst different researchers.
+
+### Taxonomies and Controlled vocabularies
+- It is usually a good idea to use the controlled vocabulary that best matches the type of research you are describing.
+- Like having particular codes for your data that you define or might be standard for a software or your discipline. 
+- These would be specific predefined terms used to describe the data within a metadata record. 
+- Kind of like "tags"
+
+Controlled vocabularies are important because they solve the problems of natural language ambiguity such as homographs and synonyms. 
+
+Some examples of controlled vocabularies include:
+ 
+- ERIC Thesaurus for education terms (http://www.eric.ed.gov/ERICWebPortal/resources/html/thesaurus/about_thesaurus.html), the 
+- IEE INSPEC Thesaurus of the Scientific and Technical terms (http://www.theiet.org/resources/inspec/products/aids/index.cfm), and the 
+- Centre for Agricultural Bioscience international’s CAB Thesaurus (http://www.cabi.org/cabthesaurus/mtwdk.exe?yi=home).
+- Medical Subject Headings (MeSH) (http://www.nlm.nih.gov/mesh/). 
+
+### Technical standards
+Date and time is a particularly troublesome element to enter consistently because of different types of notation.
+
+ISO 8601. This is important because different metadata standards may need different levels of granularity in the date and time and because different communities have different ways of expressing dates.  
+The formats and required punctuation are found below. 
+
+ISO 8601 technical standard:
+
+YYYY (e.g. 1997)
+Year and month:
+YYYY-MM (e.g. 1997-07)
+
+Complete date: YYYY-MM-DD (e.g. 1997-07-16)
+
+Don’t worry about knowing all the different technical standards and controlled vocabularies.  
+Typically the metadata standard you use will provide a best practice recommendation 
+for which controlled vocabularies and standards you should enter.  
+
+Media types can be problematic as well
+
+
+
+
+The MIME media types helps you choose among the following: Application, audio, example, image, message, model, multipart, text, video
+
+The MIME media types:
+
+Application
+Audio
+Image
+Model
+Multipart
+Message
+Text
+Video
+
+## Tips for metadata
+- Consistent data entry is important.  
+	- Review your metadata for typos, extraneous punctuation, and any inconsistencies in fielded entry, such as putting an author into a title field.
+- Avoid extraneous punctuation as it can create retrieval issues. 
+- Avoid most abbreviations
+- Use templates and macros when possible
+- Extract pre-existing metadata from your sources whenever possible
+- Keep a data dictionary of the elements, technical standards, and controlled vocabularies you use in your project.
+- Always use an established metadata standard.
+	- Your discipline probably already has a best practices metadata standard specific to your research needs.
 
 ## Conclusion
 - Identify appropriate file formats for sharing data.
 - Understand metadata
 - Use a metadata schema
 
+Understand what metadata is 
+Understand why metadata is important
+Identify applicable standards for capturing  and documenting metadata
+Understand disciplinary practices associated with the collection and documentation of metadata
+Identify an approach to creating metadata for a project
+
+Generally comes about by a combination of manual and automatic extraction
+Manual metadata is generally descriptive in nature
+You will be entering it into a form, a spreadsheet, etc..
+Automatic extraction is generally technical in nature
+Generally will occur via software
+
+
 ## References
+- Abrams, Stephen. "File Formats" [PDF](http://www.dcc.ac.uk/resources/curation-reference-manual/completed-chapters/file-formats)
 - Cornell Research Data Management Service Group. File formats. http://data.research.cornell.edu/content/file-formats
 - Cornell Research Data Management Service Group. Metadata and Describing Data. http://data.research.cornell.edu/content/writing-metadata
 - DataONE. Document and Store Data Using Stable File Formats. http://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats. Useful information about file formats.
 - Library of Congress. Recommended formats statement. VI. Datasets/Databases. https://www.loc.gov/preservation/resources/rfs/data.html
+- NISO. "Understanding Metadata: What is metadata and what is it for?" [PDF](http://www.niso.org/apps/group_public/download.php/17446/Understanding%20Metadata.pdf)
+
+Introduction to Metadata: Setting the Stage (Getty Research Institute) http://www.getty.edu/research/publications/electronic_publications/intrometadata/setting.html
+
+Documentation and Metadata (MIT Libraries): http://libraries.mit.edu/guides/subjects/data-
+management/metadata.html
+
+Anne J. Gilliland for The J. Paul Getty Trust’s Introduction to Metadata (Online Edition, Version 3.0 http://www.getty.edu/research/publications/electronic_publications/intrometadata/setting.html)
+
+Library of Congress makes digital format descriptions available on their [website](https://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml).
