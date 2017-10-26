@@ -1,3 +1,4 @@
+ <!-- Add FAIR Guiding Principles [Website](https://www.force11.org/group/joint-declaration-data-citation-principles-final)-->
 # Using data repositories
 - Repositories
 - Finding and accessing data sources
@@ -87,6 +88,10 @@ FAIRSharing: a directory of life sciences databases and reporting standards
 
 ## TDR Demo
 https://dataverse-training.tdl.org
+
+- The TDR is a data repository available to researchers at TAMU
+- Need training to use
+- Example of what deposit in a self-deposit repository may look like.
 
 ### Tips for using a data repository
 Decide what you want to share:
