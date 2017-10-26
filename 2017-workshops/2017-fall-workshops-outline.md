@@ -27,10 +27,8 @@
 <!-- - [Data visualization](modules/visualization.md) -->
 
 ## 5. Share and preserve data
+- [Sharing and reusing data](modules/sharing-and-reusing-data.md) 40min
 - [File formats and metadata](modules/file-formats-and-metadata.md) 40min
-- Break 10min
-- [Sharing and reuseing data](modules/sharing-and-reusing-data.md) 40min
-- Break 10min
 - [Using data repositories](modules/using-data-repositories-.md) 40min
 
 
