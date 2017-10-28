@@ -238,6 +238,11 @@ Tabular data
 - Some will be more popular in your discipline.
 - You may need to us multiple tools and combine them.
 
+
+## **Visualization**
+- Plotly
+- Tableau
+
 ## 9. Documentation reminder
 - Data preparation and analysis will likely be an iterative process.
 - Workflows give a visual overview and explanation of the exact process followed across different tools.
@@ -310,6 +315,8 @@ Tool: Lucid Chart in the Google Suite.
 
 - The representation of workflows contain the details required to carry out each analysis step, 
 	- including the use of specific execution and storage resources in distributed environments. 
+
+**Pegasus [website](https://pegasus.isi.edu/overview/) Pegasus workflow.**
 
 
 Kepler [website](https://kepler-project.org)
