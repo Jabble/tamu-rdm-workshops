@@ -1,17 +1,41 @@
 # Sharing and reusing data
-- follow instructions
-- Credit for work and incentives.
-- Citation.
-- Licensing
+## 2. Workshops
+- Today we're talking about topics related to sharing and preserve data.
+
+We'll discuss:
+
+1. Sharing and reusing data generally
+2. File formats and metadata for long-term storage and making data findable
+3. Using data repositories to make data publically accessible and preserve data files
+
 
 ## 3. Introduction
-Focus a little on:
+First, we'll focus on considerations for:
 
-- the considerations for sharing your data with researchers external to your group and perhaps openly 
-- on and reusing data made available by others.
+- Sharing your data with external researchers, and perhaps openly.
+- Reusing data made available by others.
 
-## 4. How data sharing has changed
-In the past, traditionally:
+## 4. Why share data
+Reasons that drive researchers and may influence you to share data 
+
+- Required by federal funding agencies
+	- NIH, NSF
+- Required by publishers 
+	- Cell, Nature, Science
+- Allows data to be used to answer new questions.
+	- Data may be put to use or combined in novel ways by other researchers.
+	- You may not anticipate how data can be useful.
+- Makes research more transparent.
+	- The evidence you used is available to review.
+- Makes your papers more useful and citable by other researchers.
+	- pubs with data make clear, what you did and how you used your evidence are clear.
+	- Can give more weight to your arguments.
+	- Showing good work with data can improve your reputation as a researcher.
+- Get credit for your work
+	- Data are increasingly becoming a citable research product in and of themselves
+
+## 5. How data are shared
+Traditionally:
 
 - Sharing one on one
 - Sharing as part of a small lab team
@@ -21,32 +45,14 @@ In the past, traditionally:
 More recently:
 
 - Sharing with large numbers of researchers outside a research team
-- Sharing data as a distinct entity not as a supplement to a paper
-- Broad dissemination via the internet 
+- Sharing data as a distinct entity
+	 - Not as a supplement to a paper
+- Broad dissemination online
 - Sharing with the public
-
-
-## 5. Why share data
-Reasons that drive researchers and may influence you to share data 
-
-- Required by publishers 
-	- Cell, Nature, Science
-- Required by federal funding agencies
-	- NIH, NSF
-- Allows data to be used to answer new questions.
-	- Data may be put to unexpected uses or combines in novel ways by other researchers.
-	- It's important to remember that you may not be able to anticipate how your data could be useful to others.
-- Makes research more transparent.
-	- What you did and the evidence you relied on, and how you used it are clear.
-	- Can give more weight to your arguments.
-- Makes your papers more useful and citable by other researchers.
-	- Data is increasingly becoming a citable research product in and of itself
-	- Showing that you've done a good job gathering and working with data can improv your reputation as a researcher.
-
 
 ## 6. Common approaches
 - There are several ways to share research data. 
-- The appropriate method will depend on the nature of your research and the content of the data
+- The appropriate method will depend on the nature of your research and data.
 
 - Informal sharing: provide access to or send research data upon request
 	- Email to individual requesters
@@ -55,41 +61,63 @@ Reasons that drive researchers and may influence you to share data
 - Supplemental information: provide research data in support of published articles
 	Submit as supplemental material to be hosted on a journal publisher's website
 	
-While the first three options above are valid ways to share data, a repository is much more able to provide long-term access. 
-
-- Data deposited in a repository can be supplemented with a "data paper"
-	- a relatively new type of publication that describes a dataset, but does not analyze it or draw any conclusions
-
+First options are valid ways to share data, a repository is better able to provide long-term access and digital preservation. 
 We'll discuss different types of respositories a little more later.
 
 - Institutional repository: deposit research data in local repository
 - Disciplinary data repository: deposit research data in an appropriate community-based repository
 
+### Data papers
+Data deposited in a repository can also be supplemented with a "data paper"
+
+- A newer type of publication that describes a dataset, but does not analyze it or draw any conclusions
+
+Example: Nature publishes a journal called Scientific Data:
+
+- Scientific Data is a peer-reviewed, open-access journal 
+- for descriptions of scientifically valuable datasets, and 
+- research that advances the sharing and reuse of scientific data.
+
 ## 7. Federal funding agencies
+### Discussion
+Are you familiar with changes to federal funding policies?
+
+In the U.S.this is where the big driver for new standards and tools for data sharing.
+### New requirements
 In May 2013 President Barack Obama signed an Executive Order requiring that:
 
-“going forward, data generated by the government be made available in open, machine-readable formats, while appropriately safeguarding privacy, confidentiality, and security.”
+- data generated by the government be made available in open, machine-readable formats, 
+- with safegaurds for privacy, confidentiality, and security.
 
-This was followed by White House Office of Science and Technology Policy has issues a directive in support of open access to research requiring funding agencies:
+This was followed by the White House Office of Science and Technology Policy. 
+They issued a directive in support of open access to research.
 
-“with more than $100M in R&D expenditures to develop plans to make the published results of federally funded research
-freely available to the public within one year of publication and requiring researchers 
-to better account for and manage the digital data resulting from federally funded scientific research.” 
+Requires that federal funding agencies:
+
+- With more than $100M in expenditures
+- Develop plans to make the published results of federally funded research freely available to the public 
+- This is within one year of publication 
+- and requiring researchers to better account for and manage digital data resulting from funded research. 
+
+These requirements are new and still developing
+
+Researchers need to submit DMPs with grants to explain:
+
+- How they will manage their research data during a project.
+- How they will share and preserve their data after their project.
+  
+### SPARC policy tracking tool
+SPARC policy tracking [Website](http://researchsharing.sparcopen.org/)
+
+Maintains explanations of current article and data sharing requirements for federal agencies.
+
+## 8. Which data to share
+You may have separate requirements and restrictions from different stakeholders when it comes to sharing research data.
 
 - Funding agencies, 
 - Publishers and 
 - Institutions 
 
-- May all have separate requirements and restrictions concerning the sharing of research data. 
-- It is the responsibility of the researcher to comply with these.
-  
-These requirements are subject to change, and have been changing rapidly over the past decade.  
-
-SPARC policy tracking: http://researchsharing.sparcopen.org/ 
-
-- Maintains explanations of current article and data sharing requirements for federal agencies.
-
-## 8. Which data to share
 As we've mentioned several times, your data may be subject to legal and ethical restrictions.
 
 This applies not only to storage and security, but also 
@@ -98,44 +126,51 @@ This applies not only to storage and security, but also
 - which data you may share
 
 ### Copyrights
-maintain rights documentation for data and materials you use even for works you yourself create and for which you are the copyright holder.  
+Be aware of copyrights and whether you have the right to share the data.
 
-This should include, at a minimum, 
-(1) author/creator information; 
-(2) dates of creation or publication; and 
-(3) any permissions you have or know of regarding the information, 
-	including general licensing (such as Creative Commons), 
-	user-specific licensing (such as a signed contract between you and the rights holder), 
-	or other legal authorizations.
+If and when you share data you will need to include copyright information with the data.
 
-If and when you share data you will need to include this information with the data.
+Maintain rights documentation for data and materials you use whether:
+
+- You created them and are the rights holder
+- Someone else holds the rights
+
+This should include: 
+
+1. Author/creator; 
+2. Dates of creation or publication; and 
+3. Any permissions you have or know of regarding the information.
+	- Do you have permission or a contract from someone to use data in a certain way? Keep that.
 
 ### Patents
-- Patents provide strong rights to the patent-holder against any non-permissive (unlicensed) use of the patented invention itself.  
-- Patents can cover intangible inventions, such as algorithms or business methods.  
-- In general, dissemination of information about the invention is not protected.  
-- If your project includes the dissemination of actual patented inventions 
-	- such as software embodying patented algorithms, 
-	- or tangible products such as organisms embodying constructed DNA, 
-- then you should investigate the exceptions available for research use, and the licensing available.
+- Patents provide strong rights to the patent-holder against any unlicensed use of a patented invention.  
+- Patents can cover intangible inventions
+	 -  Such as algorithms  
+- If your project might include the dissemination patented inventions 
+	- such as software using patented algorithms, 
+	- or products such as organisms embodying constructed DNA
+- Then investigate the available exceptions for research use
+	- and the licensing available to share for research purposes.
 
-### Trade secrets, NDAs and licenses, and use agreements
-While legislative rights such as copyright, patent, and form the background on which information is shared 
-contracts and licenses shape numerous specific relationships.  
+### NDAs and licenses, and use agreements
+Contracts and licenses can shape specific relationships 
+and determine permissions to use and disseminate information.  
 
-If you have access to information 
+If you have access to information through:
 
-- through a licensing arrangement, 
-- or an individually negotiated and signed agreement (such as a "non-disclosure agreement" or a "confidentiality agreement"), 
+- a licensing arrangement, 
+- or an individually negotiated and signed agreement 
+	- Such as a "non-disclosure agreement" 
+	- or a "confidentiality agreement" 
 
-you are in most cases bound to the terms of those agreements.  
+You are bound to the terms of those agreements.  
 
-It is important, when acquiring access to information, that you consider the future uses you may wish to make of it
-such as sharing, and negotiate for those rights. 
+Therefore it is important that you consider the future uses you may wish to make of data, such as sharing, and negotiate for those rights 
+When entering a licensing agreement or contract.
 
 ### Subject-rights
-In the United States, privacy laws are wdescribed as a "patchwork", 
-and if you work with personally-identifiable information about individuals, 
+In the United States, privacy laws are "patchwork".
+If you work with personally-identifiable information about individuals, 
 then you should apprise yourself of federal and state laws.  
 
 Prioritize this issue especially if you work with 
@@ -146,17 +181,29 @@ Prioritize this issue especially if you work with
 
 Subjects have the right to privacy and to avoid damage to their reputation. 
 
-You may still be able to share data some data or restrict access to other researchers with particular training, but this also may require subject consent.
+You may still be able to share
+
+- Some data publically 
+	- Perhaps cleaned and without sensitive information,
+	- or aggregated data
+- Complete data with restrict access to researchers who meet specific conditions/training
+	- This also may require subjects to consent for you to share data for research purposes.
 
 ### Juristiction-specific rules
 Every country has its own rules that govern particular types of content.  
-In the United States, the First Amendment is broadly protective of sharing information, but
+In the United States:
 
-- export-control rules may still apply to cryptographic research or other types of information affecting national security, 
-- both state and federal laws may also restrict particular subjects
+- Export-control rules may still apply to:
+	- cryptographic research 
+	- or other types of information affecting national security, 
+- Both state and federal laws may also restrict particular subjects
 
-You should be broadly familiar with whether your kinds of content might be regulated anywhere, 
-and in particular any rules for jurisdictions you are working in, sourcing information from, or disseminating information to. 
+You should be broadly familiar with whether your kinds of content might be regulated. 
+In particular pay attention to rules for jurisdictions you are
+
+- working in, 
+- sourcing information from,
+- or disseminating information to. 
 
 ## 9. Sharing Outside of team
 Consult:
@@ -183,7 +230,30 @@ When making a request to use another’s data, be specific.
 
 ### licenses and use agreements
 - If data are publically shared, they will often have licenses or use agreements specified in the metadata. 
-- It is important to follow these if you decide to use the data.
+- It is important to follow these instructions if you decide to use the data.
+
+Here is an example of a common type of license.
+This is a Creative Commons license.
+Specifically, it is a Creative Commons license saying
+Anyone has right to freely:
+
+- Distribute,
+- Tweek,
+- Remix
+- and even use commercially
+
+The content it is attached to.
+It's called a CC-BY license.
+
+There are more restrictive licenses.
+Generally, licenses are easier to use than writing a data use agreement.
+They have prewritten language indicating 
+
+- which rights the rights holder grants to users
+- and what conditions there are for use.
+
+To use a license, you would attach it to the object when it is published. 
+We will talk more about this with data respositories.
 
 ## 11. Data citation
 Citing data is important in order to:
@@ -210,16 +280,21 @@ There are 5 core elements usually included in a dataset citation, with additiona
 - Identifier – a unique public identifier (e.g., an ARK or DOI)
 
 ### Common additional elements
+Core elements are sufficient in the simplest case, citing a complete static dataset 
 
-- Although the core elements are sufficient in the simplest case
-- citation to the entirety of a static dataset 
-- additional elements may be needed if you wish to cite a dynamic dataset or a subset of a larger dataset. 
+Additional elements may be needed if you wish to cite 
 
-- Version of the dataset analyzed in the citing paper
-- Access date when the data was accessed for analysis in the citing paper
-- Subset of the dataset analyzed (e.g., a range of dates or record numbers, a list of variables)
-- Verifier that the dataset or subset accessed by a reader is identical to the one analyzed by the author (e.g., a Checksum)
-- Location of the dataset on the internet, needed if the identifier is not "actionable" (convertable to a web address)
+- A dynamic (changing) dataset 
+- or a subset of a larger dataset. 
+
+These include: 
+
+- Version of the dataset you analyzed.
+- Date when the data was accessed.
+- Subset of the dataset analyzed 
+	- a range of dates 
+	- a range of records/observations
+	- a list of variables used
 
 ### Example citations
 “OECD (2008), Social Expenditures aggregates, OECD Social Expenditure Statistics (database). http://dx.doi.org/10.1787/000530172303 (Accessed on 2008-12-02).”t44q88124
