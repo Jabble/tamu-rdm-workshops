@@ -1,11 +1,10 @@
-# Introducing Research Data Management
+# Introducing research data management
 Last revised: 2017-11-20
 Revised by: Anna Dabrowski
 
-Objectives:
+Learning objectives:
 
-- Understand the purpose of Research Data Management training.
-- Understand the the scope of the workshop series.
+- Participants understand the the scope and expectations of the workshop series.
 
 ## Your instructor
 Let's get to know each other first. I'll introduce myself to you, and then we'll go around and you can talk a little about yourself.
@@ -19,7 +18,7 @@ Your subject librarians are also an excellent resource for you.
 They are familiar with particular disciplines and can often speak more directly to specific needs you may have while conducting your research.
 
 ##  Introductions
-<!-- Ask participants to introduce themselves in turn -->
+*Ask participants to introduce themselves in turn.*
 
 1. Your name
 2. What do you study or intend to study in your research?
@@ -28,31 +27,42 @@ They are familiar with particular disciplines and can often speak more directly 
 5. Anything else?
 
 ## Our schedule
+*Fill in schedule*
 
-
-## Our agreement 
+## Workshop scope
 Please keep in mind that we have a diverse group of participants, who are dealing with different subject matter.
 
-By participating in this workshop series, we have an agreement. 
+- This is a general introduction, with no prerequisites. 
+- The series is broad rather than deep. 
+- The material we cover is aimed at PhD students working on research proposals, or beginning to conduct research projects.
+- Some topics are likely to be more familiar to you than others. 
+- We will most likely cover topics that aren't directly applicable to your specific research area. 
 
-This is a general introduction, with no prerequisites. The series is broad rather than deep. 
-The material we cover is aimed at PhD students working on their proposals, or just beginning to conduct their research projects.
+This said, I'm eager to get your feedback and direct the material based on your interest. 
+I would like you all to feel welcome to share your experience, and to express your thoughts, comments, and questions.
 
+## Our agreement
+By participating in this workshop series, you're agreeing to one rule and one expectation.
 
-Some topics are likely to be more familiar to you than others, and we may also cover topics that aren't directly applicable to your specific research area. 
+The only rule that we'll have is:
 
-This said, I'm eager to get your feedback and direct the material based on your interest. I would like you all to feel welcome to share your experience, and to express your thoughts, comments, and questions.
+Individuals who behave in a manner that shows indent to exclude, intimidate, or cause discomfort to others will be asked to leave.
 
-Along these lines, there is one rule:
+Otherwise, this is a chance for you to gain familiarity, ask questions, and be silly (if you want). 
+You should be aware that exercises and hands-on activities are key elements of the workshops, and active participation is expected.
 
-**Individuals who behave in a manner that shows indent to exclude, intimidate, or cause discomfort to others will be asked to leave.**
+If you prefer not to participate, that is fine. But, this series isn't for you. 
 
-There is no grade. This is a chance for you to gain familiarity, practice, ask questions, and be silly (if you want). You should be aware that exercises and hands-on activities are key elements of the workshops, and active participation is expected.
-
-If you prefer not to participate, this is fine. But, I ask that you please give up your seat to someone on the wait list. There is a lot of great material available online that covers data management. I'm happy to send you all the resources for this series where you can watch online modules and read on your own. If you're choosing to sit here, then you're choosing to join in a group conversation. 
+There is a lot of great material available online. 
+I'm happy to send you resources where you can watch online modules and read on your own. 
+If you're choosing to sit here, you're joining an in-person group conversation. 
 
 If you have a question, or I'm unclear, please ask. If I don't have an answer I will try to find one for you. 
 
+## Defining data
+*Ask participants for their definitions of data*
+
+How would you define research data? What is it to you?
 
 ## Research Data Management
 Research Data Management (RDM) refers to the practices of organizing, documenting, storing, sharing, and preserving data collected during a research project. 
