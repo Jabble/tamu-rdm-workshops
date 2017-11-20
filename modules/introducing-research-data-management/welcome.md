@@ -1,5 +1,7 @@
 # Introducing Research Data Management
-## Welcome
+Last revised: 2017-11-20
+Revised by: Anna Dabrowski
+
 Objectives:
 
 - Understand the purpose of Research Data Management training.
