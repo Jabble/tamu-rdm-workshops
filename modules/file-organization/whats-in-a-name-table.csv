@@ -1,0 +1,7 @@
+Informational component,Possible use,Tip
+Names or acronyms,creator; project; team; named data,Keep it relevant and simple
+Sequential numbering,Run of experiment; version number,Include leading zeros
+Dates and times,date of creation; date range of experiment,Use YYYY-MM-DD([ISO 8601](https://en.wikipedia.org/wiki/ISO_8601))format
+Unique identifier,subject id; project number; grant number,Keep it relevant and simple
+Research condition,lab instrument; solvent; temperature; spatial coordinates; etc.,Keep it relevant and simple
+Type or keyword,denote type of content within a file,Work from a standard list
