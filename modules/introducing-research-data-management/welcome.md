@@ -1,32 +1,43 @@
 # Introducing Research Data Management
-## Objectives
+## Welcome
+Objectives:
+
 - Understand the purpose of Research Data Management training.
 - Understand the the scope of the workshop series.
 
-## Introduction
-My name is Anna Dabrowski. I'm the Data Management Librarian at the Texas A&M University Libraries. This is a new position, which means I'm working on expanding our data services here at the Libraries and this workshop series is one way for us to do that. Your subject librarians are also an excellent resource for you, and they may be able t
+## Your instructor
+Let's get to know each other first. I'll introduce myself to you, and then we'll go around and you can talk a little about yourself.
 
-### Student introductions
-*(Etherpad)[]*
+My name is Anna Dabrowski. I'm the Data Management Librarian at the Texas A&M University Libraries. 
+
+A large part of my job is helping researchers with thinking through managing their data, and providing them with information and resources. 
+I do this in consulations and workshops like this series.
+
+Your subject librarians are also an excellent resource for you. 
+They are familiar with particular disciplines and can often speak more directly to specific needs you may have while conducting your research.
+
+##  Introductions
+<!-- Ask participants to introduce themselves in turn -->
 
 1. Your name
-2. What do you study or intend to study? What is your area of research?
+2. What do you study or intend to study in your research?
 3. Do already have, or work with, data?
 4. Why did you sign up for this workshop series?
+5. Anything else?
 
-## About the workshop series
-This workshop series is a 6-part introduction to Research Data Management. We will spend 2.5 hours in each workshop, with two 10-minute breaks. 
-
-Each week we will cover different topics, with the goal of helping you identify data management practices and tools that will improve your research and your graduate experience.
+## Our schedule
 
 
-- Bring a laptop if you can. If not, you may borrow one from the library.
-- Since it's late in the evening, we'll have snacks during our breaks.
+## Our agreement 
+Please keep in mind that we have a diverse group of participants, who are dealing with different subject matter.
 
-### Our agreement 
 By participating in this workshop series, we have an agreement. 
 
-Please be aware that we have a diverse group of participants with different experiences and who are dealing with different subject matter. This is a general introduction, with no prerequisites. The series is broad rather than deep. Some topics are likely to be more familiar to you than others, and we may also cover topics that aren't directly applicable to your specific research area. 
+This is a general introduction, with no prerequisites. The series is broad rather than deep. 
+The material we cover is aimed at PhD students working on their proposals, or just beginning to conduct their research projects.
+
+
+Some topics are likely to be more familiar to you than others, and we may also cover topics that aren't directly applicable to your specific research area. 
 
 This said, I'm eager to get your feedback and direct the material based on your interest. I would like you all to feel welcome to share your experience, and to express your thoughts, comments, and questions.
 
@@ -34,7 +45,7 @@ Along these lines, there is one rule:
 
 **Individuals who behave in a manner that shows indent to exclude, intimidate, or cause discomfort to others will be asked to leave.**
 
-There is no grade. This is a chance for you to gain familiarity, practice, ask questions, and be silly (if you want). You should be aware that exercises and hands-on activities are key elements of the workshops, and active participation is expected.
+There is no grade. This is a chance for you to gain familiarity, practice, ask questions, and be silly (if you want). You should be aware that exercises and hands-on activities are key elements of the workshops, and active participation is expected.
 
 If you prefer not to participate, this is fine. But, I ask that you please give up your seat to someone on the wait list. There is a lot of great material available online that covers data management. I'm happy to send you all the resources for this series where you can watch online modules and read on your own. If you're choosing to sit here, then you're choosing to join in a group conversation. 
 
