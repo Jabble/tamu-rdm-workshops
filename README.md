@@ -1,4 +1,4 @@
-# Research Data Management Workshop Materials
+# Introduction to Research Data Management Workshop Materials
 This repo contains materials for an Introduction to Research Data Management workshop series aimed at graduate students at Texas A&M University.
 
 The series was developed and taught by Anna Dabrowski, the Texas A&M University Libraries Data Management Librarian, in fall 2017.
