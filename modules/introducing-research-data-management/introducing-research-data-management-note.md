@@ -1,6 +1,7 @@
 # Introducing research data management
-Last revised: 2017-11-20
-Revised by: Anna Dabrowski
+<!-- Last revised: 2017-11-21
+
+Revised by: Anna Dabrowski -->
 
 Learning objectives:
 
