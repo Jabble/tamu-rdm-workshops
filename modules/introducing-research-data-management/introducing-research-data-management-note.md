@@ -12,8 +12,8 @@ Let's get to know each other first. I'll introduce myself to you, and then we'll
 
 My name is Anna Dabrowski. I'm the Data Management Librarian at the Texas A&M University Libraries. 
 
-A large part of my job is helping researchers with thinking through managing their data, and providing them with information and resources. 
-I do this in consulations and workshops like this series.
+A large part of my job is helping researchers think through managing their data, and providing them with information and resources. 
+I do this in consulations and through workshops like this series.
 
 Your subject librarians are also an excellent resource for you. 
 They are familiar with particular disciplines and can often speak more directly to specific needs you may have while conducting your research.
