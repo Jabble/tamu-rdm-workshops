@@ -56,7 +56,7 @@ If you prefer not to participate, that is fine. But, this series isn't for you.
 
 There is a lot of great material available online. 
 I'm happy to send you resources where you can watch online modules and read on your own. 
-If you're choosing to sit here, you're joining an in-person group conversation. 
+If you're choosing to sit here, you're choosing to join an in-person group conversation. 
 
 If you have a question, or I'm unclear, please ask. If I don't have an answer I will try to find one for you. 
 
@@ -116,6 +116,7 @@ It also includes the practices that support long-term preservation, access, and 
 
 ## Discussion
 *Ask participants to explain why they think research data management may be worthwhile.*
+
 Based on this definition of research data management, I’d like to hear from you why do you think research data "management" is a thing to do?  
 
 - What could be the benefits of organizing, documenting, storing, sharing, and preserving data?
