@@ -88,9 +88,9 @@ We haven’t covered anything yet, so there are no right or wrong answers.
 This can be a tough thing to think through before we've talked more about the steps these diagrams often include. 
 Since you may have more or less experience with research, I'd like to get an idea of how you currently think about your research data.
 
-*If the exercise is unclear to a participant try the hint below*
+*If the exercise is unclear to a participant try the hint below, or use as an explanation after the exercise.*
 
-### Hint 
+### Hint/Explanation 
 For context, you can think about how the data changes. So, you:
 
 - collect data and then you have **Raw data** 
@@ -137,16 +137,16 @@ This is a very general data “lifecycle” or “lifetime” diagram that infor
 
 The diagram was developed by DataONE (The Data Observation Network for Earth), one of many organizations promoting good practices in data management.
 
-The full DataONE diagram has eight components or stages, starting at the top and following the arrows:
+The full DataONE diagram has eight components or stages, starting at the top and following the arrows, and each has it's own management issues:
 
-- Plan: description of the data that will be compiled, and how the data will be managed and made accessible throughout its lifetime
-- Collect: observations are made either by hand or with sensors or other instruments and the data are placed a into digital form
-- Assure: the quality of the data are assured through checks and inspections
-- Describe: data are accurately and thoroughly described, relevant information about the data (metadata) is written using the appropriate standards
-- Preserve: data are submitted to an appropriate long-term archive or repository
-- Discover: potentially useful data are located and obtained, along with the relevant information about the data (metadata)
-- Integrate: data from disparate sources are combined to form one homogeneous set of data that can be readily analyzed
-- Analyze: data are analyzed
+- Plan: description of the data that will be compiled, and how the data will be managed and made accessible throughout its lifetime.
+- Collect: observations are made either by hand or with sensors or other instruments and the data are placed a into digital form.
+- Assure: the quality of the data are assured through checks and inspections.
+- Describe: data are accurately and thoroughly described, relevant information about the data (metadata) is written using the appropriate standards.
+- Preserve: data are submitted to an appropriate long-term archive or repository.
+- Discover: potentially useful data are located and obtained, along with the relevant information about the data (metadata).
+- Integrate: data from disparate sources are combined to form one homogeneous set of data that can be readily analyzed.
+- Analyze: data are analyzed.
 
 As I mentioned, this diagram is generic.
 
@@ -159,57 +159,90 @@ As a graduate student, you may also only be responsible for specific components 
 Nonetheless, you should be aware that the life of research data involves many components. 
 For which, you, or someone else, is likely to be responsible. 
 
+## University of California, Santa Cruz
+This lifecycle diagram was developed by the Libraries at University of California in Santa Cruz. 
+It describes the life of data a little differently, through actions.
 
-## DCC data curation lifecycle
-The lifecycle focuses specifically on curation activities. 
+- Starts with writing a data management plan as an action.
+- Then shows data storage is it's own management concern during data collection, description, and analysis.
+- Moves on to data retention, promotion, and search and reuse as actions.
 
-- Conceptualise 
+## University of Virginia
+This diagram from the University of Virginia looks more linear, but also loops back on itself.
+
+- It starts from writing a proposal and starting a project.
+- To the data-intensive steps of data collection, analysis, and sharing.
+
+One thing that it shows, which the other diagrams omit, is how you may reuse the data you analyze and conduct different analyses or need to iterate in order to answer your research questions.
+
+Then it shows hoe the life of data may continue after a project ends:
+
+- Through data archiving by the creator and discovery by others.
+
+<!-- ## DCC data curation lifecycle
+The lifecycle focuses specifically on curation activities.
+
+- Conceptualise
 - Create or Receive
-- Appraise and Select 
+- Appraise and Select
 - Ingest
 - Preservation Action
-- Store 
-- Access, Use and Reuse 
-- Transform
+- Store
+- Access, Use and Reuse
+- Transform -->
 
-## Simplified lifecycle
-This workshop series will cover data management activities within stages of the data lifecycle.
+## Discussion
+*Ask participants for their opinion of their diagrams compared to these*
+
+Everyone describe the lifecycle a little differently. 
+
+Now that you’ve seen a few different overviews of how the life and management of research data progresses over time:
+
+- How does your diagram compare?
+- Would you change anything about the diagram you made?
+- Did you miss anything when you were thinking about your own data? 
+- Maybe the lifecycles will account for something you didn’t think about? 
+- Maybe they will be too general, and you included more detail?
+
+These are generic and written from the perspective of librarians and data curators. 
+
+- In particular they focus on the use and re-usability of the data, and this is an essential component of good data management. 
+- The life of your data will be specific for your research. 
+- Ultimately, there isn’t a right or wrong way to outline the life of your data, 
+- but there will be common stages that you can expect to go through and think about managing your data in these stages.
+
+## Workshops
+This workshop series will move somewhat linearly to cover data management concepts and activities within stages of the data lifecycle.
+
+Today, we've started with:
 
 1. Introduction to Research Data Management
-2. Collect and document data
-3. Store digital data
-4. Work with data
-5. Share and preserve data
-6. Plan ahead
 
-Since we're taking a lifecycle approach, we'll look at how practices at each stage impact later stages in the lifecycle. 
+We'll move on to focus on tips, good practices, and tools in:
 
-### Workshops
+2. Collecting and documenting data
+- Data formatting for easy analysis.
+- File organization and naming conventions for identification.
+3. Storing digital data
+- Documentation and version control for tracking changes and roll-back.
+- Managing storage for security.
+- Back-up procedures for redundancy.
+4. Working with data
+- Quality control for integrity.
+5. Sharing and preserving data
+- Policies for sharing and reuse.
+- Archiving and preservation for future accessibility
+6. Planning ahead
 
-1. Introduction to Research Data Management
-2. Collect and document data
-3. Store digital data
-4. Work with data
-5. Share and preserve data
-6. Plan ahead
+Since we're taking a lifecycle approach, we'll discuss how practices at each stage impact later stages in the lifecycle. 
 
-This 6-week series provides an overview of research data management concepts. It covers good practices, tools, tips, and resources for effective management of digital data, including:
-
-Data formatting for easy analysis.
-File organization and naming conventions for identification.
-Quality control for integrity.
-Documentation and version control for tracking changes and roll-back.
-Managing storage for security.
-Back-up procedures for redundancy.
-Policies for sharing and reuse.
-Archiving and preservation for future accessibility
+## Conclusion
+We covered components of the research data lifecycle and how they can be diagramed to help think about the progress of a research project and data management activities.
 
 ## References
-- DataOne. "Data Lifecycle" [image](../dataone-data_lifecycle-image.png)
-- Digital Curation Center (DCC). "Curation Lifecycle Model" [PDF](http://www.dcc.ac.uk/sites/default/files/documents/publications/DCCLifecycle.pdf)
-- Whitmire, Amanda. 2014. "Types, Formats & Stages of Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
-University of Virginia Library. (2014). Steps in the data life cycle [Image]. Retrieved from http://dmconsult.library.Virginia.edu/lifecycle
-UK Data Archive, University of Essex. (n.d.). Research data lifecycle [Image]. Retrieved from http://www.data-archive.ac.uk/create-manage/life-cycle
+- DataOne. "Data Lifecycle" [Website](https://www.dataone.org/data-life-cycle)
+- University of California, Santa Cruz. “Research Data Management Lifecycle” [Website](http://guides.library.ucsc.edu/datamanagement)
+- University of Virginia. “Steps in the Data Life Cycle” [Website](http://data.library.virginia.edu/data-management/lifecycle/)
 
 ## Materials
 - Workshop syllabus hand-out
