@@ -66,30 +66,38 @@ How would you define research data? What are data to you?
 
 <!-- Data are heterogeneous and contextualized within research communities. -->
 
-There are many definitions for data, often depending on the subjects studied and methods used. Even federal grant agencies have different definitions for data.
+## Discussion [continued]
+There are many definitions for data, often depending on the subjects studied and methods used. 
 
-- NIH define research data as “Recorded factual material commonly accepted in the scientific community as necessary to document and support research findings” (National Institutes of Health).
-- NSF describes data as something “determined by the community of interest through the process of peer review and program management” (National Science Foundation). 
+Even federal grant agencies have different definitions for data:
+
+- NIH: define research data as “Recorded factual material commonly accepted in the scientific community as necessary to document and support research findings” (National Institutes of Health).
+- NSF: describes data as something “determined by the community of interest through the process of peer review and program management” (National Science Foundation). 
 	- Examples of data provided by NSF include data, publications, samples, physical collections, software, and models.
-- NEH defines data as “materials generated or collected during the course of conducting research” and provides a wider variety of examples of data than NIH or NSF (National Endowment for the Humanities).
+- NEH: defines data as “materials generated or collected during the course of conducting research” and provides a wider variety of examples of data than NIH or NSF (National Endowment for the Humanities).
+
+It sounds like the grant agencies would prefer to leave the particulars to the research community,
+and nearly anything that is used as evidence to support an argument may be considered "data."
 
 ## Defining data
-This is the definition of data we will work with in this workshop series: 
+For this workshop series we'll work with the following definition: 
 
 **Research data are information artifacts that scholars draw upon for evidence in supporting research claims, and producing new knowledge.**
 
 We can talk about data very broadly within this definition. 
 What data are to you, will largely depend on your discipline, the sorts of things you study and the manner in which you study them.
-Research data could include physical artifacts, such as:
 
-- a biological specimen, 
-- an architectural blue print, 
-- or a paper map. 
+Research data may include physical artifacts, such as:
+
+- biological specimen, 
+- architectural blue prints, 
+- paper maps,
+- paper surveys
 
 Our focus will be primarily on managing digital data.
 
 ## Research Data Management
-With that definition in mind, this workshop series will cover topics in Research Data Management.
+With that definition in mind, this workshop series will cover topics in managing data.
 
 Research data management (RDM) refers to:
 
@@ -150,7 +158,10 @@ What do you hope to gain from the workshop series?
 - What do you expect it will cover and how will this help you?
 
 ## Conclusion
-So far, we’ve covered the scope of this workshop, and talked about definitions for data and research data management.
+So far, we’ve covered:
+
+- the scope of this workshop, 
+- and talked about definitions for data and research data management.
 
 ## Resources
 - DataONE. "Primer on data management" [PDF](http://escholarship.org/uc/item/7tf5q7n3)
