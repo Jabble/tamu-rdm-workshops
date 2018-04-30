@@ -172,4 +172,4 @@ So far, we’ve covered:
 - Carly Strasser, Robert Cook, William Michener, Amber Budden. 2012. "DataONE Primer on Data Management: What you always wanted to know" [PDF](https://doi.org/doi:10.5060/D2251G48)
 
 ## Resources used
-- Helen Tibbo, Sarah Jones. Research Data Management and Sharing. Week 1. [Coursera MOOC URL](https://www.coursera.org/learn/data-management)
+- Helen Tibbo, Sarah Jones. Research Data Management and Sharing. Week 1. [Coursera MOOC](https://www.coursera.org/learn/data-management)
