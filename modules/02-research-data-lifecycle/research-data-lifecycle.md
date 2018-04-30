@@ -8,6 +8,8 @@ Learning objectives:
 - Participants recognize that research data have a "lifetime" or "lifecycle."
 
 ## Introduction
+*Hand out pens and sheets of paper with sticky notes attached*
+
 In this series we will think about managing research data over time. 
 
 For this section, we'll talk about the "life" of research data to get an overview of data management concerns at different points during – and after – a research project. 
@@ -28,11 +30,14 @@ You can do this by thinking about what happens to your data in between milestone
 5. Someone wants to access and reuse the data.
 
 ## Diagrams as a tool
-*Hand out pens and sheets of paper with sticky notes attached*
-
 Diagrams – like the two empty flow charts you see here – are a great tool for thinking about the progress of your data over time. 
 
-![Empty lifecycle flow chart image](https://github.com/Jabble/tamu-rdm-workshops/blob/master/visuals/diagrams/empty-data-life-diagram.jpg)
+![Empty lifecycle flow charts](https://github.com/Jabble/tamu-rdm-workshops/blob/master/visuals/diagrams/empty-data-life-diagram.jpg)
+
+These two diagrams are empty, but:
+
+- Each box can be filled in to show a data management stage as your research progresses.
+- The arrows indicate the direction in which you move from one stage to another.
 
 Before your research:
 
@@ -44,17 +49,8 @@ Later in your research:
 - As you work with your data, 
 - more detailed flow charts can be valuable for effectively visualizing the specific decisions and actions you take to process data, and the results of those actions.
 
-We'll discuss more detailed flow charts in a later section, right now, we'll focus on the overview before your project.
-
-These two diagrams are empty, but:
-
-- Each box can be filled in to show a data management stage as your research progresses.
-- The arrows indicate the direction in which you move from one stage to another. 
-
 ## Exercise
-Before we look at some examples of data lifecycle diagrams, I'd like you to take a few minutes to think about your research and how you expect it to progress.
-
-You can think about an existing, or anticipated, research project.
+Take a few minutes to think about your research and how you expect it to progress. You can think about an existing, or anticipated, research project.
 
 You should have sheets of paper with your very own little yellow boxes (sticky notes) in front of you.  
 
@@ -66,12 +62,22 @@ You should have sheets of paper with your very own little yellow boxes (sticky n
 
 What steps do you anticipate taking (or may have already taken) with data?
 
-If it helps, you can start with step one being gather your research data.
+*Demo writing on sticky notes*
 
-- As write your step think about what your actions may be. 
-- For example: what your form your data will take and how you will collect them.
+If it helps, you can start with step one being "gather research data." As you write your general steps think about what your actions will be as part of the step. For example, when you gather research data: 
 
-You can end with deleting your data, or the step that you will take to make those data reusable for others after your project is complete.
+- What form will your data take?
+	- Audio or video recordings?
+	- Written responses?
+	- Outputs in a digital spreadsheet?
+
+- How will you collect them?
+	Create and distribute a questionnaire?
+	Write code and run computational models?
+	Ask participants to join experiments?
+	Use instruments to measure physical phenomena?
+	
+Continue to think through what you will need to do to the data before results can be published, before the project is over, and before you can share or delete your data.
 
 As you think about your own research and how you will work with data, your diagrams can:
 
@@ -81,14 +87,15 @@ As you think about your own research and how you will work with data, your diagr
 
 I'll give you 10 minutes or so to think and make diagrams before we talk about them. If you have any questions, just raise a hand.
 
-We haven’t covered anything yet, so there are no right or wrong answers.
+There are no right or wrong answers.
 
-*Ask participants to share diagrams*
+*Wait 10 minutes before asking participants to share diagrams*
 
 This can be a tough thing to think through before we've talked more about the steps these diagrams often include. 
-Since you may have more or less experience with research, I'd like to get an idea of how you currently think about your research data.
 
-*If the exercise is unclear to a participant try the hint below, or use as an explanation after the exercise.*
+Since you may have different experiences with research, I'd like to get an idea of how you currently think about your working with data.
+
+*If the exercise is unclear to a participant try the hint below, or use it as an explanation after the exercise.*
 
 ### Hint/Explanation 
 For context, you can think about how the data changes. So, you:
@@ -137,6 +144,8 @@ This is a very general data “lifecycle” or “lifetime” diagram that infor
 
 The diagram was developed by DataONE (The Data Observation Network for Earth), one of many organizations promoting good practices in data management.
 
+![DataOne Data Lifecycle](https://github.com/Jabble/tamu-rdm-workshops/blob/master/visuals/diagrams/dataone-data_lifecycle-diagram.png)
+
 The full DataONE diagram has eight components or stages, starting at the top and following the arrows, and each has it's own management issues:
 
 - Plan: description of the data that will be compiled, and how the data will be managed and made accessible throughout its lifetime.
@@ -163,12 +172,16 @@ For which, you, or someone else, is likely to be responsible.
 This lifecycle diagram was developed by the Libraries at University of California in Santa Cruz. 
 It describes the life of data a little differently, through actions.
 
+![University of California, Santa Cruz Research Data Management Lifecycle](https://github.com/Jabble/tamu-rdm-workshops/blob/master/visuals/diagrams/uc-data_lifecycle-diagram.png)
+
 - Starts with writing a data management plan as an action.
 - Then shows data storage is it's own management concern during data collection, description, and analysis.
 - Moves on to data retention, promotion, and search and reuse as actions.
 
 ## University of Virginia
 This diagram from the University of Virginia looks more linear, but also loops back on itself.
+
+![University of Virginia Steps in the Data Life Cycle](https://github.com/Jabble/tamu-rdm-workshops/blob/master/visuals/diagrams/uvirginia-data_lifecycle-diagram.png)
 
 - It starts from writing a proposal and starting a project.
 - To the data-intensive steps of data collection, analysis, and sharing.
@@ -215,9 +228,10 @@ These are generic and written from the perspective of librarians and data curato
 We covered components of the research data lifecycle and how they can be diagramed to help think about the progress of a research project and data management activities.
 
 ## Recommended reading
-- DataOne. "Data Lifecycle" [Website](https://www.dataone.org/data-life-cycle)
-- University of California, Santa Cruz. “Research Data Management Lifecycle” [Website](http://guides.library.ucsc.edu/datamanagement)
-- University of Virginia. “Steps in the Data Life Cycle” [Website](http://data.library.virginia.edu/data-management/lifecycle/)
+- DataOne. “Best Practices" [Website](https://www.dataone.org/best-practices)
 
 ## Resouces used
+- DataOne. "Data Lifecycle" [Website](https://www.dataone.org/data-life-cycle)
 - Lamar Soutter Library, University of Massachusetts Medical School. New England Collaborative Data Management Curriculum. Module 2. [Website](https://library.umassmed.edu/necdmc/index) 
+- University of California, Santa Cruz. “Research Data Management Lifecycle” [Website](http://guides.library.ucsc.edu/datamanagement)
+- University of Virginia. “Steps in the Data Life Cycle” [Website](http://data.library.virginia.edu/data-management/lifecycle/)
