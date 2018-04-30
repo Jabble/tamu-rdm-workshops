@@ -16,7 +16,7 @@ An overview  of the information to be include in a plan.
 2. What do you think goes into a plan?
 
 If your project is grant funded, you may already be required to follow a Data Management Plan. 
-
+()
 - In last week's discussion we mentioned federal funding requirements for more open data.
 - DMPs are part of this requirement.
 

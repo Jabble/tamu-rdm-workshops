@@ -169,6 +169,8 @@ Specialized formats or other abbreviations used
 
 - Cornell University, Research Data Management Services Group. "Guide to writing "readme" style metadata" [webpage](https://data.research.cornell.edu/content/readme)
 
+- UMN Readme template. [file](http://z.umn.edu/readme)
+
 I strongly recommend that you use a README.txt file at the top level of your project folder to explain the purpose of the project, the relevant summary and contact details, and general organization of your files. This is equivalent to using the first page of your laboratory notebook to give a general description of your project.
 
 Top-level and low level readmes
@@ -207,3 +209,4 @@ From: [website](http://www.icpsr.umich.edu/icpsrweb/NAHDAP/support/faqs/2006/01/
 - MANTRA. "Documentation, metadata, citation" [module](http://mantra.edina.ac.uk/documentation_metadata_citation/)
 - Whitmire, Amanda. 2014. "Organizing Your Data" [slides](https://figshare.com/articles/GRAD521_Research_Data_Management_Lectures/1003835)
 - Purrington, C.B. Maintaining a laboratory notebook http://colinpurrington.com/tips/academic/labnotebooks.
+- https://www.gurdon.cam.ac.uk/institute-life/computing/elnguidance
