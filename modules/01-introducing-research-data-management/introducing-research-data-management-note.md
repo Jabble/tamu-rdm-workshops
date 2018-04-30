@@ -1,5 +1,5 @@
 # Introducing research data management
-<!-- Last revised: 2017-11-21
+<!-- Last revised: 2018-04-30
 
 Revised by: Anna Dabrowski -->
 
@@ -72,10 +72,10 @@ There are many definitions for data, often depending on the subjects studied and
 
 Even federal grant agencies have different definitions for data:
 
-- NIH: define research data as “Recorded factual material commonly accepted in the scientific community as necessary to document and support research findings” (National Institutes of Health).
-- NSF: describes data as something “determined by the community of interest through the process of peer review and program management” (National Science Foundation). 
+- NIH: define research data as “Recorded factual material commonly accepted in the scientific community as necessary to document and support research findings” ([National Institutes of Health](https://grants.nih.gov/grants/policy/data_sharing/data_sharing_guidance.htm)).
+- NSF: describes data as something “determined by the community of interest through the process of peer review and program management” ([National Science Foundation](https://www.nsf.gov/bfa/dias/policy/dmp.jsp)). 
 	- Examples of data provided by NSF include data, publications, samples, physical collections, software, and models.
-- NEH: defines data as “materials generated or collected during the course of conducting research” and provides a wider variety of examples of data than NIH or NSF (National Endowment for the Humanities).
+- NEH: defines data as “materials generated or collected during the course of conducting research” and provides a wider variety of examples of data than NIH or NSF ([National Endowment for the Humanities](https://www.neh.gov/files/grants/data_management_plans_2018.pdf)).
 
 It sounds like the grant agencies would prefer to leave the particulars to the research community,
 and nearly anything that is used as evidence to support an argument may be considered "data."
@@ -109,10 +109,10 @@ The aim of research data management is to ensure that data are usable over time.
 This idea of usability over time, and across platforms, will keep coming up in this workshop series and drives a lot of the recommended practices we'll discuss.
 
 Ensuring usability over time involves good practices in the everyday handling and workflow of research data during the active phase of a project.
+
 It also includes the practices that support long-term preservation, access, and use after the project has been completed. 
 
 <!-- Data Management, as defined by NOAA's Administrative Order 212-15, "consists of two major activities conducted in coordination: data management services and data stewardship. They constitute a comprehensive end-to-end process including movement of data and information from the observing system sensors to the data user. This process includes the acquisition, quality control, metadata cataloging, validation, reprocessing, storage, retrieval, dissemination, and archival of data.” -->
-
 
 ## Discussion
 *Ask participants to explain why they think research data management may be worthwhile.*
@@ -168,5 +168,8 @@ So far, we’ve covered:
 - the scope of this workshop, 
 - and talked about definitions for data and research data management.
 
-## Resources
-- DataONE. "Primer on data management" [PDF](http://escholarship.org/uc/item/7tf5q7n3)
+## Recommended reading
+- Carly Strasser, Robert Cook, William Michener, Amber Budden. 2012. "DataONE Primer on Data Management: What you always wanted to know" [PDF](https://doi.org/doi:10.5060/D2251G48)
+
+## Resources used
+- Helen Tibbo, Sarah Jones. Research Data Management and Sharing. Week 1. [Coursera MOOC URL](https://www.coursera.org/learn/data-management)
