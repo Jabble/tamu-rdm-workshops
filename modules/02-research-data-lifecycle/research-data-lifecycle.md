@@ -1,5 +1,5 @@
 # The research data lifecycle
-<!-- Last revised: 2017-11-21
+<!-- Last revised: 2017-12-19
 
 Revised by: Anna Dabrowski -->
 
@@ -211,31 +211,6 @@ These are generic and written from the perspective of librarians and data curato
 - Ultimately, there isn’t a right or wrong way to outline the life of your data, 
 - but there will be common stages that you can expect to go through and think about managing your data in these stages.
 
-## Workshops
-This workshop series will move somewhat linearly to cover data management concepts and activities within stages of the data lifecycle.
-
-Today, we've started with:
-
-1. Introduction to Research Data Management
-
-We'll move on to focus on tips, good practices, and tools in:
-
-2. Collecting and documenting data
-- Data formatting for easy analysis.
-- File organization and naming conventions for identification.
-3. Storing digital data
-- Documentation and version control for tracking changes and roll-back.
-- Managing storage for security.
-- Back-up procedures for redundancy.
-4. Working with data
-- Quality control for integrity.
-5. Sharing and preserving data
-- Policies for sharing and reuse.
-- Archiving and preservation for future accessibility
-6. Planning ahead
-
-Since we're taking a lifecycle approach, we'll discuss how practices at each stage impact later stages in the lifecycle. 
-
 ## Conclusion
 We covered components of the research data lifecycle and how they can be diagramed to help think about the progress of a research project and data management activities.
 
@@ -243,6 +218,3 @@ We covered components of the research data lifecycle and how they can be diagram
 - DataOne. "Data Lifecycle" [Website](https://www.dataone.org/data-life-cycle)
 - University of California, Santa Cruz. “Research Data Management Lifecycle” [Website](http://guides.library.ucsc.edu/datamanagement)
 - University of Virginia. “Steps in the Data Life Cycle” [Website](http://data.library.virginia.edu/data-management/lifecycle/)
-
-## Materials
-- Workshop syllabus hand-out
