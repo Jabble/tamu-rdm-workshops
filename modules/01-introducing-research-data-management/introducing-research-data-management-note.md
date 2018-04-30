@@ -144,12 +144,15 @@ This workshop series will cover many topics in research data management related 
 
 - Collecting and formatting data for easy analysis.
 - File organization and naming conventions for identification.
-- Documentation and version control for tracking changes and roll-back.
+- Documentation for future usability. 
+- Version control for tracking changes and roll-back.
 - Managing storage and access locations for security and collaboration.
 - Back-up procedures for redundancy.
-- Quality control for integrity.
+- Quality control actions for integrity.
+- Tools for analysis.
 - Policies for sharing and reuse.
 - Archiving for future accessibility.
+- Data management plans for describing practices.
 
 ## Discussion
 *Ask participants what they're most interested in, return to topic list if needed.*
