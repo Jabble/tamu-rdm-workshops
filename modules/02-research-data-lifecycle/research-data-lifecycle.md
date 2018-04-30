@@ -1,5 +1,5 @@
 # The research data lifecycle
-<!-- Last revised: 2017-12-19
+<!-- Last revised: 2018-04-30
 
 Revised by: Anna Dabrowski -->
 
@@ -8,31 +8,31 @@ Learning objectives:
 - Participants recognize that research data have a "lifetime" or "lifecycle."
 
 ## Introduction
-This section will introduce the data management perspective. 
+In this series we will think about managing research data over time. 
 
-As I mentioned earlier, in this series we will think about managing research data over time. 
-
-Here, we'll talk about the life of research data to get an overview of data management concerns at different points during – and after – a research project. 
+For this section, we'll talk about the "life" of research data to get an overview of data management concerns at different points during – and after – a research project. 
 
 ## The life of data
-The “life”, “lifetime” or lifecycle” of research data covers the time from which a project is conceived and data gathering is planned, until the point when data are deleted, lost, or reused. 
+The “life”, “lifetime” or lifecycle” of research data covers the time from which a project is conceived and data gathering is planned, until the point when data are deleted or lost. 
 
-When we discuss the data lifecycle, we’ll break it down into data management activities you will do at different parts of the research process. 
+When we discuss this lifecycle, we’ll break it down into data management activities you will do at different parts of the research process. 
 
-For our workshops, it is important to think about what happens to data in between research milestones like these. You will work with data in steps between the time:
+You can do this by thinking about what happens to your data in between milestones like these. You will work with data in steps between the time:
 
-- The research project is proposed.
-- ...
-- Research papers are published.
-- ...
-- The research project ends.
-- ...
-- Someone wants to reuse data.
+1. The research project is proposed.
+	...
+2. Research papers are published.
+	...
+3. The research project ends.
+	...
+5. Someone wants to access and reuse the data.
 
 ## Diagrams as a tool
 *Hand out pens and sheets of paper with sticky notes attached*
 
 Diagrams – like the two empty flow charts you see here – are a great tool for thinking about the progress of your data over time. 
+
+![Empty lifecycle flow chart image](https://github.com/Jabble/tamu-rdm-workshops/blob/master/visuals/diagrams/empty-data-life-diagram.jpg)
 
 Before your research:
 
@@ -175,7 +175,7 @@ This diagram from the University of Virginia looks more linear, but also loops b
 
 One thing that it shows, which the other diagrams omit, is how you may reuse the data you analyze and conduct different analyses or need to iterate in order to answer your research questions.
 
-Then it shows hoe the life of data may continue after a project ends:
+Then it shows how the life of data may continue after a project ends:
 
 - Through data archiving by the creator and discovery by others.
 
@@ -214,7 +214,10 @@ These are generic and written from the perspective of librarians and data curato
 ## Conclusion
 We covered components of the research data lifecycle and how they can be diagramed to help think about the progress of a research project and data management activities.
 
-## References
+## Recommended reading
 - DataOne. "Data Lifecycle" [Website](https://www.dataone.org/data-life-cycle)
 - University of California, Santa Cruz. “Research Data Management Lifecycle” [Website](http://guides.library.ucsc.edu/datamanagement)
 - University of Virginia. “Steps in the Data Life Cycle” [Website](http://data.library.virginia.edu/data-management/lifecycle/)
+
+## Resouces used
+- Lamar Soutter Library, University of Massachusetts Medical School. New England Collaborative Data Management Curriculum. Module 2. [Website](https://library.umassmed.edu/necdmc/index) 
