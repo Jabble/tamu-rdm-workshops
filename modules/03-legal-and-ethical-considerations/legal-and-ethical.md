@@ -82,7 +82,9 @@ Generally Intellectual Property (IP) law covers:
 - Patents
 - Trademarks
 - Industrial Designs
+
 Intellectual property generated in an academic setting usually involves copyrights, trade secrets, and patents.
+
 ## Copyright
 Copyright is a legal protection for the creators of "original works of authorship."
 
@@ -172,3 +174,5 @@ Nancy Simms, Copyright Specialist at University of Minnesota Libraries [youtube]
 - MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
 - New England Collaborative Data Management Curriculum. "Module 5: Legal and Ethical Considerations for Research Data" [website](http://library.umassmed.edu/necdmc/modules)
 - U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
+- Carroll, Michael W. 2015. "Sharing Research Data and Intellectual Property Law: A Primer". PLOS Biology [Article](http://dx.doi.org/10.1371/journal.pbio.1002235)
+
