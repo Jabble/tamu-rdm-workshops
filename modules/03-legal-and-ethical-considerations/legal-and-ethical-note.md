@@ -13,21 +13,28 @@ In this module, we'll discuss legal and ethical issues that need to be tackled w
 
 The goal is to help you identify and understand your obligations.
 
-## Who owns the data?
-This question pertains to the individual or entity that has the legal rights to the data, and can retain the data after the completion of the project.
+## Discussion
+Before we talk about data ownership:
 
-Data ownership can be very complex. 
+- Do you know who owns the data you collect and work with?
+- Is there a difference between data you create and existing data you use from another source?
+
+## Who owns the data?
+This question is important to ask, because the owner will be the individual or entity that has certain legal rights to the data, and is the party (person or group) that can retain the data after the completion of a project.
+
+Data ownership can be very complex, and is specific to a project and situation.
+
 Before starting a project you should have an idea of the ownership issues related to research products resulting from your particular project, including data.
 
-### Stakeholders
-Data are seen as assets and therefore research stakeholders want to protect their **intellectual property rights**.
+## Stakeholders
+Data are seen as assets and therefore research stakeholders want to protect their **intellectual property rights** — legal rights to data.
 
 Different people or groups may be stakeholders claiming ownership or some level of control over research data, including:
 
-- Institutions (Texas A&M University)
-- Funders
-- Research faculty (Your advisor, a Principle Investigator)
-- Data collectors (You)
+- Funders: the groups that provide money to conduct research through grants or contracts, sometimes these will be government bodies, sometimes private or philanthropic organizations.
+- Institutions (Texas A&M University): This will be where the researcher works, and who pays their salary.
+- Research faculty (Your advisor, a Principle Investigator): The person leading the research project, and often the one writing the grant proposal.
+- Data collectors (You): The person working with the principle investigator on a research project
 
 ### Determining ownership
 Ownership can be determined by:
@@ -173,7 +180,9 @@ Other considerations include retention of original collection instruments, such 
 Questions of which data to keep and for how long need to be considered in the context of your ability to maintain the confidentiality of your subjects’ information, and should be planned in advance."
 
 ### Video: Advice from a copyright specialist
-Nancy Simms, Copyright Specialist at University of Minnesota Libraries [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
+Nancy Simms, Copyright Specialist at University of Minnesota Libraries.
+
+"Making Decisions About Your Research Data" [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
 
 ## Recommended reading
 - Carroll, Michael W. 2015. "Sharing Research Data and Intellectual Property Law: A Primer". PLOS Biology [Article](http://dx.doi.org/10.1371/journal.pbio.1002235)
