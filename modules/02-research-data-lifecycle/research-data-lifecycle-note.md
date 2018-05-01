@@ -12,7 +12,7 @@ Learning objectives:
 
 In this series we will think about managing research data over time. 
 
-For this section, we'll talk about the "life" of research data to get an overview of data management concerns at different points during – and after – a research project. 
+For this module, we'll talk about the "life" of research data to get an overview of data management concerns at different points during – and after – a research project. 
 
 ## The life of data
 The “life”, “lifetime” or lifecycle” of research data covers the time from which a project is conceived and data gathering is planned, until the point when data are deleted or lost. 
@@ -232,6 +232,6 @@ We covered components of the research data lifecycle and how they can be diagram
 
 ## Resouces used
 - DataOne. "Data Lifecycle" [Website](https://www.dataone.org/data-life-cycle)
-- Lamar Soutter Library, University of Massachusetts Medical School. New England Collaborative Data Management Curriculum. Module 2. [Website](https://library.umassmed.edu/necdmc/index) 
-- University of California, Santa Cruz. “Research Data Management Lifecycle” [Website](http://guides.library.ucsc.edu/datamanagement)
-- University of Virginia. “Steps in the Data Life Cycle” [Website](http://data.library.virginia.edu/data-management/lifecycle/)
+- Lamar Soutter Library, University of Massachusetts Medical School. New England Collaborative Data Management Curriculum. "Module 2: Types, Formats, and Stages of Data" [Website](http://library.umassmed.edu/necdmc/modules) 
+- University of California, Santa Cruz. "Research Data Management Lifecycle" [Website](http://guides.library.ucsc.edu/datamanagement)
+- University of Virginia. "Steps in the Data Life Cycle" [Website](http://data.library.virginia.edu/data-management/lifecycle/)

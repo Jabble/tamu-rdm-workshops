@@ -1,10 +1,17 @@
 # Legal and ethical considerations
-## Objectives
-- Understand that legal and ethical considerations impact how data are managed.
-- Identify potential legal or ethical concerns with your research project(s).
+<!-- Last revised: 2018-05-01
+
+Revised by: Anna Dabrowski -->
+
+Learning objectives:
+
+- Participants understand that legal and ethical considerations impact how data are managed.
+- Participants are able to identify potential legal or ethical concerns for their research project(s).
 
 ## Introduction
-In this module, we'll discuss legal and ethical issues that need to be tackled when working with data. The goal is to help you identify and understand your obligations.  
+In this module, we'll discuss legal and ethical issues that need to be tackled when working with data. 
+
+The goal is to help you identify and understand your obligations.
 
 ## Who owns the data?
 This question pertains to the individual or entity that has the legal rights to the data, and can retain the data after the completion of the project.
@@ -149,7 +156,7 @@ Confidentiality relates to the actions of the researcher.
 - IRB and Ethical review
 - Safeguarding data and data destruction
 
-From: MANTRA Research Data Management Training [website](http://datalib.edina.ac.uk/mantra/)
+
 
 "Confidentiality refers to the researcher’s agreement with the participant about how the participant’s identifiable private information will be handled, managed, and disseminated. The research proposal should outline strategies to maintain confidentiality of identifiable data, including controls on storage, handling, and sharing of personal data.
 
@@ -166,13 +173,17 @@ Other considerations include retention of original collection instruments, such 
 Questions of which data to keep and for how long need to be considered in the context of your ability to maintain the confidentiality of your subjects’ information, and should be planned in advance."
 
 ### Video: Advice from a copyright specialist
-Nancy Simms, Copyright Specialist at University of Minnesota Libraries [youtube](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
+Nancy Simms, Copyright Specialist at University of Minnesota Libraries [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
 
-
-## References
-- DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
-- MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
-- New England Collaborative Data Management Curriculum. "Module 5: Legal and Ethical Considerations for Research Data" [website](http://library.umassmed.edu/necdmc/modules)
-- U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
+## Recommended reading
 - Carroll, Michael W. 2015. "Sharing Research Data and Intellectual Property Law: A Primer". PLOS Biology [Article](http://dx.doi.org/10.1371/journal.pbio.1002235)
+- TAMU. "SAP15.99.03.M1.03: The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+- U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
 
+## Resources used
+- Cornell University Libraries. "Introduction to intellectual property rights in data management" [Website](https://data.research.cornell.edu/content/intellectual-property)
+- DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
+- Lamar Soutter Library, University of Massachusetts Medical School. New England Collaborative Data Management Curriculum. "Module 5: Legal and Ethical Considerations for Research Data" [Website](http://library.umassmed.edu/necdmc/modules)
+- MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
+- Nancy Simms. "Making Decisions About Your Research Data" [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU) 
+- Stanford University Libraries. "Licensing" [Website](http://library.stanford.edu/research/data-management-services/share-and-preserve-research-data/licensing)

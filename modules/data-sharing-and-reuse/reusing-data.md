@@ -92,3 +92,4 @@ DataOne [website](https://www.dataone.org/best-practices/consider-compatibility-
 
 ## References
 - Coursera. https://www.coursera.org/learn/data-visualization/lecture/7yx2o/video-lesson-what-do-we-mean-by-data
+- Stanford University Libraries. "Licensing" [Website](http://library.stanford.edu/research/data-management-services/share-and-preserve-research-data/licensing)
