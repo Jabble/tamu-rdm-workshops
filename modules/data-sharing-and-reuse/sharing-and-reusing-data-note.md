@@ -304,6 +304,7 @@ Discussed data sharing and requirements to consider
 Reviewed Data citation
 
 ## References
+- Open Science Training Handbook [Website](https://open-science-training-handbook.gitbooks.io/book/content/02OpenScienceBasics/06OpenLicensingAndFileFormats.html)
 - Ball, Alex and Monica Duke. "How to Cite Datasets and Link to Publications" [PDF](http://www.dcc.ac.uk/resources/how-guides/cite-datasets)
 - Coursera. https://www.coursera.org/learn/data-visualization/lecture/7yx2o/video-lesson-what-do-we-mean-by-data
 - Stanford University Libraries. "Licensing" [Website](http://library.stanford.edu/research/data-management-services/share-and-preserve-research-data/licensing)

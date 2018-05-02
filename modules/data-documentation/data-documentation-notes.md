@@ -296,3 +296,4 @@ Any questions about these things?
 
 ## 30. References and resources
 *Go over them*
+- Data Packaging Guide [Website](https://github.com/saverkamp/beyond-open-data/blob/master/DataGuide.md)
