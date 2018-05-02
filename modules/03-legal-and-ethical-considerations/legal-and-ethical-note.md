@@ -1,5 +1,5 @@
 # Legal and ethical considerations
-<!-- Last revised: 2018-05-01
+<!-- Last revised: 2018-05-02
 
 Revised by: Anna Dabrowski -->
 
@@ -12,12 +12,6 @@ Learning objectives:
 In this module, we'll discuss legal and ethical issues that need to be tackled when working with data. 
 
 The goal is to help you identify and understand your obligations.
-
-## Discussion
-Before we talk about data ownership:
-
-- Do you know who owns the data you collect and work with?
-- Is there a difference between data you create and existing data you use from another source?
 
 ## Who owns the data?
 This question is important to ask, because the owner will be the individual or entity that has certain legal rights to the data, and is the party (person or group) that can retain the data after the completion of a project.
@@ -36,43 +30,90 @@ Different people or groups may be stakeholders claiming ownership or some level 
 - Research faculty (Your advisor, a Principle Investigator): The person leading the research project, and often the one writing the grant proposal.
 - Data collectors (You): The person working with the principle investigator on a research project
 
-### Determining ownership
-Ownership can be determined by:
+## Exercise
+Dr. Smith works at The University and is the Principal Investigator on a large research project that is funded by the National Institutes of Health (NIH). However, while Dr. Smith wrote the original grant proposal, he does very little day-to-day work on the project. Instead, the Research Director, Betsy, oversees all aspects of the project, including staff supervision and all data management activities. In addition, Betsy has been lead author on several publications about the project's research findings.
 
-- Funder agreements (grants or contracts)
-- Institutional Intellectual Property policies
-- A data use agreement
-- A license attached to the data
+Who owns the project and its data?
+1. The PI, Dr. Smith
+2. The Research Director, Betsy
+3. The University
+4. The National Institutes of Health 
+5. No one person or organization
 
-### Texas A&M University
+## Answer
+The University. 
+
+Despite the PI's and the Research Director's work on the project, the sponsoring institution typically maintains ownership of a project's data as long as the PI submitted the grant through that institution and is employed by them. However within the sponsoring institution, a PI is generally granted stewardship over the project data; he/she may control the course, publication, and copyright of any research, subject to institutional review.
+
+Clinical Tools, Inc. Guidelines for Responsible Data Management in Scientific Research. "Case Vignette: Data Ownership" [PDF](https://ori.hhs.gov/images/ddblock/data.pdf)
+
+<!-- ## Discussion
+Before we talk about data ownership:
+
+- Do you know who owns the data you collect and work with?
+- Is there a difference between data you create and existing data you use from another source? -->
+
+## Texas A&M University
+At Texas A&M University our Standard Administrative Procedures include a statement about research data ownership:
+
+"Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
+
+TAMU. “SAP15.99.03.M1.03: The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+ 
 Institutional policies can help ascertain who owns data produced at an institution and under what circumstances someone may:
 
 - Access data
 - Take data
 - Share data
 - Publish data
- 
-3. Ownership
-"Unless precluded by a Texas A&M University contract agreeing to specific other terms, research data conducted on a Texas A&M University project belongs to Texas A&M University."
 
-Standard Administrative Procedure 15.99.03.M1.03 "The Responsible Stewardship of Research Data" [PDF](http://rules-saps.tamu.edu/PDFs/15.99.03.M1.03.pdf)
+## Determining ownership
+Ownership can be determined by looking in different places. We've already talked about the first two here:
 
-## Claiming ownership and control
+- Institutional Intellectual Property policies: These can be university policies that indicate who owns data collected by University employees, or on projects that use University resources.
+- Funder agreements (grants or contracts): These agreements can specify who owns data collected with the use of a funder’s resources.
+
+If you are reusing existing data that someone else created, you will want to also consider the following:
+
+- A data use agreement: This and licenses apply more to the reuse of existing data. A Data use agreement is a contract. So, if you are using data that someone else collected and is sharing, these agreements can state who owns the data and what you can do with it.
+- A license attached to the data: This is more generic than a data use agreement, but it also applies to existing data, and will indicate how data can be re-used.
+
+## Ownership and control
 Rights of control over data, or access to data, can be given without legally changing ownership of the data. 
 
-Although you may not be able to claim ownership over data, you may still have control over, or access to data. 
+Although you may not be able to claim ownership over data, you may still have control over, or access to data.
 
-Think of this a little like using a service such as spotify to listen to music. Spotify has contracts with artists. You have access to music, but you don’t own that music.
+I’ll try to give you a couple of analogies in the realm of music to distinguish access, control, and ownership.
 
-### Example: Federally funded research grant
-In most cases for federally funded research, the government gives the research institution the right to use data collected with public funds as an incentive to put research to use for the common good. 
-Thus the research institution owns the data but allows the principal investigator (PI) on the grant to be the steward of the data.
+*draw on whiteboard*
 
-The PI takes responsibility for the collection, recording, storage, retention and disposal of data. They can claim control over the data. 
+1. Access
 
-Meanwhile the graduate students, postdocs, or faculty involved in performing research on a particular grant cannot assume that they own the data that they are collecting and managing. 
+Let’s say you subscribe to a music streaming service like Spotify for listening to music. Spotify has contracts that allow them to distribute music, music to you within their software platform. Then, they give you **access** to listen to the music you want in their software. But, you don’t own that music, and you don’t have copies of the music that you can access outside of the Spotify software platform.
+
+2. Control
+
+Another situation could also be that you purchase a song or album. Then, you may be able to say that you **control** the copy of that music (e.g. in an MP3 file, on a CD, on a record, etc.) for your own use. But, you don’t legally own the music. Meaning, you don’t have legal rights to make copies and distribute or resell them. Whether or not you do this anyway, isn’t something that I’m going to comment on.
+
+With data it also gets complicated and depends on the situation, I’ll give you a common example.
+
+## Example: Federally funded research grant
+As in the exercise, in most cases of federally funded research, the government gives the research institution the right to use data collected with public funds as an incentive to put research to use for the common good. 
+
+Thus the research institution **owns** the data, but allows the Principal Investigator (PI) on the grant to be the steward of the data.
+
+The PI takes responsibility for the collection, recording, storage, retention and disposal of data. They can claim **control** over the data.
+
+Meanwhile, the graduate students, postdocs, or other researchers involved in performing work on a particular grant cannot assume that they own the data that they are collecting and managing. The people in a laboratory or on a research project are essentially working for the academic institution, which assigned the rights of the data to the PI.
 
 Students should not take the data with them when they leave the institution unless they have made appropriate arrangements with the project PI.
+
+This is only one example of how data ownership may look. Your situation may be different, and you should be aware that with industry-funded research, data can belong to the sponsor.
+
+## Example: Federally funded research grant [continued]
+
+
+http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2
 
 <!-- ## Funders
 ### Federal grants and contracts
@@ -196,3 +237,5 @@ Nancy Simms, Copyright Specialist at University of Minnesota Libraries.
 - MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
 - Nancy Simms. "Making Decisions About Your Research Data" [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU) 
 - Stanford University Libraries. "Licensing" [Website](http://library.stanford.edu/research/data-management-services/share-and-preserve-research-data/licensing)
+- Clinical Tools, Inc. Guidelines for Responsible Data Management in Scientific Research  https://ori.hhs.gov/images/ddblock/data.pdf
+- https://ori.hhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2
