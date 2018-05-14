@@ -205,3 +205,4 @@ Library Carpentry. [Lesson](https://data-lessons.github.io/library-data-intro/03
 MANTRA "Organizaing data" [Module](http://mantra.edina.ac.uk/organisingdata/)
 MIT Libraries [Website](http://libraries.mit.edu/data-management/store/organize/)
 Frazer, Meghan. 2013. "An eleveator pitch for file naming conventions" [Article](http://acrl.ala.org/techconnect/post/an-elevator-pitch-for-file-naming-conventions)
+Stanford. "Best practices for file naming" [Website](http://library.stanford.edu/research/data-management-services/data-best-practices/best-practices-file-naming) Includes case study!
