@@ -344,3 +344,15 @@ https://www.vistrails.org/usersguide/v2.2/html/intro.html
 - VisTrails [website](https://www.vistrails.org/index.php/Main_Page)
 - ICPSR. "Confidentiality" [Website](http://www.icpsr.umich.edu//icpsrweb/content/datamanagement/confidentiality/)
 
+@article{polonetsky-2016,
+	Author = {Jules Polonetsky and Omer Tene and Kelsey Finch},
+	Date-Added = {2018-05-10 15:00:36 +0000},
+	Date-Modified = {2018-05-10 15:02:00 +0000},
+	Journal = {Santa Clara Law Review},
+	Title = {Shades of Gray: Seeing the Full Spectrum of Practical Data De-identification},
+	Url = {https://digitalcommons.law.scu.edu/lawreview/vol56/iss3/3},
+	Year = {2016},
+	
+Justin Kitzes||Daniel Turek||Fatma Deniz	The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences	This book contains a collection of 31 case studies of reproducible research workflows, written by academic researchers in the data-intensive sciences. Each case study describes how the author combined specific tools, ideas, and practices in order to complete a real-world research project. 	https://www.practicereproducibleresearch.org
+
+

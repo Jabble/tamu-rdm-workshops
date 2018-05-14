@@ -482,8 +482,10 @@ Generally will occur via software
 
 
 ## References
+- Open Science Training Handbook. "Open Licensing and FIle Formats" [Website](https://open-science-training-handbook.gitbooks.io/book/content/02OpenScienceBasics/06OpenLicensingAndFileFormats.html)
 - Abrams, Stephen. "File Formats" [PDF](http://www.dcc.ac.uk/resources/curation-reference-manual/completed-chapters/file-formats)
 - Cornell Research Data Management Service Group. File formats. http://data.research.cornell.edu/content/file-formats
+- Cornell University Library. eCommons: Cornell's Digital Repository. "Recommended File Formats" [Website](http://guides.library.cornell.edu/ecommons/formats)
 - Cornell Research Data Management Service Group. Metadata and Describing Data. http://data.research.cornell.edu/content/writing-metadata
 - DataONE. "Document and Store Data Using Stable File Formats" [Website](http://www.dataone.org/best-practices/document-and-store-data-using-stable-file-formats) Useful information about file formats.
 - Library of Congress. "Sustainability of digital formats" [Website](https://www.loc.gov/preservation/digital/formats/index.shtml)
