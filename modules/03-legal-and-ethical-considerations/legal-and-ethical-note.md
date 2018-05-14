@@ -1,5 +1,5 @@
 # Legal and ethical considerations
-<!-- Last revised: 2018-05-02
+<!-- Last revised: 2018-05-14
 
 Revised by: Anna Dabrowski -->
 
@@ -31,14 +31,16 @@ Different people or groups may be stakeholders claiming ownership or some level 
 - Data collectors (You): The person working with the principle investigator on a research project
 
 ## Exercise
-Dr. Smith works at The University and is the Principal Investigator on a large research project that is funded by the National Institutes of Health (NIH). However, while Dr. Smith wrote the original grant proposal, he does very little day-to-day work on the project. Instead, the Research Director, Betsy, oversees all aspects of the project, including staff supervision and all data management activities. In addition, Betsy has been lead author on several publications about the project's research findings.
+Prof. Smith works at The University and is the Principal Investigator on a large research project that is funded by the National Institutes of Health (NIH). While Prof. Smith wrote the original grant proposal, he does very little day-to-day work on the project.
+
+Instead, the Research Director, Dr. Lang, oversees all aspects of the project, including staff supervision and all data management activities. In addition, Dr. Lang has been lead author on several publications about the project's research findings.
 
 Who owns the project and its data?
-1. The PI, Dr. Smith
-2. The Research Director, Betsy
+
+1. Prof. Smith
+2. Dr. Lang
 3. The University
-4. The National Institutes of Health 
-5. No one person or organization
+4. The National Institutes of Health
 
 ## Answer
 The University. 
@@ -110,9 +112,6 @@ Students should not take the data with them when they leave the institution unle
 
 This is only one example of how data ownership may look. Your situation may be different, and you should be aware that with industry-funded research, data can belong to the sponsor.
 
-## Example: Federally funded research grant [continued]
-
-
 http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2
 
 <!-- ## Funders
@@ -127,9 +126,11 @@ Private funders seek to retain the rights for commercial use of the data.
 Depending on their interests, they may retain or give away ownership rights. -->
 
 ## Intellectual Property
-As we mentioned a little while ago, data are seen as assets and therefore research stakeholders want to protect their **intellectual property rights**.
+Intellectual property is the reason ownership becomes a big deal.
 
-Now, we’ll talk a little about which Intellectual Property rights can be granted to the owners of data.
+As we mentioned a little while ago, data are seen as assets and therefore research stakeholders want to protect their legal rights to the data. The legal rights I was referring to are **intellectual property rights**.
+
+Intellectual property rights are legal rights that apply to “creations of the mind.”
 
 Generally Intellectual Property (IP) law covers:
 
@@ -138,22 +139,25 @@ Generally Intellectual Property (IP) law covers:
 - Trademarks
 - Industrial Designs
 
-Intellectual property generated in an academic setting usually involves copyrights, trade secrets, and patents.
+Intellectual property generated in an academic setting usually involves copyrights, trade secrets, and patents. These can affect who is allowed to access and use data, and how they can do so.
+
+Now, we’ll talk a little about which Intellectual Property rights can be granted to the owners of data.
 
 ## Copyright
-Copyright is a legal protection for the creators of "original works of authorship."
+Copyright is a commonly discussed Intellectual Property right, and the one you’re most likely to hear about. Copyright is a legal protection for the creators of "original works of authorship."
 
 - Applies to a work immediately upon fixation in a tangible medium of expression.
-- Gives the creator exclusive legal right to:
+- Gives the owner exclusive legal right to:
 	- Reproduce
 	- Prepare derivative works 
 	- Distribute copies
 	- Perform or display publicly
 	- Grant licenses or transfer copyrights to others
 
-"It is illegal for anyone to violate any of the rights provided by the copyright law to the owner of copyright. These rights, however, are not unlimited in scope."
+Copyright may belong to the authors/creators of “original works of authorship” or their employers. Copyright protection is available for most literary, musical, dramatic, photographic and other creative works. This includes research articles, research monographs, textbooks, theses and dissertations, still images, computer software, teaching materials, proposals, and research reports. 
 
-From: "Copyright Basics," U.S. Copyright Office, [PDF](https://www.copyright.gov/circs/circ01.pdf)
+## Legal protection
+Since this is a legal protection, this means that "It is illegal for anyone to violate any of the rights provided by the copyright law to the owner of copyright. These rights, however, are not unlimited in scope." From: U.S. Copyright Office "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
 
 ## The problem with data
 Copyright is restricted to work that includes a level of "creative expression." This is where issues arise with data. 
@@ -163,52 +167,89 @@ Copyright does **not** apply to:
 - Facts
 - The labor of research
 
-The distinction between pure fact and "creative expression" is determined primarily by current case law. For this reason, copyright can be difficult to determine for data and datasets. 
+Copyright does not apply to facts, so if you measure the temperature right down as 68°F, this fact is not protected by copyright.
 
-In some cases, the arrangement or compilation of data or portions of a dataset may be protected by copyright. However, definitions of data and types of data vary and it's best to play it safe. 
+Even if you put in a lot of effort into gathering data, this effort does not mean the data will be protected by copyright.
 
-## Licenses and credit for data
-How to play it safe? 
+## The problem with data [continued]
+Copyright can be difficult to determine for data and datasets. The phrase “creative expression” is vague. And, the distinction between pure fact and "creative expression" is determined primarily by current case law. 
 
-When reusing data:
+So, what might constitute creative expression?
 
-- follow the instructions of the data creators
-- follow community norms and cite the original creators
+In the United States, creative expressions of data includes charts, tables, and graphs within publications. These are copyrightable because these representations of the data require design choices in the arrangment, colors, style, etc.
+
+In certain cases, the arrangement or compilation of data or portions of a dataset may be protected by copyright even if the data themselves are "facts". 
+
+For example, databases are generally protected by copyright law and are referred to as “compilations”. The U.S. Copyright Act defines a compilation as a “collection and assembling of preexisting materials or of data that are selected in such a way that the resulting work as a whole constitutes an original work of authorship.” 
+
+The individual facts or data contained within the database may or may not be protected by copyright. However, the selection and/or arrangement of the facts or data as a whole will be protected by copyright if it contains enough creative, original expression.
+
+## Play it safe
+Copyright is an important legal protection that grants owners the exclusive right to reproduce and create derivative works from the copyrighted material.
+
+However, it can be hard to determine if data are subject to copyright. This is because some of what you (or others) may call "data" can be facts (without copyright protection) and some can be "creative expression" (with copyright protection).
+
+This mainly becomes a concern when data are shared by someone. For example, the data may me published in an article, sent via email, or distributed online. Then, others may want to know what they are able to do with the data.
+
+Since the copyright status can be confusing, it's best to play it safe. 
+
+When reusing data that someone else shares:
+
+- Follow the instructions of the data creators.
+- Licenses and contracts usually take precedence over copyright law. Check if the data creators attached a license to the data, which tells you what sort of reuse they allow.
+- Follow community norms, and cite the original creators.
 
 When sharing data:
 
-- make clear to others how others can use your data and how to cite you
+- Make it clear how others can use your data and how to cite you.
 
+You may need to work with your advisor in order to determine how others can use the data, since they may be considered the stewards of the data. 
 
+## Video: Advice from a copyright specialist
+Nancy Simms, Copyright Specialist at University of Minnesota Libraries.
 
-## Restricted data
-Some data may need to be kept secure due to agreements, rules, and regulations. These will dictate how you are able to interact with the data.
+"Making Decisions About Your Research Data" [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
 
-You may encounter data pertaining to or including:
+7 minutes.
 
-- National security and classified information
-- Controlled unclassified information
-- Threatened and endangered species information
-- Indigenous peoples and lands information
-- Human subjects research (IRB)
-- Personal health information (HIPAA)
-- Student education records (FERPA)
+## Sensitive data
+In the video, Nancy mentioned HIPAA and FERPA as laws that can also limit how you are able to use and share data. 
+
+Some data have additional restrictions because they contain private information, or information that poses a risk if it isn’t kept secure. This means that the way you interact with these data, where they are stored and how you access them, may also be limited. 
+
+### Discussion
+Can you think of some data that may be sensitive and need to be kept secure?
+
+## Sensitive data [continued]
+Some data may need to be kept secure due to agreements, rules, and regulations. This will dictate how you are able to interact with the data.
+
+You may work with data including:
+
+- National security and classified information.
+- Controlled unclassified information (CUI).
+- Personally Identifiable Information (PII).
+- Protected Health Information (PHI).
+- Student education records.
+- Financial data.
+- Threatened and endangered species information.
+- Indigenous peoples and lands information.
+
+Your research may be regulated by:
+
+- Instiutional Review Board (IRB) approval, governed by U.S. Department of Health and Human Services (HHS) Title 45 Code of Federal Regulations part 46.
+- International Traffic in Arms Regulations (ITAR) and Export Administration Regulations (EAR).
+- The Health Insurance Portability and Accountability Act (HIPAA).
+- The Family Educational Rights and Privacy Act (FERPA).
 
 ## Privacy and confidentiality
 Privacy relates to the rights of an individual or subject. 
 
 Confidentiality relates to the actions of the researcher.
 
-### Ethics
+Confidentiality refers to the researcher’s agreement with the participant about how the participant’s identifiable private information will be handled, managed, and disseminated. The research proposal should outline strategies to maintain confidentiality of identifiable data, including controls on storage, handling, and sharing of personal data.
 
-- IRB and Ethical review
-- Safeguarding data and data destruction
-
-
-
-"Confidentiality refers to the researcher’s agreement with the participant about how the participant’s identifiable private information will be handled, managed, and disseminated. The research proposal should outline strategies to maintain confidentiality of identifiable data, including controls on storage, handling, and sharing of personal data.
-
-You can minimise the risk of disclosing confidential information when designing your research by considering the following factors and approaches:
+## Tips to protect privacy
+"You can minimize the risk of disclosing confidential information when designing your research by considering the following factors and approaches:
 
 If possible, collect the necessary data without using personally identifying information.
 
@@ -218,12 +259,18 @@ Avoid transmitting unencrypted personal data electronically.
 
 Other considerations include retention of original collection instruments, such as paper questionnaires or interview recordings. Once these are transferred into an analysis package or a transcript and quality assured or validated, there may no longer be a reason to retain them. 
 
-Questions of which data to keep and for how long need to be considered in the context of your ability to maintain the confidentiality of your subjects’ information, and should be planned in advance."
+Questions of which data to keep and for how long need to be considered in the context of your ability to maintain the confidentiality of your subjects’ information, and should be planned in advance.""
 
-### Video: Advice from a copyright specialist
-Nancy Simms, Copyright Specialist at University of Minnesota Libraries.
+From: MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
 
-"Making Decisions About Your Research Data" [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU)
+##Conclusion
+Questions to consider:
+
+- Who owns the data?
+- Do you expect to work with sensitive or restricted data?
+- What limitations can these impose on how you store, access, share your data?
+
+Talk to your advisor about any ownership issues, or data type issues that may impact how you work with and whether you will share your data or parts of your data once your project is complete.
 
 ## Recommended reading
 - Carroll, Michael W. 2015. "Sharing Research Data and Intellectual Property Law: A Primer". PLOS Biology [Article](http://dx.doi.org/10.1371/journal.pbio.1002235)
@@ -231,11 +278,10 @@ Nancy Simms, Copyright Specialist at University of Minnesota Libraries.
 - U.S. Copyright Office. "Copyright Basics" [PDF](https://www.copyright.gov/circs/circ01.pdf)
 
 ## Resources used
+- Clinical Tools, Inc. "Guidelines for Responsible Data Management in Scientific Research" [PDF](https://ori.hhs.gov/images/ddblock/data.pdf)
 - Cornell University Libraries. "Introduction to intellectual property rights in data management" [Website](https://data.research.cornell.edu/content/intellectual-property)
 - DataOne. "Legal and Policy Issues" [Slides](https://www.slideshare.net/DataONEorg/dataone-education-module-10-analysis-and-workflows)
 - Lamar Soutter Library, University of Massachusetts Medical School. New England Collaborative Data Management Curriculum. "Module 5: Legal and Ethical Considerations for Research Data" [Website](http://library.umassmed.edu/necdmc/modules)
 - MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
 - Nancy Simms. "Making Decisions About Your Research Data" [Video](https://www.youtube.com/watch?v=ZuUGlGOMGjU) 
 - Stanford University Libraries. "Licensing" [Website](http://library.stanford.edu/research/data-management-services/share-and-preserve-research-data/licensing)
-- Clinical Tools, Inc. Guidelines for Responsible Data Management in Scientific Research  https://ori.hhs.gov/images/ddblock/data.pdf
-- https://ori.hhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2
