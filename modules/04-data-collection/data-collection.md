@@ -21,17 +21,7 @@ What you intend to study will inform how you gather data and the types of data y
 **Example**: In order to study changes in bird populations at Big Thicket National Preserve over time, I combine my own observational data with reference data from previous research projects.
 
 
-<!-- ## Quantitative and qualitative data
-Data are often described as quantitive or qualitative. Quantitative data are expressed numerically (interval, ratio, possibly ordinal). Qualitative data are categorical (nominal, ordinal) data expressed in natural language.
 
-### Exercise: Qualitative or quantitative?
-- The number of website visits.
-- Sport preferences (football, basketball, volleyball, hockey, ping pong)
-- Frequency of different hair colors.
-- Responses on a scale of agreement (strongly disagree, disagree, neutral, agree, strongly agree).
-- Social security numbers. 
-
-Quantitative data can include experimental measurements, e.g. lab instrument data, sensor readings, survey results, and test/simulation models.  Qualitative data can include text, audio, images, and video.  Some definitions of data are quite broad, and include objects such as laboratory specimens.-->
 
 
 

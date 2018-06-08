@@ -1,19 +1,17 @@
 # Data Collection
-<!-- Last revised: 2017-11-21
+<!-- Last revised: 2018-06-08
 
 Revised by: Anna Dabrowski -->
 
 Learning objectives:
 
-- Participants identify errors in tabular data arrangement within spreadsheets.
+- Participants are able to identify errors in tabular data arrangement within spreadsheets.
 - Participants recognize differences in plain text, spreadsheet, and database formats.
 
 ## Introduction
-This section will focus on data gathering and entry, and how to arrange data to your advantage. 
+This module will focus on data gathering and data entry; how to arrange data to your advantage. 
 
 The goal is for you to create quality data sets that are valid, and organized to support ease of use and reuse in later stages of the data lifecycle.
- 
-We'll start broadly and then get more concrete and specific. 
 
 ## Ways to gather data
 What you intend to study will inform how you gather data and the types of data you gather.
@@ -46,7 +44,9 @@ Data sources can be grouped into five main categories:
 - Common types: gene sequence databanks, chemical structures, census data, spatial data portals. 
 
 ### Example 
-In order to study changes in bird populations at Big Thicket National Preserve over time, I might combine my own observational data with reference data from previous research projects.
+In order to study changes in bird populations at Big Thicket National Preserve over time, I might combine my own observational data with reference data from previous research projects. 
+
+This would help me to build a picture of population change over time.
 
 ## Discussion
 *Ask participants for their experiences with different data sources*
@@ -56,51 +56,51 @@ Having seen these five categories, which source(s) of data do you expect to use 
 If these data are lost, what are potential problems or limitations with recreating data from the source(s) you listed?
 
 ## Reproducibility
-Whether or not data can be recreated if they are corrupted or lost, is a big concern when we talk about managing data. 
+Can the data be recreated if they are corrupted or lost? This is a big concern when we talk about managing data. 
 
-Data from some sources may be more easily reproduced than others.
+Data from some sources may be more easily recreated than others.
 
 - Observational: Usually irreplaceable and important to safeguard.
 - Experimental: Often reproducible, can be expensive or time-consuming.
 - Simulation: Likely to be reproducible, if the model and inputs are preserved.
 - Derived and compiled data: Reproducible, but can be very expensive and time-consuming.
 
-Since some data are easier to reporoduce than others, it is worth keeping in mind which sources you work with. 
+It is worth keeping in mind which sources you work with. Data take time and effort to recreate, and in some cases are impossible to gather or create again.
 
-If the data are valuable to research and irreplacable, you will want to be careful about:
+You will want to be careful about:
 
-- how you collect data and assure quality,
-- where you store and backup your files,
-- and consider long-term preservation options.
+- Collecting data and assuring quality;
+- Documenting relevant information (equipment problems, errors, decisions made);
+- Where you store and backup your files.
 
 ## Video
-- TAMU Geosciences professor, Bruce Herbert describes a situation where he lost data due to a simple error while processing physical samples (documentation was lost). 
-- 2 minute video
-- He was unable to recover the data, and couldn’t gather the samples again due to the time and effort needed. 
-- Limitations on data reproducibility are why good quality assurance practices are important throughout the process of working with data. Starting with data gathering and entry.
+Bruce Herbert, Geosciences Professor at Texas A&M University. 
 
+[Video](https://youtu.be/xy7b_6MIB4k)
+
+2 minutes.
+
+Dr. Herbert describes a situation where he lost data due to a simple mistake while processing physical samples (documentation was lost). He was unable to recover the data, and couldn’t gather new samples due to the time and effort needed.
 
 ## Data form
-The type of data you gather, enter, and work with can take many forms.
+The data you gather, enter, and work with can take many forms. You may work with numeric outputs, textual data, images, sound recordings, or video.
 
-Observational, Experimental, and Simulation data might include numeric outputs, textual data, images, sound recordings, or video saved as digital files 
-from:
+These data might come from:
 
 - survey responses, 
 - lab instrument measurements and sensor readings (for physical samples and laboratory specimens), 
 - computer simulations and model results.
 
-In some cases you might prefer to gather handwritten data. Handwritten (analog) data entry is easier in certain situations. For example, 
+In some cases you might prefer to gather handwritten data. Analog data entry is easier in certain situations. For example, 
 
-- When working in the field to gather Observational data,
-- Gathering questionnare results from participants, 
+- When working in the field to gather observational data;
+- When gathering questionnare results from participants; 
 - While running Experiments in a messy lab.
 
 At some point, you will want to enter–-or transfer--data into a digital format for easier manipulation.
 
 - It is likely that you will use established data gathering and data entry procedures for the data that you work with.
-- This ought include processes for ensuring data quality and avoiding data loss. 
-- Step one is to enforce a consistent procedure.
+- This ought to include processes for ensuring data quality and avoiding data loss like in the video example.
 
 ## 9. Tips to assure quality during data collection
 A few personal practices during data collection and entry can help ensure quality.
