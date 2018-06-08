@@ -112,7 +112,7 @@ Students should not take the data with them when they leave the institution unle
 
 This is only one example of how data ownership may look. Your situation may be different, and you should be aware that with industry-funded research, data can belong to the sponsor.
 
-http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2
+[Website](http://ori.dhhs.gov/education/products/columbia_wbt/rcr_data/case/index.html#2)
 
 <!-- ## Funders
 ### Federal grants and contracts
@@ -263,7 +263,7 @@ Questions of which data to keep and for how long need to be considered in the co
 
 From: MANTRA. "Research Data Management Training" [Website](http://datalib.edina.ac.uk/mantra/)
 
-##Conclusion
+## Conclusion
 Questions to consider:
 
 - Who owns the data?
