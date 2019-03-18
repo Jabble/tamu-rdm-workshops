@@ -168,6 +168,7 @@ Images	TIFF, JPEG 2000, PDF, PNG, GIF, BMP
 Moving Images	MOV, MPEG, AVI, MXF
 Web Archive	WARC
 Containers	TAR, GZIP, ZIP
+Vector Images	Scalable Vector Graphics (.svg)
 
 POR file extension is a portable version of SPSS
 
